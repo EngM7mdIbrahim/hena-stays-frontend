@@ -34,6 +34,6 @@ export default withSentryConfig(intlConfig, {
   disableLogger: true,
   widenClientFileUpload: true,
   sourcemaps: {
-    disable: process.env.BUILD_HUSKY === 'true'
+    disable: true
   }
 })
