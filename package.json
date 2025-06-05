@@ -9,8 +9,7 @@
     "lint": "next lint",
     "format": "prettier --write .",
     "lint:fix": "eslint \"**/*.{ts,tsx}\" --fix",
-    "generate-sw": "node scripts/generate-sw.js",
-    "sentry:sourcemaps": "sentry-cli sourcemaps inject --org truedar-personal --project truedar-v2-fe ./.next && sentry-cli sourcemaps upload --org truedar-personal --project truedar-v2-fe ./.next"
+    "generate-sw": "node scripts/generate-sw.js"
   },
   "dependencies": {
     "@mantine/carousel": "^7.17.0",

@@ -19,7 +19,7 @@
       }
     ],
     "paths": {
-      "@commonTypes": ["../../types"],
+      "@commonTypes": ["./src/types"],
       "@config": ["./src/config"],
       "@sitemaps": ["./src/sitemaps"],
       "@utils": ["./src/utils"],
