@@ -1,0 +1,5 @@
+export * from './blogsSitemapGenerator'
+export * from './postsSitemapGenerator'
+export * from './propertiesSitemapGenerator'
+export * from './projectsSitemapGenerator'
+export * from './newsSitemapGenerator'

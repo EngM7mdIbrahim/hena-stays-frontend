@@ -1,0 +1,61 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "baseUrl": ".",
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@commonTypes": ["../../types"],
+      "@config": ["./src/config"],
+      "@sitemaps": ["./src/sitemaps"],
+      "@utils": ["./src/utils"],
+      "@apis": ["./src/apis"],
+      "@constants": ["./src/constants"],
+      "@hooks": ["./src/hooks"],
+      "@hooks/*": ["./src/hooks/*"],
+      "@layouts/*": ["./src/layouts/*"],
+      "@layouts": ["./src/layouts"],
+      "@components/*": ["./src/components/*"],
+      "@schemas/*": ["./src/schemas/*"],
+      "@context": ["./src/context"],
+      "@schemas": ["./src/schemas"],
+      "@guards": ["./src/guards"],
+      "@interfaces": ["./src/interfaces"],
+      "@enums": ["./src/enums"],
+      "@sections/*": ["./src/sections/*"],
+      "@providers": ["./src/providers"],
+      "@services": ["./src/services"],
+      "@permissions": ["./src/permissions"],
+      "@instrumentation/*": ["./src/instrumentation/*"],
+      "@sentry/*": ["./src/sentry/*"],
+      "@i18n": ["./src/i18n"]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "next.config.mjs",
+    "**/*.js",
+    "src/providers/state-provider/index.tsx",
+    "src/components/Lotties/LottieLink/index.tsx",
+    "src/sections/Users/AdminUsersForm/UserForm.tsz",
+    "src/guards/isEnum.ts"
+  ],
+  "exclude": ["node_modules"]
+}

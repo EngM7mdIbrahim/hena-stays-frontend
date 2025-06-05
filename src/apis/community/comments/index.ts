@@ -1,0 +1,5 @@
+export * from './createComment'
+export * from './updateComment'
+export * from './getCommentById'
+export * from './getComments'
+export * from './deleteComment'

@@ -1,0 +1,294 @@
+@layer tw_base, mantine, tw_components, tw_utilities;
+
+/* import tailwind */
+@import 'tailwindcss/base' layer(tw_base);
+@import 'tailwindcss/components' layer(tw_components);
+@import 'tailwindcss/utilities' layer(tw_utilities);
+
+/* import mantine */
+@import '@mantine/core/styles.layer.css';
+
+:root {
+  /* main colors */
+  --color-primary: 246, 166, 73; /* RGB of #F6A649 */
+  --color-secondary: 4, 26, 71; /* RGB of #041A47 */
+  --color-default-font: 17, 24, 39; /* RGB of #111827 */
+  --color-neutral-border: 229, 231, 235; /* RGB of #E5E7EB */
+  --color-default-background: 255, 255, 255; /* RGB of #FFFFFF */
+  --color-default-text: 0, 0, 0; /* RGB of #000000 */
+  /* brand colors */
+  --color-brand50: 255, 251, 245; /* RGB of #FFFBF5 */
+  --color-brand100: 254, 238, 219; /* RGB of #FEEEDB */
+  --color-brand200: 254, 225, 191; /* RGB of #FEE1BF */
+  --color-brand300: 253, 204, 147; /* RGB of #FDCC93 */
+  --color-brand400: 250, 178, 96; /* RGB of #FAB260 */
+  --color-brand500: 246, 159, 59; /* RGB of #F69F3B */
+  --color-brand600: 235, 143, 37; /* RGB of #EB8F25 */
+  --color-brand700: 216, 129, 17; /* RGB of #D8811D */
+  --color-brand800: 175, 107, 30; /* RGB of #AF6B1E */
+  --color-brand900: 138, 88, 30; /* RGB of #8A581E */
+  /* neutral colors */
+  --color-neutral50: 249, 250, 251; /* RGB of #F9FAFB */
+  --color-neutral100: 243, 244, 246; /* RGB of #F3F4F6 */
+  --color-neutral200: 229, 231, 235; /* RGB of #E5E7EB */
+  --color-neutral300: 209, 213, 219; /* RGB of #D1D5DB */
+  --color-neutral400: 156, 163, 175; /* RGB of #9CA3AF */
+  --color-neutral500: 107, 114, 128; /* RGB of #6B7280 */
+  --color-neutral600: 75, 85, 99; /* RGB of #4B5563 */
+  --color-neutral700: 55, 65, 81; /* RGB of #374151 */
+  --color-neutral800: 31, 41, 55; /* RGB of #1F2937 */
+  --color-neutral900: 17, 24, 39; /* RGB of #111827 */
+  /* error colors */
+  --color-error50: 254, 242, 242; /* RGB of #FEF2F2 */
+  --color-error100: 254, 226, 226; /* RGB of #FEE2E2 */
+  --color-error200: 254, 202, 202; /* RGB of #FECACA */
+  --color-error300: 252, 165, 165; /* RGB of #FCA5A5 */
+  --color-error400: 248, 113, 113; /* RGB of #F87171 */
+  --color-error500: 239, 68, 68; /* RGB of #EF4444 */
+  --color-error600: 220, 38, 38; /* RGB of #DC2626 */
+  --color-error700: 185, 28, 28; /* RGB of #B91C1C */
+  --color-error800: 153, 27, 27; /* RGB of #991B1B */
+  --color-error900: 127, 29, 29; /* RGB of #7F1D1D */
+  /* warning colors */
+  --color-warning50: 254, 252, 200; /* RGB of #FEFEC8 */
+  --color-warning100: 254, 249, 195; /* RGB of #FEF9C3 */
+  --color-warning200: 254, 240, 138; /* RGB of #FEF08A */
+  --color-warning300: 253, 224, 71; /* RGB of #FDE047 */
+  --color-warning400: 250, 204, 21; /* RGB of #FACC15 */
+  --color-warning500: 234, 179, 8; /* RGB of #EAB308 */
+  --color-warning600: 202, 138, 4; /* RGB of #CA8A04 */
+  --color-warning700: 161, 98, 7; /* RGB of #A16207 */
+  --color-warning800: 133, 77, 14; /* RGB of #854D0E */
+  --color-warning900: 113, 63, 18; /* RGB of #713F12 */
+  /* success colors */
+  --color-success50: 240, 253, 244; /* RGB of #F0FDF4 */
+  --color-success100: 220, 252, 231; /* RGB of #DCFCE7 */
+  --color-success200: 187, 247, 208; /* RGB of #BBF7D0 */
+  --color-success300: 134, 250, 172; /* RGB of #86FAC */
+  --color-success400: 74, 222, 128; /* RGB of #4ADE80 */
+  --color-success500: 34, 197, 94; /* RGB of #22C55E */
+  --color-success600: 22, 163, 74; /* RGB of #16A34A */
+  --color-success700: 21, 128, 61; /* RGB of #15803D */
+  --color-success800: 22, 101, 52; /* RGB of #166534 */
+  --color-success900: 20, 83, 45; /* RGB of #14532D */
+}
+
+/* Dark Mode */
+[data-mantine-color-scheme='dark'] {
+  --color-primary: 224, 134, 50; /* RGB of #E08632 */
+  --color-secondary: 4, 26, 71; /* RGB of #041A47 */
+  --color-default-font: 217, 217, 217; /* RGB of #D9D9D9 */
+  --color-neutral-border: 31, 34, 40; /* RGB of #1F2228 */
+  --color-default-background: 13, 13, 13; /* RGB of #0D0D0D */
+  --color-default-text: 255, 255, 255; /* RGB of #FFFFFF */
+
+  /* brand colors */
+  --color-brand50: 26, 26, 26; /* RGB of #1A1A1A */
+  --color-brand100: 42, 31, 23; /* RGB of #2A1F17 */
+  --color-brand200: 58, 39, 29; /* RGB of #3A271D */
+  --color-brand300: 92, 49, 31; /* RGB of #5C3A1F */
+  --color-brand400: 143, 86, 30; /* RGB of #8F561E */
+  --color-brand500: 185, 105, 33; /* RGB of #B96921 */
+  --color-brand600: 200, 116, 29; /* RGB of #C8741D */
+  --color-brand700: 163, 93, 23; /* RGB of #A35D17 */
+  --color-brand800: 125, 75, 20; /* RGB of #7D4B14 */
+  --color-brand900: 92, 58, 19; /* RGB of #5C3A13 */
+  /* neutral colors */
+  --color-neutral50: 24, 26, 27; /* RGB of #181A1B */
+  --color-neutral100: 32, 34, 37; /* RGB of #202225 */
+  --color-neutral200: 42, 45, 49; /* RGB of #2A2D31 */
+  --color-neutral300: 52, 56, 62; /* RGB of #34383E */
+  --color-neutral400: 119, 119, 119; /* RGB of #777777 */
+  --color-neutral500: 217, 217, 217; /* RGB of #D9D9D9 */
+
+  --color-neutral600: 120, 130, 140; /* RGB of #78828C */
+  --color-neutral700: 194, 203, 214; /* RGB of #C2CBD6  */
+  --color-neutral800: 120, 126, 134; /* RGB of #787E86 */
+  --color-neutral900: 10, 15, 22; /* RGB of #0A0F16 */
+  /* error colors */
+  --color-error50: 42, 26, 26; /* RGB of #2A1A1A */
+  --color-error100: 58, 32, 32; /* RGB of #3A2020 */
+  --color-error200: 82, 43, 43; /* RGB of #522B2B */
+  --color-error300: 107, 51, 51; /* RGB of #6B3333 */
+  --color-error400: 138, 58, 58; /* RGB of #8A3A3A */
+  --color-error500: 165, 46, 46; /* RGB of #A52E2E */
+  --color-error600: 194, 31, 31; /* RGB of #C21F1F */
+  --color-error700: 153, 25, 25; /* RGB of #991919 */
+  --color-error800: 125, 22, 22; /* RGB of #7D1616 */
+  --color-error900: 92, 18, 18; /* RGB of #5C1212 */
+  /* warning colors */
+  --color-warning50: 35, 33, 15; /* RGB of #23210F */
+  --color-warning100: 46, 42, 21; /* RGB of #2E2A15 */
+  --color-warning200: 74, 59, 18; /* RGB of #4A3B12 */
+  --color-warning300: 106, 82, 13; /* RGB of #6A520D */
+  --color-warning400: 140, 110, 10; /* RGB of #8C6E0A */
+  --color-warning500: 163, 116, 7; /* RGB of #A37407 */
+  --color-warning600: 128, 89, 5; /* RGB of #805905 */
+  --color-warning700: 92, 61, 4; /* RGB of #5C3D04 */
+  --color-warning800: 115, 68, 34; /* RGB of #734422 */
+  --color-warning900: 74, 40, 16; /* RGB of #4A2810 */
+  /* success colors */
+  --color-success50: 26, 29, 26; /* RGB of #1A1D1A */
+  --color-success100: 31, 50, 36; /* RGB of #1F3224 */
+  --color-success200: 34, 82, 56; /* RGB of #225238 */
+  --color-success300: 39, 100, 61; /* RGB of #27643D */
+  --color-success400: 46, 138, 74; /* RGB of #2E8A4A */
+  --color-success500: 30, 128, 70; /* RGB of #1E8046 */
+  --color-success600: 25, 154, 55; /* RGB of #196A37 */
+  --color-success700: 20, 128, 43; /* RGB of #144B2B */
+  --color-success800: 15, 58, 34; /* RGB of #0F3A22 */
+  --color-success900: 13, 40, 24; /* RGB of #0D2818 */
+}
+
+html[lang='ar'] {
+  direction: rtl;
+}
+
+html[lang='en'] {
+  direction: ltr;
+}
+
+html[lang='ar'] ::placeholder {
+  text-align: right;
+}
+
+html[lang='en'] ::placeholder {
+  text-align: left;
+}
+
+html[lang='ar'] input,
+html[lang='ar'] textarea {
+  direction: rtl;
+  text-align: right;
+  text-align-last: right;
+}
+
+html[lang='en'] input,
+html[lang='en'] textarea {
+  direction: ltr;
+  text-align: left;
+  text-align-last: left;
+}
+
+.chevron {
+  &[data-rotate] {
+    transform: rotate(45deg);
+  }
+}
+
+.segmented-control-label {
+  &[data-active] {
+    @apply border-transparent font-semibold text-white;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* for register */
+  .mobile-bg {
+    background-image: url('/images/register/Signup.png');
+    @media (prefers-color-scheme: dark) {
+      background-image: url('/images/register/Signup-dark.png');
+    }
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    min-height: 100dvh;
+  }
+}
+
+.mantine-RichTextEditor-control {
+  border: none !important;
+}
+
+/* THIS SOLVES THE PROBLEM WHEN THE TEXT IS BOLD AND HAS A COLOR IN THE EDITOR */
+.prose
+  :where(strong):not(:where([class~='not-prose'], [class~='not-prose'] *)) {
+  color: inherit !important;
+}
+
+/* related to the carousel  */
+
+.control {
+  &[data-inactive] {
+    opacity: 0 !important;
+    visibility: hidden !important;
+    cursor: default;
+  }
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiperSlideModal {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiperSlideModal img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiperSlideModal {
+  background-size: cover;
+  background-position: center;
+}
+
+.imageSwiper2 {
+  aspect-ratio: 4/3;
+}
+
+.imageSwiper1 {
+  height: 20%;
+
+  padding: 10px 0;
+}
+
+.imageSwiper1 .swiper-slide {
+  margin-top: 1rem;
+  aspect-ratio: 16/9;
+  opacity: 0.4;
+}
+
+.imageSwiper1 .swiper-slide-thumb-active {
+  opacity: 1;
+}
+
+.swiperSlideModal img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-projects .swiper-pagination {
+  bottom: -20px !important ;
+}
+
+.swiper-team .swiper-pagination {
+  bottom: -28px !important;
+}
+
+/* shimmer button */
+
+@keyframes shimmer-move {
+  0% {
+    transform: skew(-13deg) translateX(-100%);
+  }
+  100% {
+    transform: skew(-13deg) translateX(100%);
+  }
+}
+
+.animate-shimmer {
+  animation: shimmer-move 2s linear infinite;
+}

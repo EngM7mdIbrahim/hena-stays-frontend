@@ -1,0 +1,2157 @@
+{
+  "shared": {
+    "userRoles": {
+      "admin": "مدير النظام",
+      "companyAdmin": "مدير الشركة",
+      "agent": "وكيل",
+      "user": "مستخدم",
+      "broker": "سمسار",
+      "company": "شركة",
+      "adminViewer": "مشاهد إداري",
+      "support": "الدعم الفني"
+    },
+    "breadcrumb": {
+      "home": "الرئيسية",
+      "myAccount": "حسابي",
+      "properties": "العقارات",
+      "myProperties": "عقاراتي",
+      "recommendedProperties": "العقارات الموصى بها",
+      "projects": "المشاريع",
+      "propertyRequests": "طلبات العقارات",
+      "makeACall": "إتصل بنا",
+      "buyPropertyRequests": "طلبات شراء العقارات",
+      "sellPropertyRequests": "طلبات بيع العقارات",
+      "community": "المجتمع",
+      "savedPosts": "المنشورات المحفوظة",
+      "news": "الأخبار",
+      "premium": "المميز",
+      "myListings": "إعلاناتي",
+      "myProjects": "مشاريعي",
+      "savedProperties": "عقاراتي المحفوظة",
+      "addProperty": "إضافة عقار",
+      "editProperty": "تعديل العقار",
+      "addProject": "إضافة مشروع",
+      "editProject": "تعديل المشروع",
+      "addXml": "إضافة XML",
+      "editXml": "تعديل XML",
+      "xmlRequests": "طلبات XML",
+      "addBlog": "إضافة مدونة",
+      "editBlog": "تعديل المدونة",
+      "addOfficialBlog": "إضافة مدونة رسمية",
+      "editOfficialBlog": "تعديل المدونة الرسمية",
+      "propertyView": "عرض العقار",
+      "projectView": "عرض المشروع",
+      "termsOfUse": "الشروط والأحكام",
+      "privacyPolicy": "سياسة الخصوصية",
+      "analytics": "التحليلات",
+      "employeeAnalytics": "تحليلات الموظف",
+      "employees": "الموظفين",
+      "employee": "موظف",
+      "leads": "الإحتياجات",
+      "clients": "العملاء",
+      "appointments": "المواعيد",
+      "settings": "الإعدادات",
+      "profile": "الحساب",
+      "chats": "المحادثات",
+      "support": "الدعم",
+      "officialBlogs": "المدونات الرسمية",
+      "transactions": "المعاملات",
+      "creditRequests": "طلبات الائتمان",
+      "callRequests": "طلبات المكالمات",
+      "contactUsRequests": "طلبات التواصل",
+      "users": "المستخدمين",
+      "checkout": "الدفع",
+      "credits": "النقاط",
+      "payment": "الدفع"
+    },
+    "differentLayout": {
+      "addLayout": "إضافة {item} جديد/جديدة",
+      "editLayout": "تعديل {item}"
+    },
+    "editor": {
+      "content": "اكتب شيئاً",
+      "toc": "جدول المحتويات",
+      "noToc": "لا يوجد جدول محتويات",
+      "uploading": "جارٍ التحميل...",
+      "uploadSuccess": "تم التحميل بنجاح",
+      "uploadFailed": "فشل التحميل",
+      "altText": {
+        "title": "تحرير النص البديل",
+        "altText": "النص البديل",
+        "enterAltText": "أدخل النص البديل للصورة",
+        "altTextMissing": "النص البديل مفقود."
+      },
+      "textOptions": {
+        "normal": "عادي",
+        "headingOne": "عنوان 1",
+        "headingTwo": "عنوان 2",
+        "headingThree": "عنوان 3"
+      },
+      "textAlignment": {
+        "left": "يسار",
+        "right": "يمين",
+        "center": "وسط",
+        "justify": "ضبط"
+      }
+    },
+    "sortOptions": {
+      "newest": "الأحدث",
+      "oldest": "الأقدم",
+      "lowestPrice": "أقل سعر",
+      "highestPrice": "أعلى سعر",
+      "lowestArea": "أصغر مساحة",
+      "highestArea": "أكبر مساحة"
+    },
+    "shareModal": {
+      "title": "مشاركة الرابط",
+      "fields": {
+        "copyLink": "نسخ الرابط"
+      },
+      "socialMedia": {
+        "facebook": "مشاركة على فيسبوك",
+        "twitter": "مشاركة على تويتر",
+        "instagram": "مشاركة على انستقرام",
+        "linkedin": "مشاركة على لينكد إن"
+      },
+      "notifications": {
+        "copied": "تم نسخ الرابط إلى الحافظة"
+      },
+      "aria": {
+        "shareButton": "مشاركة الرابط"
+      }
+    },
+    "deleteModal": {
+      "title": "تأكيد الحذف",
+      "description": "هل أنت متأكد من حذف هذه/هذا {itemName}؟ لا يمكن التراجع عن هذا الإجراء.",
+      "back": "رجوع",
+      "delete": "حذف",
+      "reject": "رفض",
+      "itemName": "هذا العنصر",
+      "otherReason": "سبب آخر",
+      "otherReasonPlaceholder": "أدخل سبب آخر",
+      "selectReason": "اختر سبب",
+      "reason": "السبب",
+      "other": "آخر"
+    },
+    "emptyDescription": "لا توجد/ يوجد {itemName} متاح/متاحة",
+    "buttons": {
+      "cancel": "إلغاء",
+      "next": "التالي",
+      "back": "رجوع",
+      "update": "تحديث",
+      "clear": "مسح",
+      "reset": "إعادة تعيين",
+      "done": "تم",
+      "save": "حفظ",
+      "approve": "موافقة",
+      "reject": "رفض",
+      "register": "تسجيل",
+      "confirm": "تأكيد",
+      "add": "إضافة",
+      "buyCredits": "شراء نقاط",
+      "submit": "إرسال"
+    },
+    "actions": {
+      "edit": "تحرير",
+      "delete": "حذف",
+      "view": "عرض",
+      "activate": "تفعيل",
+      "recommend": "ترشيح",
+      "unRecommend": "إلغاء الترشيح",
+      "deactivate": "إلغاء التفعيل"
+    },
+    "fields": {
+      "username": "اسم المستخدم",
+      "fullName": "الاسم الكامل",
+      "email": "البريد الإلكتروني",
+      "password": "كلمة المرور",
+      "confirmPassword": "تأكيد كلمة المرور",
+      "phoneNumber": "رقم الهاتف",
+      "whatsappNumber": "رقم الواتساب",
+      "sameAsWhatsapp": "نفس رقم الواتساب",
+      "duration": {
+        "label": "المدة",
+        "daily": "يومياً",
+        "monthly": "شهرياً",
+        "yearly": "سنوياً"
+      },
+      "rentDuration": "مدة الإيجار",
+      "propertyType": {
+        "label": "النوع",
+        "for": "لل",
+        "sale": "بيع",
+        "rent": "إيجار"
+      },
+      "propertyCategory": {
+        "label": "الفئة",
+        "residential": "منزلي",
+        "commercial": "تجاري"
+      },
+      "completion": {
+        "label": "الإنجاز",
+        "ready": "جاهز",
+        "off-plan": "على المخطط"
+      },
+      "title": "العنوان",
+      "description": "الوصف",
+      "location": "الموقع",
+      "amenities": "المرافق",
+      "furnishing": {
+        "label": "حالة التأثيث",
+        "furnished": "مفروش",
+        "unfurnished": "غير مفروش",
+        "partially-furnished": "مفروش جزئياً"
+      },
+      "subCategory": "نوع العقار",
+      "price": "السعر بـ (درهم إماراتي)",
+      "noOfBedrooms": "عدد غرف النوم",
+      "noOfToilets": "عدد الحمامات",
+      "noOfLivingRooms": "عدد غرف المعيشة",
+      "noOfFloors": "عدد الطوابق",
+      "floor": "رقم الطابق",
+      "age": "العمر (بالسنوات)",
+      "area": "المساحة (قدم مربع)",
+      "media": "وسائط {itemName}"
+    },
+    "placeholders": {
+      "username": "أدخل اسم المستخدم",
+      "fullName": "أدخل اسمك الكامل",
+      "email": "أدخل بريدك الإلكتروني",
+      "password": "أدخل كلمة المرور",
+      "confirmPassword": "أكد كلمة المرور",
+      "phoneNumber": "أدخل رقم هاتفك",
+      "whatsappNumber": "أدخل رقم الواتساب",
+      "title": "أدخل عنوان {type}",
+      "search": "المدينة، المجتمع، أو المبنى",
+      "description": "أدخل وصف {type}",
+      "location": "أدخل الموقع",
+      "amenities": "اختر بعض المرافق",
+      "furnishing": "اختر حالة التأثيث",
+      "noOfBedrooms": "أدخل عدد غرف النوم",
+      "noOfToilets": "أدخل عدد الحمامات",
+      "noOfLivingRooms": "أدخل عدد غرف المعيشة",
+      "noOfFloors": "أدخل عدد الطوابق",
+      "floor": "أدخل رقم الطابق",
+      "age": "أدخل العمر بالسنوات",
+      "area": "أدخل المساحة بالقدم المربع",
+      "startFrom": "ابدأ من",
+      "endTo": "إلى",
+      "media": "تحميل الصور/الفيديوهات",
+      "searchByLocation": "ابحث بالموقع",
+      "propertyType": "نوع العقار",
+      "type": "النوع",
+      "propertyTitle": "أدخل عنوان واضح للعقار",
+      "propertyDescription": "أدخل وصف واضح للعقار",
+      "selectLocation": "اختر الموقع",
+      "choosePropertyType": "اختر نوع عقارك",
+      "priceInAED": "أدخل السعر بالدرهم الإماراتي",
+      "propertyEstimatedAge": "أدخل العمر المقدر للعقار",
+      "yourFloorNumber": "أدخل رقم طابقك"
+    },
+    "bed": "غرفة نوم",
+    "bath": "حمام",
+    "living": "غرفة المعيشة",
+    "beds": "غرف النوم",
+    "baths": "حمامات",
+    "livingRooms": "غرف المعيشة",
+    "features": "الميزات",
+    "chooseFile": "اختر ملف",
+    "optional": "اختياري",
+    "processing": "جارٍ معالجة نص البحث الخاص بك...",
+    "yes": "نعم",
+    "noAdditionalFeatures": "لا توجد ميزات إضافية",
+    "moreFilters": "المزيد من المرشحات",
+    "agentsOrCompanies": "الوكلاء أو الشركات",
+    "save": "حفظ",
+    "unsave": "إلغاء الحفظ",
+    "status": "الحالة",
+    "age": "العمر",
+    "by": "بواسطة",
+    "error": "خطأ"
+  },
+  "errorMessages": {
+    "shared": {
+      "required": "{field} مطلوب/مطلوبة",
+      "mediaUploadFailed": "فشل تحميل الوسائط",
+      "invalidEmailFormat": "يرجى إدخال عنوان بريد إلكتروني صحيح",
+      "whatsappRequired": "رقم الواتساب مطلوب إذا لم يكن نفس رقم الهاتف",
+      "invalidPhone": "رقم هاتف غير صحيح",
+      "invalidWhatsapp": "رقم واتساب غير صحيح",
+      "nameTooShort": "يجب أن يكون الاسم 3 أحرف على الأقل",
+      "nameTooLong": "يجب أن يكون الاسم أقل من 50 حرف",
+      "usernameTooShort": "يجب أن يكون اسم المستخدم 3 أحرف على الأقل",
+      "usernameTooLong": "يجب أن يكون اسم المستخدم أقل من 50 حرف",
+      "passwordTooShort": "يجب أن تكون كلمة المرور 8 أحرف على الأقل",
+      "passwordNoLetter": "يجب أن تحتوي كلمة المرور على حرف واحد على الأقل",
+      "passwordNoNumber": "يجب أن تحتوي كلمة المرور على رقم واحد على الأقل",
+      "passwordNoSymbol": "يجب أن تحتوي كلمة المرور على رمز واحد على الأقل",
+      "passwordsDontMatch": "كلمات المرور غير متطابقة"
+    },
+    "auth": {
+      "signin": {
+        "invalidPassword": "يجب أن تكون كلمة المرور 6 أحرف على الأقل"
+      },
+      "signup": {
+        "agent": {
+          "cityTooLong": "يجب أن تكون المدينة أقل من 100 حرف",
+          "licenseTooLong": "يجب أن تكون الرخصة أقل من 50 حرف",
+          "licenseCopyRequired": "نسخة واحدة من الرخصة مطلوبة على الأقل",
+          "licenseExpiryFuture": "يجب أن يكون تاريخ انتهاء الرخصة في المستقبل"
+        }
+      }
+    },
+    "buyPropertyRequests": {
+      "propertyInformation": {
+        "durationRequired": "المدة مطلوبة للعقارات المؤجرة",
+        "locationUAE": "يجب أن يكون الموقع في دولة الإمارات العربية المتحدة",
+        "priceNonNegative": "يجب أن يكون السعر غير سالب",
+        "priceEndGreater": "يجب أن يكون السعر النهائي أكبر من أو يساوي السعر الابتدائي",
+        "ageNonNegative": "يجب أن يكون العمر غير سالب",
+        "endAgeGreater": "يجب أن يكون العمر النهائي أكبر من أو يساوي العمر الابتدائي",
+        "areaNonNegative": "يجب أن يكون المساحة غير سالبة",
+        "endAreaGreater": "يجب أن يكون المساحة النهائية أكبر من أو يساوي المساحة الابتدائية",
+        "livingNonNegative": "يجب أن تكون غرف المعيشة غير سالبة",
+        "endLivingGreater": "يجب أن تكون غرف المعيشة النهائية أكبر من أو تساوي البداية",
+        "toiletsNonNegative": "يجب أن تكون الحمامات غير سالبة",
+        "endToiletsGreater": "يجب أن تكون الحمامات النهائية أكبر من أو تساوي البداية",
+        "bedroomsNonNegative": "يجب أن تكون غرف النوم غير سالبة",
+        "endBedroomsGreater": "يجب أن تكون غرف النوم النهائية أكبر من أو تساوي البداية"
+      },
+      "personalDetails": {
+        "nameTooShort": "يجب أن يكون الاسم الكامل 10 أحرف على الأقل",
+        "contactWayRequired": "يجب اختيار طريقة اتصال واحدة على الأقل"
+      }
+    },
+    "properties": {
+      "regulatoryInformation": {
+        "tarkheesiInvalid": "يجب أن يكون الترخيصي ملف صحيح"
+      }
+    },
+    "projects": {
+      "information": {
+        "titleTooShort": "يجب أن يكون العنوان 3 أحرف على الأقل",
+        "descriptionTooShort": "يجب أن يكون الوصف 10 أحرف على الأقل",
+        "handoverDatePast": "لا يمكن أن يكون تاريخ التسليم في الماضي"
+      },
+      "paymentPlan": {
+        "paymentTypeInvalid": "نوع دفع غير صحيح محدد",
+        "preHandoverInvalid": "يجب أن تكون نسبة ما قبل التسليم رقماً",
+        "preHandoverMin": "لا يمكن أن تكون نسبة ما قبل التسليم أقل من 0",
+        "preHandoverMax": "لا يمكن أن تكون نسبة ما قبل التسليم أكثر من 100",
+        "monthsNumberInvalid": "يجب أن يكون عدد الأشهر رقماً",
+        "downPaymentMin": "لا يمكن أن يكون أقل من 0",
+        "downPaymentMax": "لا يمكن أن يكون أكثر من 100",
+        "onHandoverMin": "لا يمكن أن يكون أقل من 0",
+        "onHandoverMax": "لا يمكن أن يكون أكثر من 100",
+        "postHandoverMin": "لا يمكن أن يكون أقل من 0",
+        "postHandoverMax": "لا يمكن أن يكون أكثر من 100",
+        "milestonePercentageMax": "لا يمكن أن يكون أكثر من 100",
+        "milestoneUnique": "يجب أن تكون كل نسبة مرحلية في إنجاز المشروع فريدة",
+        "totalPercentage": "يجب أن يكون مجموع جميع نسب الدفع المحددة 100% بالضبط",
+        "monthsNumberRequired": "عدد الأشهر مطلوب عندما يكون نوع الدفع السعر الكامل",
+        "preHandoverRequired": "نسبة ما قبل التسليم مطلوبة عندما يكون نوع الدفع السعر الكامل",
+        "preHandoverRequiredCompletion": "نسبة ما قبل التسليم مطلوبة عندما يكون نوع الدفع الإنجاز",
+        "milestoneRequiredCompletion": "نسبة مرحلية مطلوبة عندما يكون نوع الدفع الإنجاز"
+      }
+    },
+    "config": {
+      "positiveNumber": "يجب أن يكون رقماً موجباً",
+      "minValue": "يجب أن تكون القيمة 1 على الأقل"
+    },
+    "leadClientDetails": {
+      "emailInvalid": "البريد الإلكتروني غير صحيح",
+      "emailTooShort": "يجب أن يكون البريد الإلكتروني 10 أحرف على الأقل",
+      "contactRequired": "البريد الإلكتروني أو الهاتف مطلوب"
+    },
+    "sellPropertyRequests": {
+      "propertyInformation": {
+        "durationRequired": "المدة مطلوبة للعقارات المؤجرة",
+        "locationUAE": "يجب أن يكون الموقع في دولة الإمارات العربية المتحدة"
+      }
+    },
+    "users": {
+      "employee": {
+        "imageInvalid": "يجب أن تكون الصورة ملف صحيح"
+      }
+    },
+    "officialBlogs": {
+      "scheduledDateFuture": "يجب أن يكون تاريخ التنفيذ في المستقبل"
+    }
+  },
+  "successMessages": {
+    "addedSuccessfully": "تمت إضافة {item} بنجاح",
+    "updatedSuccessfully": "تم تحديث {item} بنجاح",
+    "deletedSuccessfully": "تم حذف {item} بنجاح",
+    "createdSuccessfully": "تم إنشاء {item} بنجاح",
+    "loggedInSuccessfully": "تم تسجيل الدخول بنجاح",
+    "loggedOutSuccessfully": "تم تسجيل الخروج بنجاح",
+    "passwordChangedSuccessfully": "تم تغيير كلمة المرور بنجاح",
+    "passwordResetSuccessfully": "تم إعادة تعيين كلمة المرور بنجاح",
+    "passwordResetEmailSent": "تم إرسال رابط إعادة تعيين كلمة المرور إلى البريد الإلكتروني",
+    "otpSentSuccessfully": "تم إرسال رمز التحقق بنجاح",
+    "otpVerifiedSuccessfully": "تم التحقق من رمز التحقق بنجاح",
+    "unsavedSuccessfully": "تم إزالة {item} من المحفظة بنجاح",
+    "savedSuccessfully": "تم إضافة {item} إلى المحفظة بنجاح",
+    "statusUpdatedSuccessfully": "تم تحديث حالة {item} بنجاح"
+  },
+  "auth": {
+    "banner": {
+      "title": "مرحبا بك مرة أخرى",
+      "description": "في تروودار، نعتقد أن رحلة العثور على العقار المثالي هي مشروع مشترك."
+    },
+    "footer": {
+      "copyRight": "© 2025 تروودار. كل الحقوق محفوظة."
+    },
+    "signin": {
+      "title": "تسجيل الدخول",
+      "doNotHaveAccount": "ليس لديك حساب؟",
+      "createAccount": "إنشاء حساب جديد",
+      "forgotPassword": "نسيت كلمة المرور؟",
+      "rememberMe": "تذكرني",
+      "login": "دخول",
+      "orContinueWith": "أو استمر مع"
+    },
+    "forgetPassword": {
+      "title": "نسيت كلمة المرور",
+      "description": "لإعادتك إلى حسابك اكتب بريدك الإلكتروني لإرسال الرابط",
+      "rememberPassword": "هل تتذكر كلمة المرور؟",
+      "login": "دخول",
+      "confirm": "تأكيد"
+    },
+    "successReset": {
+      "title": "تم تغيير كلمة المرور بنجاح",
+      "buttonTitle": "العودة لتسجيل الدخول",
+      "description": "تم تغيير كلمة المرور بنجاح"
+    },
+    "otp": {
+      "title": "التحقق من الرمز",
+      "description": "سنرسل لك رمز تحقق لمرة واحدة على هذا البريد الإلكتروني",
+      "resendMessage": "لم تستلم الرسالة؟",
+      "resendButton": "إعادة إرسال رسالة الواتساب"
+    },
+    "resetPassword": {
+      "title": "إنشاء كلمة مرور جديدة",
+      "description": "العودة إلى رحلتك",
+      "newPassword": "كلمة المرور الجديدة",
+      "confirmPassword": "تأكيد كلمة المرور",
+      "reset": "إعادة تعيين"
+    },
+    "passwordResetEmailSent": {
+      "title": "بنجاح",
+      "resendMessage": "لم تحصل على الرسالة؟",
+      "resendButton": "إعادة إرسال رسالة الواتساب"
+    },
+    "signup": {
+      "title": "حساب {type} جديد ",
+      "start": "ابدأ رحلتك من هنا",
+      "haveAccount": "لديك حساب بالفعل؟",
+      "login": "تسجيل الدخول",
+      "accountType": "نوع الحساب",
+
+      "steps": {
+        "basicInformation": "المعلومات الأساسية",
+        "legalInformation": "المعلومات القانونية"
+      },
+
+      "registerAsUser": "تسجيل كمستخدم",
+      "shared": {
+        "basicInformation": {
+          "fields": {
+            "passwordHint": "استخدم 8 أحرف أو أكثر مع توافق حروف وأرقام ورموز."
+          }
+        },
+        "legalInformation": {
+          "uploadType": "بصيغة PNG أو JBG أو PDF",
+          "fields": {
+            "licenseCopies": "ملفات الترخيص",
+            "watermark": "العلامة التجارية"
+          },
+          "placeholders": {
+            "licenseCopies": "رفع ملفات الترخيص",
+            "watermark": "رفع العلامة التجارية"
+          }
+        }
+      },
+      "signupUser": {
+        "title": "تسجيل كمستخدم",
+        "registerAsCompanyAgent": "تسجيل كشركة/وكيل"
+      },
+      "signupCompany": {
+        "title": "تسجيل كشركة",
+
+        "fields": {
+          "companyName": "اسم الشركة",
+          "companyAddress": "عنوان الشركة",
+          "licensedCity": "المدينة المرخصة",
+          "licenseExpiryDate": "تاريخ انتهاء الترخيص",
+          "businessJurisdictionType": "نوع السلطة التجارية",
+          "licenseAuthority": "مؤسسة الترخيص",
+          "brokerCardNumber": "رقم بطاقة الوكيل"
+        },
+        "placeholders": {
+          "companyName": "أدخل اسم الشركة",
+          "companyAddress": "أدخل عنوان الشركة",
+          "licensedCity": "اختر المدينة المرخصة",
+          "licenseExpiryDate": "أدخل تاريخ الانتهاء",
+          "businessJurisdictionType": "اختر نوع السلطة التجارية",
+          "licenseAuthority": "اختر مؤسسة الترخيص",
+          "brokerCardNumber": "أدخل رقم بطاقة الوكيل الدبي للمرخصين"
+        }
+      },
+      "signupAgent": {
+        "title": "تسجيل كوكيل",
+        "fields": {
+          "brokerCard": "بطاقة الوكيل",
+          "licenseExpiryDate": "تاريخ انتهاء الترخيص",
+          "licenseCopies": "ملفات الترخيص",
+          "watermark": "العلامة التجارية"
+        },
+        "placeholders": {
+          "brokerCard": "اختر بطاقة الوكيل",
+          "licenseExpiryDate": "أدخل تاريخ الانتهاء",
+          "licenseCopies": "رفع ملفات الترخيص",
+          "watermark": "رفع العلامة التجارية"
+        }
+      },
+      "successSignup": {
+        "title": "تم إنشاء حسابك بنجاح",
+        "buttonTitle": {
+          "landingPage": "العودة للرئيسية",
+          "other": "ابدأ رحلتك الآن"
+        },
+        "description": "ابدأ رحلتك الآن، ماذا تنتظر؟"
+      }
+    }
+  },
+  "homePage": {
+    "exploreMore": "استكشف المزيد",
+    "hero": {
+      "title": "تروودار - باحث العقارات الموثوق",
+      "description": "مرحباً بك في تروودار، أفضل مكان للبحث عن العقارات في دولة الإمارات العربية المتحدة. تروودار هو باحث عقارات متميز يتطابق مع وكلاء العقارات الفاخرة لمساعدتك في اكتشاف منزل أحلامك. سواء كنت باحثاً عن منزل تبحث عن المكان المثالي للعيش أو شخصاً يبحث عن الأفضل في وساطة العقارات الرائدة، تروودار سيساعدك خلال العملية بأكملها.",
+      "dropdown": {
+        "requestProperty": "اطلب عقارك",
+        "rent": "إيجار",
+        "buy": "شراء",
+        "projects": "المشاريع",
+        "search": "بحث",
+        "placeholders": {
+          "location": "أدخل الموقع المرغوب",
+          "propertyType": "أدخل نوع العقار المرغوب"
+        }
+      }
+    },
+    "benefits": {
+      "title": "كيف يعمل طلب العقار؟",
+      "badgeTitle": "الفوائد",
+      "1": {
+        "title": "قدم طلبك",
+        "description": "حدد احتياجاتك العقارية باستخدام نموذجنا سهل الاستخدام."
+      },
+      "2": {
+        "title": "نطابق طلبك",
+        "description": "نظامنا يطابق طلبك مع الوكلاء والشركات الأكثر ملاءمة."
+      },
+      "3": {
+        "title": "مبروك على عقارك الجديد",
+        "description": "الوكيل أو الشركة ستتواصل معك، وتقدم أكثر مما تتوقع."
+      }
+    },
+    "recommendedProperties": {
+      "propertyOfTheWeek": "عقار الأسبوع",
+      "hotDeals": "العروض الساخنة",
+      "signatures": "المميزة"
+    },
+    "services": {
+      "title": "اكتشف الأفضل في تروودار",
+      "badgeTitle": "الخدمات",
+      "buttonTitle": "استكشف الآن",
+      "1": {
+        "title": "مجتمع تروودار",
+        "description": "انضم لعائلتنا الممتدة وتعلم من بعضكم البعض كل ما يخص العقارات. اسأل وأجب على الأسئلة؛ احصل على رؤى من المحترفين وأقرانك."
+      },
+      "2": {
+        "title": "آخر الأخبار والتحديثات",
+        "description": "ابق مطلعاً على أخبار العقارات في الصناعة وعلى موقعنا لتبقى محدثاً بأفضل وأحدث المعلومات."
+      },
+      "3": {
+        "title": "طلب العقار",
+        "description": "اطلب عقارك المثالي أخبرنا عن تفضيلاتك العقارية واحصل على عروض مخصصة من وكلاء موثوقين. منزل أحلامك على بعد طلب واحد."
+      }
+    },
+    "about": {
+      "title": "مهمتنا هي تحويل العقارات",
+      "badgeTitle": "عنا",
+      "description": "تروودار يربطك بوساطة راسخة لتلبية احتياجاتك العقارية بتكلفة معقولة للموارد المتاحة. نمنحك الاتصالات والموارد التي تحتاجها لجعل المعاملة سلسة وناجحة.",
+      "expertAdvice": {
+        "title": "استشارة عقارية خبيرة"
+      },
+      "efficiency": {
+        "title": "الكفاءة والإنتاجية",
+        "description": "تروودار يحترم وقتك. مع منصة سلسة، لن تضيع وقتاً ثميناً في التنقل في خدماتنا—نوجهك للخطوة التالية الأفضل مع خدمة عملاء متاحة لأي أسئلة قد تكون لديك."
+      },
+      "getNoticed": {
+        "title": "احصل على الإشعار وابحث عن منزلك",
+        "description": "أدوات التسويق العقاري لدينا ستجعل عقارك ملحوظاً في السوق الإماراتي النشط إذا كنت تسعى للبيع أو التأجير. العمل معنا هو العمل مع محترفين ملتزمين بجهود منتبهة نحو نجاح معاملتك."
+      }
+    },
+    "lastProjects": {
+      "title": "آخر المشاريع"
+    },
+    "team": {
+      "title": "تعرف على فريقنا المتنامي من الوكلاء والشركات",
+      "badgeTitle": "الخبرة هنا",
+      "impressions": " انطباعات"
+    },
+    "becomePartner": {
+      "title": "كن شريكاً",
+      "description": "انضم لشبكة المحترفين لدينا لتحدث فرقاً في صناعة العقارات.",
+      "buttonTitle": "انضم الآن!"
+    },
+    "trendingNews": {
+      "title": "الأخبار الرائجة",
+      "article": {
+        "by": "بواسطة "
+      }
+    },
+    "guestBanner": {
+      "properties": {
+        "title": "ابحث عن عقارك المثالي",
+        "description": "نحن نقدم خدمة كاملة للبيع أو الإيجار أو التأجير للعقارات.",
+        "buttonTitle": "اتصل بنا الآن"
+      },
+      "title": "بع أو أجر عقارك",
+      "description": "سجل في تروودار واتخذ الخطوة الأولى في الطريق الصحيح لمنزلك الجديد أو قائمة العقارات مع الثقة!",
+      "buttonTitle": "ابدأ الآن!"
+    }
+  },
+  "news": {
+    "title": "الأخبار",
+    "article": "مقال",
+    "articles": "المقالات",
+    "readMore": "اقرأ المزيد",
+    "linkToTheResource": "رابط المصدر"
+  },
+  "buyPropertyRequests": {
+    "title": "طلبات شراء العقارات",
+    "description": "اختر كيفية مشاركة احتياجاتك العقارية: املأ نموذج طلب مفصل، أو اتصل بفريق الدعم لدينا للمساعدة في التفاصيل.",
+    "buyPropertyRequest": "طلب شراء عقار",
+    "addRequest": "إضافة طلب",
+    "makeACall": "إجراء مكالمة",
+    "makeACallForm": {
+      "title": "إجراء مكالمة",
+      "description": "شارك اسمك وبريدك الإلكتروني ورقم هاتفك لجدولة مكالمة. اختر طريقة الاتصال: الهاتف أو البريد الإلكتروني أو الواتساب. مستشارونا سيتواصلون معك قريباً!",
+      "fields": {
+        "contactMethod": "طرق التواصل المفضلة",
+        "whatsapp": "الواتساب",
+        "truedar": "تروودار"
+      },
+      "success": {
+        "title": "تم إرسال طلبك بنجاح",
+        "description": "نقدر استفسارك. نحن نعالج طلبك حالياً وسنتواصل معك قريباً",
+        "buttonTitle": "اذهب للرئيسية"
+      }
+    },
+    "buyPropertyRequestsForm": {
+      "steps": {
+        "propertyInformation": "معلومات العقار",
+        "personalDetails": "التفاصيل الشخصية"
+      },
+      "user": "المستخدم",
+      "request": "الطلب",
+      "description": "أدخل مواصفات العقار الذي تبحث عنه وسيتواصل معك وكلاء العقارات على المنصة. تحقق من رسائلك بانتظام بالنقر على أيقونة الملف الشخصي واختيار \"المراسلة\"."
+    }
+  },
+  "sellPropertyRequests": {
+    "title": "طلبات بيع العقارات",
+    "addSellRequest": "إضافة طلب بيع",
+    "sellPropertyRequest": "طلب بيع العقار",
+    "propertyRequest": "طلب عقار"
+  },
+  "properties": {
+    "title": "العقارات للبيع",
+    "properties": "العقارات",
+    "property": "عقار",
+    "mineTitle": "عقاراتي",
+    "myProperties": "عقاراتي",
+    "mainBanner": {
+      "title": "أدرج عقارك — اوصل لآلاف فوراً",
+      "description": "لديك عقار للإيجار أو البيع؟ لا تتركه خاملاً. أضف قائمتك في دقائق وتواصل مع مستأجرين ومشترين موثقين يبحثون بنشاط في منطقتك. رؤية أكثر. استفسارات أكثر. بدون تعقيد.",
+      "buttonTitle": "أدرج عقارك الآن!"
+    },
+    "deleteModal": {
+      "title": "حذف العقار",
+      "buttonTitle": "حذف",
+      "defaultReasons": {
+        "1": "لقد وجدت طلبي على تروودار",
+        "2": "لقد وجدته في مكان آخر",
+        "3": "لم أحتاج إليه"
+      }
+    },
+    "recommendBanner": {
+      "title": "عزز عقارك إلى الأضواء",
+      "description": "أنت مدرج بالفعل — الآن حان وقت القيادة. استخدم النقاط لترشيح عقارك على الصفحة الرئيسية وليراه المزيد من المشترين والمستأجرين الجديين. رؤية أكثر، نتيجة أسرع",
+      "buttonTitle": "رشح العقار الآن!"
+    },
+    "controls": {
+      "activeListings": "العقارات النشطة",
+      "heldListings": "العقارات المعلقة"
+    },
+    "details": {
+      "title": "التفاصيل",
+      "impressions": "انطباعات",
+      "leads": "الطلبات",
+      "clicks": "النقرات",
+      "visitors": "الزوار",
+      "saves": "المحفوظات",
+      "views": "المشاهدات"
+    },
+    "propertyView": {
+      "startFrom": "يبدأ من",
+      "propertyTrademarks": "العلامات التجارية للعقار",
+      "tabs": {
+        "description": "الوصف",
+        "location": "الموقع",
+        "regulatoryInformation": "المعلومات التنظيمية"
+      },
+      "size": "الحجم",
+      "sale": "بيع",
+      "amenitiesFeatures": "المرافق والميزات",
+      "reference": "المرجع",
+      "brn": "رقم السجل التجاري",
+      "plotArea": "مساحة الأرض (قدم مربع)",
+      "builtInArea": "المساحة المبنية (قدم مربع)",
+      "addedOn": "تاريخ الإضافة"
+    },
+    "buttons": {
+      "addXml": "إضافة XML",
+      "xmlRequests": "طلبات XML",
+      "adminActions": "إجراءات الإدارة",
+      "defaultConfig": "الإعدادات الافتراضية",
+      "myProperties": "عقاراتي",
+      "saved": "محفوظ",
+      "more": "المزيد",
+      "viewOnMap": "عرض على الخريطة"
+    },
+    "filters": {
+      "numberOfBeds": "عدد غرف النوم",
+      "numberOfBaths": "عدد الحمامات",
+      "area": "المساحة (قدم مربع)",
+      "minimum": "الحد الأدنى",
+      "maximum": "الحد الأقصى",
+      "any": "أي",
+      "keywords": "الكلمات المفتاحية"
+    },
+    "footer": {
+      "affordableSearches": {
+        "title": "البحثات الميسورة",
+        "propertiesUnder5M": "عقارات للبيع تحت 5 مليون درهم",
+        "propertiesUnder1_5M": "عقارات للبيع تحت 1.5 مليون درهم",
+        "propertiesUnder950K": "عقارات للبيع تحت 950 ألف درهم"
+      },
+      "exploreMore": {
+        "title": "استكشف المزيد",
+        "rentedProperties": "عقارات مؤجرة للبيع",
+        "propertiesAndHouses": "عقارات ومنازل للبيع",
+        "registeredProperties": "عقارات مسجلة للبيع"
+      }
+    },
+    "propertyForm": {
+      "steps": {
+        "propertyInformation": "معلومات العقار",
+        "propertyMedia": "الوسائط",
+        "propertyFeatures": "الميزات/المرافق",
+        "propertyValidatedInformation": "المعلومات المعتمدة",
+        "propertyRegulatoryInformation": "المعلومات التنظيمية"
+      },
+      "features": {
+        "title": "اختر الميزات",
+        "other": "أخرى",
+        "selected": "مختار",
+        "selectAll": "اختر الكل",
+        "deselectAll": "إلغاء الاختيار",
+        "otherPlaceholder": "أضف أي ميزة أخرى لعقارك",
+        "errors": {
+          "required": "يرجى إدخال ميزة",
+          "alreadyAdded": "الميزة مضافة بالفعل"
+        }
+      },
+      "validatedInformation": {
+        "fields": {
+          "developer": "مطور العقار",
+          "plot": "مساحة الأرض (بالقدم المربع)",
+          "builtIn": "المساحة المبنية (بالقدم المربع)",
+          "ownership": {
+            "label": "الملكية",
+            "individual": "فردي",
+            "company": "شركة"
+          },
+          "placeholders": {
+            "developer": "أدخل مطور عقارك",
+            "plot": "أدخل مساحة أرض عقارك",
+            "builtIn": "أدخل مساحة البناء لعقارك"
+          }
+        }
+      },
+      "regulatoryInformation": {
+        "fields": {
+          "dldPermitNumber": "رقم تصريح دائرة الأراضي والأملاك",
+          "ded": "دائرة التنمية الاقتصادية",
+          "rera": "هيئة تنظيم العقارات",
+          "brn": "رقم السجل التجاري"
+        },
+        "placeholders": {
+          "tarkheesi": "تحميل الترخيصي",
+          "example": "مثال: 123312562163"
+        },
+        "trakRequiredForDubai": "الترخيص مطلوب للعقارات في دبي",
+        "tarkheesiUploadFailed": "فشل تحميل الترخيص",
+        "confirmationText": "أؤكد أن جميع المعلومات المقدمة دقيقة وأن لدي الصلاحية القانونية لإدراج هذا العقار. تحتاج مساعدة أو لديك أسئلة  حول إدراج العقارات؟",
+        "contactUs": "اتصل بنا",
+        "agreement": "الاتفاقية"
+      }
+    }
+  },
+  "projects": {
+    "title": "المشاريع",
+    "mine": "مشاريعي",
+    "project": "المشروع",
+    "newProject": "مشروع ",
+    "projectCard": {
+      "completionStatus": {
+        "ready": "جاهز",
+        "offPlan": "غير جاهز"
+      },
+      "paymentPlan": {
+        "title": "خطة الدفع",
+        "projectCompletion": "إنجاز المشروع",
+        "fullPrice": "السعر الكامل"
+      },
+      "handoverDate": "تاريخ التسليم",
+      "q1": "الربع الأول",
+      "q2": "الربع الثاني",
+      "q3": "الربع الثالث",
+      "q4": "الربع الرابع",
+      "details": "التفاصيل",
+      "views": "المشاهدات",
+      "visitors": "الزوار",
+      "impressions": "الظهورات"
+    },
+    "projectView": {
+      "tabs": {
+        "description": {
+          "title": "الوصف",
+          "startFrom": "يبدأ من",
+          "handoverDate": "تاريخ التسليم",
+          "paymentPlan": "خطة الدفع",
+          "before": "قبل التسليم",
+          "after": "بعد التسليم"
+        },
+        "location": "الموقع",
+        "properties": "العقارات المتاحة",
+        "paymentPlan": {
+          "title": "خطة الدفع",
+          "onHandover": "عند التسليم",
+          "preHandover": "ما قبل التسليم - خطة الدفع",
+          "downPayment": "الدفعة المقدمة",
+          "milestone": "المرحلة",
+          "percentage": "نسبة القيمة المتاحة للدفع"
+        },
+        "unitTypes": {
+          "title": "أنواع الوحدات",
+          "price": "السعر (درهم)",
+          "area": "المساحة (قدم مربع)",
+          "name": "اسم الوحدة",
+          "from": "من"
+        }
+      }
+    },
+    "controls": {
+      "activeProjects": "المشاريع النشطة",
+      "heldProjects": "المشاريع المعلقة"
+    },
+    "buttons": {
+      "addProject": "إضافة مشروع"
+    },
+    "projectForm": {
+      "steps": {
+        "projectInformation": "معلومات المشروع",
+        "projectMedia": "الوسائط",
+        "paymentPlan": "خطة الدفع"
+      },
+      "projectInformation": {
+        "fields": {
+          "handoverDate": {
+            "label": "تاريخ التسليم",
+            "placeholder": "أدخل تاريخ التسليم"
+          }
+        }
+      },
+      "paymentPlan": {
+        "fields": {
+          "downPaymentPercentage": "نسبة الدفعة المقدمة",
+          "percentageBasedOn": "النسبة بناءً على",
+          "projectCompletion": {
+            "label": "إنجاز المشروع",
+            "milestone": "نسبة إنجاز المشروع للمرحلة",
+            "paymentPercentageAtThisStage": "نسبة الدفع في هذه المرحلة"
+          },
+          "fullPrice": {
+            "label": "السعر الكامل",
+            "months": "عدد الأشهر",
+            "preHandoverPercentage": "نسبة ما قبل التسليم لقيمة العقار"
+          },
+          "onHandoverPercentage": "نسبة عند التسليم",
+          "postHandoverPercentage": "نسبة ما بعد التسليم"
+        },
+        "placeholders": {
+          "downPaymentPercentage": "أدخل نسبة الدفعة المقدمة",
+          "projectCompletion": {
+            "milestone": "أدخل نسبة الإنجاز",
+            "paymentPercentageAtThisStage": "أدخل نسبة الدفع في هذه المرحلة"
+          },
+          "fullPrice": {
+            "months": "أدخل عدد الأشهر",
+            "preHandoverPercentage": "أدخل نسبة ما قبل التسليم"
+          },
+          "onHandoverPercentage": "أدخل نسبة عند التسليم",
+          "postHandoverPercentage": "أدخل نسبة ما بعد التسليم"
+        }
+      }
+    }
+  },
+  "leads": {
+    "title": "العملاء المحتملين",
+    "leadsRequests": "طلبات العملاء المحتملين",
+    "controls": {
+      "approved": "موافق عليها",
+      "leadsRequests": "طلبات العملاء المحتملين"
+    },
+    "card": {
+      "actions": {
+        "approve": "موافقة",
+        "viewAgent": "عرض الوكيل",
+        "viewProperty": "عرض العقار"
+      },
+      "status": "الحالة",
+      "agent": "الوكيل",
+      "clientName": "اسم العميل",
+      "leadName": "اسم العميل المحتمل",
+      "contactType": "نوع الاتصال",
+      "clientContactDetails": "تفاصيل اتصال العميل",
+      "date": "التاريخ"
+    },
+    "modal": {
+      "title": "موافقة على العميل المحتمل",
+      "clientContactDetails": {
+        "title": "تفاصيل اتصال العميل",
+        "fields": {
+          "name": "اسم العميل المحتمل",
+          "email": "البريد الإلكتروني",
+          "phone": "الهاتف"
+        },
+        "placeholders": {
+          "name": "أدخل اسم العميل المحتمل",
+          "email": "أدخل البريد الإلكتروني للعميل",
+          "phone": "أدخل رقم هاتف العميل"
+        }
+      },
+      "buttons": {
+        "close": "إغلاق",
+        "approve": "موافقة",
+        "cancel": "إلغاء",
+        "save": "حفظ"
+      },
+      "messages": {
+        "leadAt": "العميل المحتمل في: ",
+        "success": {
+          "leadApproved": "تمت موافقة العميل المحتمل بنجاح",
+          "clientDetailsUpdated": "تم تحديث تفاصيل اتصال العميل بنجاح"
+        }
+      }
+    }
+  },
+  "chat": {
+    "message": "رسالة",
+    "messages": "الرسائل",
+    "chats": "محادثات",
+    "you": "أنت",
+    "description": "يوفر منصة للمراسلة المباشرة والمحادثات الجماعية والإعلانات، مما يضمن بقاء الجميع متصلين ومطلعين. تعاون وشارك التحديثات.",
+    "fields": {
+      "search": "البحث في الرسائل",
+      "messagePlaceholder": "اكتب رسالة"
+    },
+    "images": "الصور",
+    "helpCenter": "مركز المساعدة"
+  },
+  "community": {
+    "title": "المجتمع",
+    "posts": "المنشورات",
+    "savedPosts": "المنشورات المحفوظة",
+    "post": "المنشور",
+    "blog": "المدونة",
+    "blogs": "المدونات",
+    "comments": "التعليقات",
+    "comment": "التعليق",
+    "followers": "المتابعون",
+    "follower": "متابع",
+    "followings": "الأشخاص الذين تتابعهم",
+    "noFollowingsFound": "لا يوجد أشخاص تتابعهم",
+    "follow": "متابعة",
+    "unfollow": "إلغاء المتابعة",
+    "writeComment": "اكتب تعليق...",
+    "featuredMembers": "الأعضاء المميزين",
+    "peopleYouMayKnow": "الأشخاص الذين يمكن أن تعرفهم",
+
+    "successMessages": {
+      "postSaved": "تم حفظ المنشور بنجاح",
+      "postLiked": "مرحبا بك في المجتمع! لقد أعجبتك هذا المنشور",
+
+      "followed": "تمت المتابعة بنجاح",
+      "unfollowed": "تم إلغاء المتابعة بنجاح"
+    },
+
+    "controls": {
+      "posts": "المنشورات",
+      "blogs": "المدونات"
+    },
+    "buttons": {
+      "newPost": "منشور جديد",
+      "newBlog": "منشور مدونة جديد",
+      "myProfile": "ملفي الشخصي",
+      "post": "نشر"
+    },
+    "fields": {
+      "search": "بحث"
+    },
+    "postForm": {
+      "title": "إنشاء منشور",
+      "editTitle": "تعديل المنشور",
+      "placeholders": {
+        "whatIsOnYourMind": "ما الذي يدور في ذهنك؟ {username}",
+        "addToYourPost": "إضافة إلى منشورك",
+        "addImageOrVideo": "إضافة صورة أو فيديو"
+      }
+    },
+    "blogPostForm": {
+      "steps": {
+        "basic": "أساسي",
+        "details": "التفاصيل"
+      },
+      "fields": {
+        "title": "العنوان",
+        "details": "التفاصيل",
+        "blogImages": "صور المدونة",
+        "content": "المحتوى"
+      },
+      "placeholders": {
+        "details": "أدخل تفاصيل المدونة",
+        "blogImage": "تحميل صورة مدونتك"
+      }
+    }
+  },
+  "sharedAnalytics": {
+    "interactions": {
+      "title": "تحليلات التفاعلات",
+      "visitors": "الزوار",
+      "impressions": "الظهورات",
+      "adViews": "مشاهدات الإعلانات",
+      "emailsClicks": "نقرات البريد الإلكتروني",
+      "phoneCallsClicks": "نقرات المكالمات الهاتفية",
+      "whatsappClicks": "نقرات الواتساب",
+      "chats": "المحادثات"
+    },
+    "propertiesAnalytics": {
+      "title": "تحليلات العقارات",
+      "averageYearlyRentingPrice": "متوسط سعر الإيجار السنوي",
+      "averageMonthlyRentingPrice": "متوسط سعر الإيجار الشهري",
+      "averageSellingPrice": "متوسط سعر البيع",
+      "averageDailyRentingPrice": "متوسط سعر الإيجار اليومي",
+      "conversionRate": "معدل التحويل",
+      "conversionRatesAndAveragePrices": "معدلات التحويل والأسعار المتوسطة",
+      "totalSale": "إجمالي المبيعات",
+      "totalRent": "إجمالي الإيجارات",
+      "totalProperties": "إجمالي العقارات"
+    }
+  },
+  "adminAnalytics": {
+    "totalUsers": "إجمالي المستخدمين",
+    "topPerformers": "أفضل الأداء",
+    "topCompaniesAndAgents": "أفضل الشركات والوكلاء"
+  },
+  "userAnalytics": {
+    "topPropertyAds": "أفضل إعلانات العقارات",
+    "lastComments": "آخر التعليقات",
+    "traffic": {
+      "title": "الزيارات",
+      "postsInteractions": "تفاعلات المنشورات",
+      "profileVisits": "زيارات الملف الشخصي"
+    }
+  },
+  "sharedBlogView": {
+    "toc": "جدول المحتويات",
+    "faq": "الأسئلة الشائعة",
+    "faqTitle": "الأسئلة المتكررة",
+    "relatedBlogs": "المدونات ذات الصلة"
+  },
+  "officialBlogs": {
+    "title": "المدونات الرسمية",
+    "subtitle": "مدونات",
+    "officialBlog": "مدونة رسمية",
+    "fields": {
+      "search": "البحث في المدونات بالعنوان أو الوصف"
+    },
+    "blogStatus": {
+      "draft": "مسودة",
+      "published": "منشور",
+      "scheduled": "مجدول"
+    },
+    "buttons": {
+      "addBlog": "إضافة مدونة جديدة"
+    },
+    "officialBlogForm": {
+      "fields": {
+        "permalink": "الرابط الدائم",
+        "faq": {
+          "label": "الأسئلة الشائعة",
+          "fields": {
+            "question": "السؤال",
+            "answer": "الإجابة"
+          }
+        },
+        "seo": {
+          "label": "تحسين محركات البحث",
+          "fields": {
+            "title": "العنوان",
+            "description": "الوصف",
+            "keywords": "الكلمات المفتاحية"
+          }
+        },
+        "relatedBlogs": "المدونات ذات الصلة",
+        "publishBlog": "نشر المدونة",
+        "scheduledAt": "مجدول في"
+      },
+      "placeholders": {
+        "permalink": "أدخل رابط المدونة",
+        "seo": {
+          "title": "أدخل عنوان تحسين محركات البحث",
+          "description": "أدخل وصف تحسين محركات البحث",
+          "keywords": "أدخل كلمات تحسين محركات البحث المفتاحية"
+        },
+        "relatedBlogs": "البحث واختيار المدونات ذات الصلة",
+        "scheduledAt": "اختر التاريخ"
+      }
+    }
+  },
+  "settings": {
+    "title": "الإعدادات",
+    "subTitle": "الحساب",
+    "registeredOn": "مسجل في",
+    "deleteAccount": {
+      "title": "حذف الحساب",
+      "description": "حذف حسابك سيزيل جميع معلوماتك من قاعدة البيانات. لا يمكن التراجع عن هذا."
+    },
+    "fields": {
+      "bio": "السيرة الذاتية",
+      "language": {
+        "label": "اللغة",
+        "arabic": "العربية",
+        "english": "الإنجليزية"
+      },
+      "notifications": "الإشعارات"
+    },
+    "placeholders": {
+      "bio": "أدخل سيرتك الذاتية"
+    }
+  },
+  "notifications": {
+    "title": "الإشعارات",
+    "notification": "إشعار",
+    "clearAll": "مسح الكل",
+    "notificationPermissionDenied": "إذن الإشعارات مرفوض",
+    "noRegistrationTokenAvailable": "لا يوجد رمز تسجيل متاح",
+    "errorRetrievingFCMToken": "خطأ في جلب رمز FCM",
+    "notificationPermissionGranted": "إذن الإشعارات مقبول"
+  },
+  "employees": {
+    "title": "الموظفون",
+    "buttons": {
+      "addEmployee": "إضافة موظف",
+      "addAgent": "إضافة عضو فريق",
+      "seeAnalytics": "عرض التحليلات"
+    }
+  },
+  "transactions": {
+    "title": "المعاملات",
+    "controls": {
+      "pending": "مفتوح",
+      "completed": "مكتمل",
+      "expired": "منتهي الصلاحية"
+    },
+    "columns": {
+      "createdAt": "تاريخ الإنشاء",
+      "amount": "المبلغ",
+      "user": "المستخدم",
+      "credits": "النقاط",
+      "priceWithTaxes": "السعر مع الضرائب",
+      "priceWithoutTaxes": "السعر بدون ضرائب",
+      "taxAmount": "مبلغ الضريبة"
+    }
+  },
+  "creditsRequests": {
+    "title": "طلبات النقاط",
+    "creditRequest": "طلب النقاط",
+    "creditRequestFrom": "طلب نقاط من {user}",
+    "placeholders": {
+      "search": "البحث في طلبات النقاط"
+    },
+    "status": {
+      "pending": "معلق",
+      "accepted": "مقبول",
+      "rejected": "مرفوض"
+    },
+    "columns": {
+      "user": "المستخدم",
+      "status": "الحالة",
+      "credits": "النقاط",
+      "fees": "الرسوم",
+      "taxes": "الضرائب",
+      "total": "الإجمالي",
+      "createdAt": "تاريخ الإنشاء"
+    },
+    "approveModal": {
+      "title": "موافقة على طلب النقاط",
+      "message": "هل أنت متأكد من موافقتك على هذا الطلب؟"
+    },
+    "rejectModal": {
+      "title": "رفض طلب النقاط",
+      "message": "هل أنت متأكد من رفضك لهذا الطلب؟"
+    }
+  },
+  "premium": {
+    "title": "العقارات/النقاط المميزة والخدمات",
+    "availableCredits": "النقاط المتاحة",
+    "creditsDescription": "يتم شراء النقاط، حتى يتمكن \"الوكيل\" أو \"الشركة\" من عرض قوائمهم من خلال \"عقار الأسبوع\" أو \"المميز\" أو \"ساخن\".",
+    "topUpCredits": {
+      "title": "شحن النقاط",
+      "description": "أضف المزيد من النقاط إلى حسابك لعرض قوائمك",
+      "estimatedSubTotal": "السعر الفرعي المقدر",
+      "estimatedVAT": "ضريبة القيمة المضافة المقدرة",
+      "estimatedTotal": "السعر الإجمالي المقدر",
+      "creditsTopUpAmount": "مبلغ شحن النقاط",
+      "proceedToBuy": "متابعة الشراء",
+      "cancel": "إلغاء",
+      "availableCreditsLabel": "النقاط المتاحة"
+    },
+    "addFeaturedProperty": {
+      "activeFeaturedProperties": "العقارات المميزة النشطة",
+      "addFeaturedProperty": "إضافة عقار مميز",
+      "title": "عقارات {recommendationType}",
+      "search": "ابدأ الكتابة للبحث واختيار",
+      "description": "اعرض عقاراتك للحصول على رؤية أكثر",
+      "featuredProperties": "العقارات المميزة",
+      "featurePeriod": "فترة العرض",
+      "totalCreditsCost": "إجمالي تكلفة النقاط",
+      "credits": "النقاط",
+      "notEnoughCredits": "ليس لديك نقاط كافية",
+      "days": "أيام",
+      "buy": "شراء",
+      "cancel": "إلغاء"
+    },
+    "tabs": {
+      "hotDeal": "العرض الساخن",
+      "signature": "المميز",
+      "propertyOfTheWeek": "عقار الأسبوع"
+    },
+    "descriptions": {
+      "hotDeal": "العرض الساخن هو طريقة لعرض عقار له ميزة مثل شهر إيجار مجاني، انترنت مجاني، سعر خاص... إلخ. يمكن عرض العقار لـ: 7 أيام - 14 يوم - 30 يوم",
+      "signature": "المميز هو طريقة لعرض عقار كعقار مميز دون الحاجة لميزة خاصة. يمكن عرض العقار لـ: 7 أيام - 14 يوم - 30 يوم",
+      "propertyOfTheWeek": "عقار الأسبوع هو طريقة لعرض عقار لفترة أسبوع واحد فقط، دون الحاجة لميزة خاصة. يمكن عرض العقار لـ: 7 أيام فقط."
+    }
+  },
+  "callRequests": {
+    "title": "طلبات المكالمات",
+    "callRequest": "طلب مكالمة",
+    "registeredOn": "مسجل في",
+    "placeholders": {
+      "search": "البحث في طلبات المكالمات"
+    },
+    "actions": {
+      "viewRequest": "عرض الطلب"
+    },
+    "status": {
+      "approved": "موافق عليه",
+      "pending": "معلق",
+      "rejected": "مرفوض"
+    },
+    "modal": {
+      "approveTitle": "موافقة على طلب المكالمة",
+      "approveMessage": "هل أنت متأكد من موافقتك على هذا الطلب؟",
+      "rejectTitle": "رفض طلب المكالمة",
+      "rejectMessage": "هل أنت متأكد من رفضك لهذا الطلب؟"
+    }
+  },
+  "contactUsRequests": {
+    "title": "طلبات تواصل معنا",
+    "badgeTitle": "تواصل معنا",
+    "message": "الرسالة",
+    "messageSentSuccessfully": "تم إرسال الرسالة بنجاح",
+    "card": {
+      "email": "البريد الإلكتروني",
+      "subject": "الموضوع",
+      "sentOn": "أرسل في",
+      "actions": {
+        "viewRequest": "عرض الطلب",
+        "deleteRequest": "حذف الطلب"
+      }
+    },
+    "fields": {
+      "name": "الاسم",
+      "email": "البريد الإلكتروني",
+      "subject": "الموضوع",
+      "message": "الرسالة"
+    },
+    "placeholders": {
+      "search": "البحث في طلبات تواصل معنا",
+      "name": "أدخل اسمك",
+      "email": "أدخل بريدك الإلكتروني",
+      "subject": "أدخل الموضوع",
+      "message": "أدخل الرسالة"
+    },
+    "buttons": {
+      "send": "إرسال رسالة"
+    }
+  },
+  "checkout": {
+    "title": "الدفع",
+    "poweredBy": "مدعوم من Stripe",
+    "stripe": "Stripe",
+    "paymentMethod": {
+      "title": "طريقة الدفع",
+      "selectMethod": "من فضلك، اختر طريقة الدفع المناسبة",
+      "card": "بطاقة",
+      "bankTransfer": "حوالة بنكية"
+    },
+    "bankTransfer": {
+      "title": "تفاصيل الحوالة البنكية",
+      "fullName": "الاسم الكامل",
+      "bic": "رمز البنك",
+      "iban": "الآيبان",
+      "businessAddress": "عنوان العمل",
+      "uploadReceipt": "تحميل إيصال الحوالة البنكية بصيغة PDF أو صورة",
+      "orByCard": "أو بالبطاقة",
+      "submit": "إرسال",
+      "constOfCreditsDescription": "تكلفة {credits} نقاط هي {total} AED. قم بإجراء حوالة بنكية وتحميل إيصال الحوالة البنكية. بعد ذلك سيقوم فريقنا بمراجعة الطلب ويقبل الطلب. شكرا! إذا واجهت أي مشكلة، يرجى التواصل معنا عبر البريد الإلكتروني",
+      "orContactUsOnWhatsapp": "أو التواصل معنا عبر الواتساب",
+      "details": "التفاصيل"
+    },
+    "success": {
+      "title": "تمت عملية الدفع بنجاح!",
+      "credits": "النقاط",
+      "fees": "الرسوم",
+      "taxes": "الضرائب",
+      "total": "الإجمالي"
+    },
+    "error": {
+      "selectPaymentMethod": "يرجى اختيار طريقة الدفع",
+      "goToPremium": "يرجى الذهاب إلى صفحة المميز واختيار عدد النقاط التي تريد شرائها",
+      "selectImageOrPdf": "يرجى اختيار صورة أو ملف PDF"
+    },
+    "status": {
+      "success": {
+        "title": "تم دفعك بنجاح",
+        "description": "تم معالجة دفعتك بنجاح"
+      },
+      "review": {
+        "title": "طلبك قيد المراجعة",
+        "description": "طلبك قيد المراجعة، يرجى الانتظار حتى القبول أو الرفض"
+      },
+      "declined": {
+        "title": "تم رفض دفعتك",
+        "description": "يرجى المراجعة مع خدمة عملاء البنك والمحاولة مرة أخرى"
+      },
+      "goToPremium": "اذهب للمميز",
+      "tryAgain": "حاول مرة أخرى",
+      "contactUs": "إذا واجهت أي مشكلة، يرجى التواصل معنا عبر البريد الإلكتروني أو الواتساب"
+    },
+    "terms": "يمكنك الإلغاء في أي وقت في إعدادات الفوترة. بالنقر على الزر توافق على شروط الخدمة وتسمح بهذه الرسوم المتكررة."
+  },
+  "seo": {
+    "title": "ابحث عن منزل أحلامك",
+    "description": "ابحث عن منزل أحلامك. هنا يمكنك العثور على منزل أحلامك المفضل دون ضغط.",
+    "keywords": [
+      "منزل",
+      "منزل الأحلام",
+      "عقارات",
+      "شراء عقار",
+      "عقار",
+      "البحث عن عقار",
+      "البحث العقاري",
+      "عقار للبيع",
+      "عقار للإيجار",
+      "طلب عقار",
+      "قائمة عقارية"
+    ],
+    "properties": {
+      "title": "جميع العقارات | قوائم تروودار العقارية في الإمارات",
+      "description": "تصفح مجموعة واسعة من القوائم العقارية في الإمارات على تروودار. ابحث عن المنزل المثالي أو المكتب أو العقار الاستثماري مع وسطاء موثوقين وأدوات بحث سلسة."
+    },
+    "projects": {
+      "title": "جميع المشاريع | مشاريع تروودار العقارية في الإمارات",
+      "description": "استكشف قائمة شاملة من المشاريع العقارية في الإمارات على تروودار. اكتشف المشاريع السكنية والتجارية والاستثمارية مع معلومات موثوقة وتنقل سهل."
+    },
+    "community": {
+      "title": "المجتمع | ربط وسطاء العقارات والعملاء",
+      "description": "انضم لمجتمع تروودار وتواصل مع وسطاء العقارات والعملاء الموثوقين في الإمارات. شارك المعرفة وتعاون وعزز تجربتك العقارية."
+    },
+    "news": {
+      "title": "الأخبار | تحديثات ورؤى تروودار العقارية في الإمارات",
+      "description": "ابق محدثاً مع آخر أخبار العقارات ورؤى السوق واتجاهات العقارات في الإمارات. استكشف قسم أخبار تروودار للتحديثات والمعلومات القيمة."
+    },
+    "chats": {
+      "title": "مركز الدعم | مساعدة تروودار العقارية في الإمارات",
+      "description": "احصل على المساعدة والدعم من فريق تروودار المخصص. ابحث عن إجابات لاستفساراتك العقارية واستمتع بخدمة سلسة من خلال مركز الدعم في الإمارات."
+    },
+    "termsOfUse": {
+      "title": "شروط الاستخدام | منصة تروودار العقارية",
+      "description": "اقرأ شروط الاستخدام لمنصة تروودار العقارية. افهم القواعد واللوائح التي تحكم استخدام خدماتنا، مما يضمن تجربة سلسة وشفافة."
+    }
+  },
+  "navigation": {
+    "followings": "المتابعين",
+    "myAccount": "حسابي",
+    "news": "الأخبار",
+    "support": "الدعم",
+    "about": "نبذة عنا",
+    "sellForMeRequests": "طلبات بيع لي",
+    "propertyRequests": "طلبات شراء",
+    "savedProperties": "العقارات المحفوظة",
+    "settings": "الإعدادات",
+    "home": "الرئيسية",
+    "projects": "المشاريع",
+    "leads": "العملاء",
+    "messages": "الرسائل",
+    "analytics": "التحليلات",
+    "adminAnalytics": "التحليلات الإدارية",
+    "community": "المجتمع",
+    "employees": "الموظفين",
+    "properties": "العقارات",
+    "followers": "المتابعين",
+    "myProperties": "العقارات الخاصة بي",
+    "profile": "الملف الشخصي",
+    "forCompaniesAgents": "للشركات والوكلاء",
+    "users": "المستخدمين",
+    "adminProperties": "العقارات الإدارية",
+    "adminProjects": "المشاريع الإدارية",
+    "officialBlogs": "المدونات الرسمية",
+    "creditRequests": "طلبات النقاط",
+    "transactions": "المعاملات",
+    "termsOfUse": "شروط الاستخدام",
+    "privacyPolicy": "سياسة الخصوصية",
+    "logout": "تسجيل الخروج",
+    "login": "تسجيل الدخول",
+    "startForFree": "ابدأ مجانا"
+  },
+  "footer": {
+    "ourCompany": "شركتنا",
+    "drivenByPurpose": "مثمر بالغرض،",
+    "shapingFutures": "يحدد المستقبل",
+    "allCopyrighted": "جميع الحقوق محفوظة لتروودار © 2024",
+    "socialMedia": {
+      "facebook": "فيسبوك",
+      "twitter": "تويتر",
+      "instagram": "انستجرام",
+      "linkedin": "لينكدان"
+    },
+    "contact": "تواصل معنا",
+    "subscribe": {
+      "title": "اشترك",
+      "description": "اشترك للحصول على آخر العقارات والمدونات منا"
+    }
+  },
+  "notFound": {
+    "title": "هناك خطأ ما.",
+    "description": "لم نتمكن من العثور على الصفحة التي تبحث عنها. يمكنك العثور على الكثير من الأشياء لاستكشافها في هذه الصفحات."
+  },
+  "adminUsers": {
+    "title": "المستخدمين",
+    "loginAs": "تسجيل الدخول ك",
+    "search": "البحث في المستخدمين",
+    "viewCallRequest": "عرض طلب المكالمة",
+    "viewContactUsRequest": "عرض طلب التواصل معنا",
+    "agents": "الوكلاء",
+    "listings": "العقارات",
+    "followers": "المتابعين",
+    "followings": "المتابعات",
+    "crm": "النظام الأساسي للعلاقات العملية",
+    "join": "الانضمام",
+    "viewWatermark": "عرض العلامة المائية"
+  },
+  "xml": {
+    "title": "إدارة XML",
+    "importedProperties": "العقارات المستوردة",
+    "enterTheLink": "أدخل رابط XML الذي يحتوي على قوائمك",
+    "xmlRequests": {
+      "title": "طلبات XML",
+      "search": "البحث في طلبات XML",
+      "viewRequest": "عرض طلب XML",
+      "createdAt": "تاريخ الإنشاء",
+      "mainCard": {
+        "url": "رابط XML",
+        "linkToXml": "رابط XML",
+        "platform": "المنصة"
+      },
+      "card": {
+        "creatorInformation": "معلومات المنشئ",
+        "type": "النوع"
+      },
+      "approveModal": {
+        "title": "الموافقة على طلب XML",
+        "message": "هل أنت متأكد أنك تريد الموافقة على طلب XML هذا؟",
+        "confirm": "تأكيد",
+        "cancel": "إلغاء"
+      },
+      "rejectModal": {
+        "title": "رفض طلب XML",
+        "message": "هل أنت متأكد أنك تريد رفض طلب XML هذا؟",
+        "defaultReasons": {
+          "duplicateProperty": "تم العثور على عقار مكرر في النظام",
+          "incompleteInfo": "معلومات العقار غير مكتملة أو غير دقيقة",
+          "violatesGuidelines": "العقار يخالف إرشادات المنصة",
+          "ownerRequest": "تم الطلب من قبل مالك العقار للإزالة",
+          "technicalIssues": "مشاكل تقنية في قائمة العقار",
+          "notAvailable": "العقار لم يعد متاحًا للإدراج"
+        }
+      },
+      "status": {
+        "approved": "تمت الموافقة",
+        "rejected": "مرفوض",
+        "pending": "قيد الانتظار"
+      }
+    },
+    "agents": {
+      "title": "وكلاء XML",
+      "needsAdminApproval": "يحتاج إلى موافقة المشرف",
+      "warning": "تحذير",
+      "viewAll": "عرض الكل",
+      "registered": "مسجل",
+      "unregistered": "غير مسجل",
+      "publishConfirmation": "نشر مع وجود {count} مشكلة تحتاج للموافقة",
+      "publishSuccess": {
+        "title": "تم النشر بنجاح",
+        "withIssues": "لديك:",
+        "publishedWithoutIssues": "تم نشر القوائم التي لا تحتاج إلى موافقة",
+        "submittedForReview": "تم تقديم القوائم الأخرى للمراجعة"
+      }
+    },
+    "warnings": {
+      "title": "تحذيرات",
+      "issues": "مشكلات",
+      "issueCount": "{count} مشكلة"
+    },
+    "errors": {
+      "title": "أخطاء عامة",
+      "crmInstructions": "يرجى الذهاب إلى نظام إدارة علاقات العملاء لحل ما يلي:",
+      "noErrors": "لا توجد أخطاء"
+    },
+    "buttons": {
+      "reset": "إعادة تعيين",
+      "accept": "قبول",
+      "close": "إغلاق",
+      "publish": "نشر",
+      "finish": "إنهاء",
+      "process": "معالجة"
+    }
+  },
+  "config": {
+    "title": "الإعدادات",
+    "noOfExpiryDays": "عدد أيام الإنتهاء",
+    "price": "السعر",
+    "remove": "إزالة"
+  },
+
+  "terms_of_use": {
+    "title": "شروط الاستخدام",
+    "effective_date": "1 يونيو 2024",
+    "effective_date_text": "التاريخ الفعال",
+    "introduction": {
+      "website_url": "https://www.truedar.ae",
+      "company_name": "ترو دار لإدارة التسويق ذ.م.م",
+      "description": "باستخدام موقع الويب <link>www.truedar.ae</link> أو تطبيق ترو دار للهواتف المحمولة (يشار إليهما معًا بـ \"المنصة\")، فإنك تؤكد أنك قد قرأت وفهمت وقبلت شروط الاستخدام هذه (يشار إليها فيما بعد بـ \"الشروط\") كالأحكام الحاكمة لوصولك واستخدامك للمنصة والخدمة، وتوافق على الالتزام بها. إذا لم تقبل أو توافق على الالتزام بهذه الشروط، يجب عليك عدم استخدام هذه المنصة. بالإضافة إلى ذلك، عند استخدام أي جزء من الخدمة، فإنك توافق على الامتثال لأي إرشادات سارية لتلك الخدمة، والتي قد يتم تغييرها أو تحديثها من وقت لآخر وفقًا لتقديرنا.",
+
+      "company_description": "تُبرم هذه الشروط بين ترو دار لإدارة التسويق ذ.م.م (يشار إليها فيما بعد بـ \"نحن\"، \"لنا\"، \"الشركة\"، حسب الاقتضاء) والمستخدم (يشار إليه فيما بعد بـ \"أنت\"، \"لك\"، \"المستخدم\"). توفر الشركة خدمات وأدوات تسويقية لوكلاء العقارات والشركات العقارية وتساعد الباحثين عن العقارات في العثور على عقارات مناسبة من خلال منصة متكاملة."
+    },
+    "definitions": {
+      "title": "1. التعريفات",
+      "terms": [
+        {
+          "id": "1.1",
+          "term": "ترو دار",
+          "definition": "تعني ترو دار لإدارة التسويق ذ.م.م، مالك موقع <link>www.truedar.ae</link>، ويقع مكتبها المسجل في دبي، الإمارات العربية المتحدة."
+        },
+        {
+          "id": "1.2",
+          "term": "الشركات التابعة",
+          "definition": "تشير إلى أي كيان أو وحدة أعمال مرتبطة بترو دار تشارك في تقديم الخدمات."
+        },
+        {
+          "id": "1.3",
+          "term": "اتفاقية الإعلان",
+          "definition": "تعني الاتفاقية لتقديم منتجات أو خدمات إعلانية تُبرم بين الشركة والعميل."
+        },
+        {
+          "id": "1.4",
+          "term": "العضويات",
+          "definition": "مجموعة من خدمات أو ميزات العضوية التي توافق الشركة على تقديمها للمشترك عند الاشتراك ودفع المبلغ المطلوب، وفقًا لهذه الشروط وشروط اتفاقية العضوية. تشمل العضويات أنواعًا مختلفة."
+        },
+        {
+          "id": "1.5",
+          "term": "العميل",
+          "definition": "تعني الطرف العميل في اتفاقية الإعلان."
+        },
+        {
+          "id": "1.6",
+          "term": "الزبون",
+          "definition": "تعني أي زبون للعميل."
+        },
+        {
+          "id": "1.7",
+          "term": "حقوق الملكية الفكرية",
+          "definition": "تعني جميع حقوق الملكية الفكرية، بما في ذلك براءات الاختراع، العلامات التجارية، الشهرة، حقوق قواعد البيانات، حقوق البيانات، حقوق التصميم، حقوق التأليف والنشر، الحقوق الطبوغرافية (سواء كانت مسجلة أم لا، بما في ذلك الطلبات والحق في التقدم بطلب لتسجيل أي من هذه الحقوق)، وجميع الاختراعات، المعرفة الفنية، الأسرار التجارية، المعلومات السرية، قوائم المشترين والموردين، والخبرات والمعلومات الملكية الأخرى، وجميع الحقوق بموجب التراخيص والموافقات فيما يتعلق بأي من هذه الحقوق، وجميع الحقوق وأشكال الحماية ذات الطبيعة المماثلة أو التي لها تأثير مكافئ أو مشابه لهذه الحقوق، والتي قد توجد في أي مكان في العالم، طوال مدة سريانها، بما في ذلك أي تجديدات وتوسعات."
+        },
+        {
+          "id": "1.8",
+          "term": "الميزات التفاعلية",
+          "definition": "تعني أي خدمات تفاعلية متاحة على المنصة."
+        },
+        {
+          "id": "1.9",
+          "term": "المواد",
+          "definition": "تعني المواد والمحتوى المنشور على المنصة أو الذي توفره الشركة بخلاف ذلك فيما يتعلق بالخدمة."
+        },
+        {
+          "id": "1.10",
+          "term": "وكلاء النشر",
+          "definition": "تعني وكيل أو مزود خدمة أو وسيط ينشر مواد في الخدمة نيابة عن الآخرين."
+        },
+        {
+          "id": "1.11",
+          "term": "سياسة الخصوصية",
+          "definition": "تعني سياسة الخصوصية الحالية للشركة."
+        },
+        {
+          "id": "1.12",
+          "term": "المنتج",
+          "definition": "يعني منصة إعلانات مصنفة عبر الإنترنت متاحة على المنصة، بما في ذلك حزم العضوية المختلفة."
+        },
+        {
+          "id": "1.13",
+          "term": "بيانات التسجيل",
+          "definition": "تعني البيانات المطلوبة من المستخدم عند التسجيل على المنصة من وقت لآخر (مثل أرقام الهواتف، عناوين البريد الإلكتروني، العمر، و/أو العنوان)."
+        },
+        {
+          "id": "1.14",
+          "term": "الخدمة",
+          "definition": "تعني توفير المنصة، المنتج، والميزات التفاعلية."
+        },
+        {
+          "id": "1.15",
+          "term": "المواد غير المقبولة",
+          "definition": "تعني أي مواد أو معلومات يتم رفعها أو جعلها متاحة على المنصة والتي يمكن اعتبارها بموجب قانون أي إقليم يمكن الوصول إليه من المنصة كمحتوى:",
+          "subcategories": [
+            "1.15.1. غير قانوني، غير مشروع، غير لائق، عنصري، مسيء، إباحي، محتوى جنسي يتعلق بالأطفال، تشهيري، كاذب، غير موثوق، مضلل، ضار، قد يكون ضارًا بالقاصرين، تهديدي، افترائي، يُزعم أنه افترائي، ينتهك حقوق الآخرين (من أي طبيعة، بما في ذلك، على سبيل المثال لا الحصر، أي حقوق ملكية فكرية)، ينتهك خصوصية شخص آخر أو حقوق أخرى، يتعلق بغسيل الأموال أو القمار غير القانوني، أو يشجع على مثل هذه الأنشطة؛",
+            "1.15.2. ينتهك أي لوائح أو معايير أو قواعد سلوك معمول بها (حتى لو لم يكن الالتزام بها إلزاميًا)؛",
+            "1.15.3. يخرق أي تشريع، بما في ذلك، على سبيل المثال لا الحصر، التشريعات المتعلقة بالأسلحة أو الحيوانات أو المشروبات الكحولية؛ أو",
+            "1.15.4. يضر بسمعة الشركة."
+          ]
+        },
+        {
+          "id": "1.16",
+          "term": "مواد المستخدم",
+          "definition": "تعني المواد والمحتوى الذي ينشره المستخدم على المنصة أو يوفره المستخدم لترو دار بخلاف ذلك فيما يتعلق بالمنصة أو الخدمة."
+        }
+      ]
+    },
+    "general_terms": {
+      "title": "الشروط والأحكام العامة المطبقة على المستخدمين",
+      "sections": [
+        {
+          "id": "2.1",
+          "title": "بيانات التسجيل",
+          "content": "عند التسجيل على هذه المنصة، يجب على المستخدم تقديم بيانات تسجيل دقيقة وحديثة وكاملة ويجب تحديثها بعد أي تغييرات (باستثناء العمر) قبل استخدام المنصة للحصول على خدمات إضافية في المستقبل."
+        },
+        {
+          "id": "2.2",
+          "title": "الإعلانات",
+          "content": "يوافق المستخدم ويقر بأن المنصة قد تحتوي على إعلانات يضعها المعلنون أو الشركات العقارية (التي تتنصل الشركة من أي مسؤولية عنها). يجب على المعلنين أو الشركات التي تستخدم المنصة أو الخدمة لوضع إعلانات عقارية أو إعلانات خدمات عقارية أن تتضمن أسماءهم الكاملة في الإعلان وتوضيح أنهم يبيعون عقارات في سياق الأعمال، إما من خلال محتوى الإعلان، أو شكله، أو حجمه، أو مكانه، أو من خلال تضمين كلمات مثل \"عقارات\"، \"وكيل\"، \"شركة عقارية\"، أو مصطلحات مشابهة في اسم الإعلان المقدم للنشر."
+        },
+        {
+          "id": "2.3",
+          "title": "عمر المستخدم",
+          "content": "يضمن المستخدم ويؤكد للشركة أنه يبلغ من العمر ثمانية عشر عامًا على الأقل ولديه القدرة القانونية لإبرام العقود."
+        },
+        {
+          "id": "2.4",
+          "title": "إزالة المواد",
+          "content": "تحتفظ الشركة بالحق في إزالة أي مواد أو مواد مستخدم من المنصة دون إشعار مسبق ورفض أي مواد مستخدم يتم إرسالها أو نشرها إلى الشركة من قبل المستخدم."
+        },
+        {
+          "id": "2.5",
+          "title": "تسجيل البيانات",
+          "content": "سيتم تسجيل بيانات تسجيل المستخدم وبيانات تتعلق باستخدامه للمنصة وأي ميزات تفاعلية من قبل الشركة، ولكن لن يتم الكشف عن هذه المعلومات لأطراف ثالثة (إلا في شكل مجمع ومجهول أو وفقًا لسياسة الخصوصية أو البند 2.6 أدناه) ولن تُستخدم لأي غرض غير متعلق بالمنصة أو الميزات التفاعلية ذات الصلة. من خلال الموافقة على هذه الشروط، فإنك تسمح لنا صراحةً بالتحقق من بياناتك عن طريق التواصل معك على رقم الهاتف المقدم لنا. قد يتم تسجيل المكالمات لأغراض ضمان الجودة."
+        },
+        {
+          "id": "2.6",
+          "title": "استخدام المعلومات",
+          "content": "يخول المستخدم الشركة لاستخدام أي معلومات يتم تقديمها إلى المنصة لإبلاغ المستخدم بالعروض الخاصة وعروض الآخرين من وقت لآخر ولأغراض تسويقية ومتعلقة أخرى. وفقًا للبند 2.5 أعلاه، لن تستخدم الشركة بيانات المستخدم لأي أغراض أخرى باستثناء ما هو مذكور في هذه الشروط، باستثناء أن الشركة قد تكشف عن هذه البيانات إذا طُلب منها ذلك بموجب القانون، أو بناءً على طلب من جهة إنفاذ القانون أو السلطة الحكومية."
+        },
+        {
+          "id": "2.7",
+          "title": "الانسحاب",
+          "content": "إذا لم يرغب المستخدم أن تستخدم الشركة معلوماته كما هو موضح في البند 2.6 أعلاه، يجب عليه مغادرة المنصة قبل تقديم بياناته الشخصية."
+        },
+        {
+          "id": "2.8",
+          "title": "إلغاء الاشتراك في البريد الإلكتروني",
+          "content": "إذا لم يرغب المستخدم أن تستخدم الشركة عنوان بريده الإلكتروني أو رقم هاتفه المحمول/الرسائل النصية لإرسال معلومات تتعلق بالمنصة ومسائل ذات صلة، يجب عليه إرسال بريد إلكتروني إلى <link>legal@truedar.ae</link> وتضمين \"إلغاء الاشتراك\" كموضوع للرسالة."
+        },
+        {
+          "id": "2.9",
+          "title": "سرية المستخدم",
+          "content": "يجب عليك الحفاظ على سرية أي بيانات تعريف المستخدم وكلمة المرور التي تم إعدادها أو تقديمها لك كجزء من إجراءاتنا الأمنية، ويجب عليك عدم الكشف عنها لأي طرف ثالث."
+        },
+        {
+          "id": "2.10",
+          "title": "تعليق أو إنهاء الحساب",
+          "content": "تحتفظ الشركة بالحق في تعليق أو إنهاء حساب المستخدم إذا قررت، وفقًا لتقديرها الخاص، أن المستخدم قد انتهك هذه الشروط أو إذا اعتُبر هذا التعليق أو الإنهاء مناسبًا بخلاف ذلك. في حالة هذا التعليق أو الإنهاء، ستقوم الشركة بإخطار المستخدم عبر البريد الإلكتروني، ويجب على المستخدم عدم محاولة إعادة التسجيل على المنصة من خلال كيان ذي صلة، سواء بشكل مباشر أو غير مباشر. لا تؤثر حقوق الشركة بموجب هذا البند 2.10 على أي حق أو تعويض آخر قد تسعى إليه الشركة فيما يتعلق بأي انتهاك أو أي حقوق أو التزامات أو مسؤوليات تنشأ قبل هذا التعليق أو الإنهاء."
+        },
+        {
+          "id": "2.11",
+          "title": "تقديم الخدمة",
+          "content": "لتلافي أي شك، تقدم الشركة خدمة ولا تقوم بتوريد السلع."
+        },
+        {
+          "id": "2.12",
+          "title": "حقوق الملكية الفكرية",
+          "content": "تمتلك ترو دار جميع حقوق الملكية الفكرية المرتبطة بالمنصة والخدمة، بما في ذلك على سبيل المثال لا الحصر أي علامات تجارية، أسماء تجارية، تصاميم، نصوص، رسومات، واختيارها وترتيبها. لا يجوز تفسير أي شيء موجود على المنصة على أنه يمنح، ضمنيًا أو غير ذلك، أي ترخيص أو حق لاستخدام أي علامة تجارية معروضة على المنصة دون إذن كتابي منا. يمكنك طباعة نسخة واحدة، وتنزيل مقتطفات من أي صفحة (صفحات) من المنصة لاستخدامك الشخصي ولفت انتباه الآخرين إلى المحتوى المنشور على المنصة. ومع ذلك، يجب عليك عدم تعديل النسخ الرقمية أو الورقية لأي مواد قمت بطباعتها أو تنزيلها بأي شكل من الأشكال، ويجب عليك عدم استخدام أي صور فوتوغرافية أو فيديو أو تسلسلات صوتية بشكل منفصل عن أي نص مرافق. أنت توافق على عدم التحايل أو تعطيل أو التدخل بأي شكل آخر في أي ميزات متعلقة بالأمان في المنصة أو الميزات التي تمنع أو تقيد استخدام أو نسخ أي مواد أو تفرض قيودًا على استخدام المنصة أو المواد الموجودة فيها. المواد المعروضة في أو من خلال الخدمة محمية بحقوق التأليف والنشر كعمل جماعي و/أو تجميع، وفقًا لقوانين حقوق التأليف والنشر والقوانين الأخرى والاتفاقيات الدولية. يُمنع صراحةً إعادة الإنتاج، النسخ، التعديل، إنشاء أعمال مشتقة، أو إعادة توزيع المنصة أو المواد أو العمل الجماعي أو التجميع. يُمنع صراحةً نسخ أو إعادة إنتاج المنصة أو المواد أو أي جزء منها لإعادة إنتاج أو توزيع إضافي."
+        },
+        {
+          "id": "2.13",
+          "title": "انتهاك الملكية الفكرية",
+          "content": "تأخذ الشركة انتهاك حقوق الملكية الفكرية المبلغ عنها والفعلية والاحتيال على محمل الجد، وعلى الرغم من أن المستخدمين لا يمكنهم تحميل الشركة مسؤولية هذه المشكلات، تطلب الشركة من جميع المستخدمين الإبلاغ عن هذه الأمور على الفور إلى الشركة، والتي ستقوم بدورها بإخطار السلطات المختصة."
+        },
+        {
+          "id": "2.14",
+          "title": "إشعار الانتهاك",
+          "content": "إذا كنت مالكًا لحقوق الملكية الفكرية أو وكيلًا مخولًا للتصرف نيابة عن مالك حقوق الملكية الفكرية وتعتقد أن أي مواد أو محتوى آخر ينتهك حقوق الملكية الفكرية الخاصة بك أو حقوق الملكية الفكرية للمالك الذي تم تفويضك للتصرف نيابة عنه، يمكنك إرسال إشعار إلى الشركة تطلب إزالة المواد المعنية بحسن نية. يجب أن يتضمن الإشعار والطلب المعلومات التالية: توقيع مادي أو إلكتروني للشخص المخول للتصرف نيابة عن مالك الحق الحصري الذي يُزعم أنه تم انتهاكه؛ تحديد حقوق الملكية الفكرية التي يُزعم أنها تم انتهاكها، أو، إذا كانت حقوق ملكية فكرية متعددة مشمولة بإشعار واحد، قائمة تمثيلية لهذه الأعمال؛ تحديد المواد (عن طريق البيانات أو رابط الاتصال، إلخ) التي يُزعم أنها تنتهك أو تخضع لنشاط انتهاك، ومعلومات كافية بشكل معقول للسماح للشركة بتحديد مكان المواد؛ معلومات كافية بشكل معقول للسماح للشركة بالتواصل معك، مثل العنوان، رقم الهاتف، وعنوان البريد الإلكتروني؛ بيان موقع عليه أنك تعتقد بحسن نية أن استخدام المواد بالطريقة التي تم الشكوى منها غير مصرح به من قبل مالك حقوق الملكية الفكرية أو وكيله أو القانون؛ بيان موقع عليه أن مالك حقوق الملكية الفكرية سيعوض الشركة عن أي مطالبات من طرف ثالث تتعلق بإزالة الشركة للمحتوى المعني؛ وبيان موقع عليه أن المعلومات في الإشعار دقيقة وأنك مخول للتصرف نيابة عن مالك الحق الحصري الذي يُزعم أنه تم انتهاكه، تحت طائلة عقوبة الحنث باليمين. يجب إرسال جميع الإشعارات بموجب البنود 2.13 و 2.14 إلى <link>legal@truedar.ae</link>"
+        },
+        {
+          "id": "2.15",
+          "title": "التغذية الراجعة",
+          "content": "سيتم دعوة المستخدمين لإرسال تغذية راجعة بشأن نزاهة وأداء المستخدمين الآخرين إلى بريد الشركة الإلكتروني."
+        }
+      ]
+    },
+    "restrictions": {
+      "title": "القيود العامة على الاستخدام",
+      "sections": [
+        {
+          "id": "3.1",
+          "title": "الاستخدام غير القانوني",
+          "content": "يجب ألا تستخدم المنصة أو الخدمة بأي طريقة غير قانونية، أو لأي غرض غير قانوني، أو بأي طريقة لا تتفق مع هذه الشروط، أو تتصرف بشكل احتيالي أو خبيث، على سبيل المثال، عن طريق القرصنة أو إدخال رمز خبيث، فيروسات، أحصنة طروادة، ديدان، قنابل زمنية، برامج تسجيل المفاتيح، برامج التجسس، البرامج الإعلانية، أو بيانات أو برامج ضارة أخرى أو رمز مشابه مصمم للتأثير سلبًا على تشغيل أي برامج أو أجهزة كمبيوتر، منصة، أي خدمة، أو أي نظام تشغيل."
+        },
+        {
+          "id": "3.2",
+          "title": "المواد المزعجة",
+          "content": "يجب ألا تنشر أي مواد مصممة لتعطيل أو تدمير أو تقييد وظائف المنصة أو الخدمة."
+        },
+        {
+          "id": "3.3",
+          "title": "الأدوات الآلية",
+          "content": "استخدام أي شكل من الأجهزة الآلية أو برامج الكمبيوتر (يشار إليها أحيانًا بـ \"أدوات وضع علامات على المحتوى\") التي تمكن من استخدام نظام \"وضع العلامات\" الخاص بالشركة أو أنظمة التحكم المجتمعية الأخرى دون أن يتم إدخال كل علامة يدويًا بواسطة إنسان يبدأ العلامة (\"جهاز وضع علامات آلي\")، أو استخدام أي أداة وضع علامات لإزالة منشورات المنافسين أو الآخرين، أو لإزالة المنشورات دون اعتقاد معقول بحسن نية بأن المنشور الذي يتم وضع علامة عليه ينتهك هذه الشروط أو أي قانون أو تنظيم معمول به."
+        },
+        {
+          "id": "3.4",
+          "title": "العرض الآلي",
+          "content": "يجب ألا تستخدم أي برامج آلية لعرض الخدمة دون موافقتنا (بما في ذلك استخدام العناكب، الروبوتات، الزواحف، أدوات استخراج البيانات، أو أدوات مشابهة لتنزيل أو كشط البيانات من الخدمة، باستثناء محركات البحث العامة (مثل جوجل) والأرشيفات العامة غير التجارية (مثل archive.org) التي تتوافق مع ملف robots.txt الخاص بنا) والوصول إلى الخدمة يدويًا فقط."
+        },
+        {
+          "id": "3.5",
+          "title": "الاستخدام الشخصي",
+          "content": "يجب ألا تستخدم الخدمة لأي غرض بخلاف الاستخدام الشخصي أو تتصرف كوكيل لإدراج عقارات للبيع أو الإيجار."
+        },
+        {
+          "id": "3.6",
+          "title": "النسخ غير المصرح به",
+          "content": "يجب ألا تحاول نسخ أي مواد أو إجراء هندسة عكسية لأي عمليات دون موافقة الشركة."
+        },
+        {
+          "id": "3.7",
+          "title": "الاستخدام غير القانوني أو الضار",
+          "content": "يجب ألا تستخدم أي جزء من الخدمة بطريقة غير قانونية أو غير أخلاقية أو ضارة بترو دار."
+        },
+        {
+          "id": "3.8",
+          "title": "انتهاك السياسة",
+          "content": "يجب ألا تستخدم أي جزء من الخدمة بطريقة تنتهك أي سياسة أو إشعار على المنصة."
+        },
+        {
+          "id": "3.9",
+          "title": "إشعارات حقوق التأليف والنشر",
+          "content": "يجب ألا تزيل أو تغير أي إشعارات حقوق التأليف والنشر التي تظهر على المنصة."
+        },
+        {
+          "id": "3.10",
+          "title": "المواد غير المقبولة",
+          "content": "يجب ألا تنشر أي مواد غير مقبولة أو أي مواد قد تشجع على انتهاك أي قوانين أو لوائح معمول بها."
+        },
+        {
+          "id": "3.11",
+          "title": "التدخل",
+          "content": "يجب ألا تتدخل في قدرة أي مستخدم آخر على الاستمتاع بالمنصة أو الخدمة."
+        },
+        {
+          "id": "3.12",
+          "title": "السلوك المسيء",
+          "content": "يجب ألا تتصرف بطريقة مسيئة أو ضارة أثناء استخدام المنصة أو الخدمة."
+        },
+        {
+          "id": "3.13",
+          "title": "الاتصال غير المرغوب فيه",
+          "content": "يجب ألا تتصل بأي شخص طلب عدم الاتصال به أو تقوم بالاتصال غير المرغوب فيه بأي شخص لأي غرض تجاري، على وجه التحديد، يجب ألا تتصل بأي مستخدم لنشر إعلان على منصة طرف ثالث أو تنشر أي إعلان نيابة عن هذا المستخدم."
+        },
+        {
+          "id": "3.14",
+          "title": "الملاحقة أو التحرش",
+          "content": "يجب ألا تقوم بـ \"الملاحقة\" أو التحرش بأي شخص."
+        },
+        {
+          "id": "3.15",
+          "title": "المعلومات الشخصية",
+          "content": "يجب ألا تجمع معلومات شخصية عن مستخدمين أو كيانات أخرى لأغراض تجارية أو غير قانونية."
+        },
+        {
+          "id": "3.16",
+          "title": "مواد المستخدم المحظورة",
+          "content": "يجب ألا تنشر أي مواد مستخدم تتضمن: مضايقة، إساءة، أو تهديدات ضد أي فرد أو مجموعة أفراد بناءً على الدين، الجنس، التوجه الجنسي، العرق، الإثنية، العمر، أو الإعاقة؛ معلومات شخصية أو تعريفية لشخص آخر دون موافقة صريحة من ذلك الشخص؛ انتحال شخصية أي شخص أو كيان، بما في ذلك، على سبيل المثال لا الحصر، موظف في الشركة، أو الإدلاء ببيان كاذب أو تحريف ارتباطك بشخص أو كيان؛ معلومات محمية بحقوق التأليف والنشر، براءة الاختراع، السر التجاري، العلامة التجارية، أو غيرها من حقوق الملكية، بما في ذلك حقوق الخصوصية وحقوق الدعاية، ما لم تكن تملك تلك الحقوق أو لديك إذن أو ترخيص من مالكها الشرعي لنشر المواد ومنح الشركة جميع حقوق الترخيص الممنوحة هنا؛ انتهاك أي من حقوق الملكية الفكرية المذكورة أعلاه لأي طرف، أو مواد مستخدم لا تملك الحق في جعلها متاحة بموجب أي قانون أو علاقات تعاقدية أو ائتمانية؛ معلومات تشكل أو تحتوي على \"مخططات هرمية\"، \"نكات\"، \"تسويق تابع\"، \"ربط رموز إحالات العملاء\"، \"بريد عشوائي\"، \"بريد غير مرغوب فيه\"، \"رسائل متسلسلة\"، \"تسويق خادع\"، \"تسويق يعتمد على خيارات سلبية\"، \"تسويق متعدد المستويات\"، أو إعلانات تجارية غير مرغوب فيها؛ يشكل أو يحتوي على أي شكل من الإعلانات أو التماس إذا: (1) تم نشره في مناطق أو فئات من المنصة غير المخصصة لهذه الأغراض؛ أو (2) تم إرساله عبر البريد الإلكتروني إلى مستخدمي الشركة الذين طلبوا عدم الاتصال بهم بشأن خدمات أو منتجات أو مصالح تجارية أخرى؛ يتضمن روابط إلى خدمات تجارية أو منصات طرف ثالث، باستثناء ما يسمح به الشركة صراحةً."
+        },
+        {
+          "id": "3.17",
+          "title": "التدخل في المنصة",
+          "content": "يجب ألا تصل إلى المنصة أو تتدخل فيها أو تتسبب في ضرر أو تعطيل: أي جزء من المنصة؛ أي معدات أو شبكات يتم تخزين المنصة عليها؛ أي برامج تُستخدم في توفير المنصة؛ أي معدات أو شبكات أو برامج تملكها أو تستخدمها أطراف ثالثة."
+        },
+        {
+          "id": "3.18",
+          "title": "ترخيص مواد المستخدم",
+          "content": "من خلال تقديم مواد المستخدم على المنصة أو بخلاف ذلك، فإنك تمنح ترو دار ترخيصًا خاليًا من الرسوم، دائمًا، غير قابل للإلغاء، وغير حصري لاستخدام، إعادة إنتاج، توزيع، عرض، تعديل، وتحرير مواد المستخدم. لن تدفع ترو دار أي رسوم من أي نوع مقابل مواد المستخدم، وتحتفظ بالحق، وفقًا لتقديرها الخاص، في إزالة أو تعديل مواد المستخدم في أي وقت. أنت تضمن وتؤكد أن لديك جميع الحقوق والموافقات و/أو التفويضات المتعلقة بمواد المستخدم اللازمة لمنح ترو دار هذه الحقوق."
+        }
+      ]
+    },
+    "paid_listing_slots": {
+      "id": "4",
+      "title": "فتحات الإدراج المدفوعة",
+      "content": "تقدم الشركة خطط عضوية متنوعة تتضمن عددًا محددًا من فتحات الإدراج وميزات إضافية. تتيح كل خطة عضوية للمستخدم نشر مواد في مناطق مخصصة من المنصة وفقًا لشروط الخطة المختارة. كل طرف ينشر مواد باستخدام فتحات الإدراج بموجب عضويته مسؤول عن المحتوى وعن الالتزام بهذه الشروط. رسوم العضوية غير قابلة للاسترداد، حتى إذا تمت إزالة المواد من الخدمة بسبب انتهاك هذه الشروط. سيتم ذكر الشروط الإضافية المتعلقة بفتحات الإدراج المدفوعة في الصندوق (الصناديق) المعمول بها."
+    },
+    "publishing_agents": {
+      "id": "5",
+      "title": "وكلاء النشر",
+      "content": "تحظر الشركة استخدام وكلاء نشر غير مصرح بهم، بشكل مباشر أو غير مباشر، دون إذن كتابي صريح من الشركة. يُسمح للوكلاء أو الشركات المصرح لها بعضوية صالحة بنشر المواد على المنصة وفقًا لشروط عضويتهم. ومع ذلك، لا يُسمح لوكلاء النشر بنشر مواد نيابة عن الآخرين دون إذن كتابي صريح أو ترخيص من الشركة."
+    },
+    "anti_spam_policy": {
+      "id": "6",
+      "title": "سياسة مكافحة البريد العشوائي",
+      "content": "أنت تفهم وتوافق على أن إرسال إعلانات غير مرغوب فيها أو اتصالات أخرى غير مرغوب فيها إلى عناوين البريد الإلكتروني للشركة أو من خلال أنظمة الكمبيوتر الخاصة بالشركة ممنوع صراحةً بموجب هذه الشروط. أنت تقر وتوافق على أن الشركة قد تراقب استخدام اتصالات البريد الإلكتروني باستخدام مراقبين بشريين أو برامج آلية لتحديد كلمات معينة مرتبطة بالبريد العشوائي أو الاحتيال التي تُرسل بين مستخدم وآخر في نظام البريد الإلكتروني للشركة. يجب استخدام أي اتصال بينك وبين أي مستخدم آخر يستخدم ميزات الاتصال المتاحة على الخدمة والمنصة وفقًا لهذه الشروط فقط. أي استخدام غير مصرح به لأنظمة الكمبيوتر الخاصة بالشركة يعد انتهاكًا لهذه الشروط وبعض القوانين المعمول بها، بما في ذلك قوانين دولة الإمارات العربية المتحدة المتعلقة بالجرائم الإلكترونية. قد تعرض هذه الانتهاكات المرسل ووكلاءه لعقوبات مدنية وجنائية. يرجى العلم أن قوانين الجرائم الإلكترونية في الإمارات تحمل عقوبات كبيرة، بما في ذلك السجن. إذا كنت تنوي التواصل مع مستخدمينا عن طريق الحصول على عناوين بريدهم الإلكتروني أو أرقام هواتفهم من منصتنا، فقد نبلغ عن هذا السلوك إلى السلطات المختصة، التي قد تقرر بعد ذلك مقاضاتك بموجب القوانين الإماراتية المعمول بها."
+    },
+    "limitation_of_liability": {
+      "id": "7",
+      "title": "تقليص المسؤولية",
+      "content": "لا تتحمل الشركة المسؤولية عن أي من الأمور التالية:",
+      "items": [
+        "الخسائر أو الأضرار التبعية أو غير المباشرة أو الخاصة (حتى لو تم إبلاغ الشركة بإمكانية حدوث مثل هذه الخسائر أو الأضرار)؛",
+        "خسارة الأرباح؛",
+        "خسارة الأعمال؛",
+        "خسارة الإيرادات؛",
+        "خسارة أو تلف البيانات؛",
+        "خسارة الإنتاج؛",
+        "خسارة العقود؛",
+        "خسارة الفرص؛",
+        "خسارة المدخرات أو الخصومات (سواء كانت فعلية أو متوقعة)؛",
+        "الضرر بسمعة أو خسارة الشهرة؛",
+        "خسارة المدخرات المتوقعة (في حالة البنود من 7.1.1 إلى 7.1.12، سواء بشكل مباشر أو غير مباشر، مهما كانت معاناة أي مستخدم وناشئة عن أو فيما يتعلق بهذه الشروط أو أي مسؤولية للمستخدم تجاه أي طرف ثالث)."
+      ]
+    },
+    "remedies": {
+      "id": "8",
+      "title": "التعويضات",
+      "content": "أنت توافق على الدفاع عن الشركة، ترو دار، ومسؤوليها، الشركات التابعة، الخلفاء، الوكلاء، مزودي الخدمات، الموردين، والموظفين، وتعويضهم وحمايتهم من وضد أي وجميع المطالبات، الأضرار، الالتزامات، الخسائر (سواء كانت مباشرة، غير مباشرة، أو تبعية)، التكاليف، أو الديون والنفقات (بما في ذلك على سبيل المثال لا الحصر أتعاب المحامين) الناشئة عن:",
+      "items": [
+        "استخدامك غير السليم أو عدم قدرتك على استخدام المنصة أو الخدمة،",
+        "خرقك لأي من هذه الشروط، و",
+        "انتهاكك لأي حقوق طرف ثالث، بما في ذلك على سبيل المثال لا الحصر أي حقوق تأليف ونشر، علامة تجارية، سر تجاري، أو غيرها من حقوق الملكية الفكرية أو الخصوصية."
+      ],
+      "additional_content": "إلى الحد الذي يسمح به القانون، ستظل التزامات الدفاع والتعويض سارية بعد إنهاء أو تعديل هذه الشروط واستخدامك للمنصة والخدمة."
+    },
+    "real_estate_categories": {
+      "id": "9",
+      "title": "فئات العقارات للبيع والإيجار على المنصة",
+      "categories": [
+        {
+          "id": "9.1",
+          "title": "الوكلاء",
+          "requirements": [
+            "أنت تضمن أنك تملك ترخيصًا صالحًا من الهيئة العامة للتأمين العقاري (RERA) أو ما يعادلها في الإمارة التي تعلن فيها.",
+            "إذا كان المشروع قيد الإنشاء (خارج الخطة)، فأنت تضمن أن المشروع مسجل لدى الهيئة العامة للتأمين العقاري.",
+            "إذا كنت تشارك في أنشطة التأجير الفرعي، فأنت تضمن أنك تملك ترخيص نشاط \"تأجير وإدارة ممتلكات الآخرين\" من كل من دائرة التنمية الاقتصادية في دبي والهيئة العامة للتأمين العقاري.",
+            "إذا كنت تشارك في تأجير المنازل أو العطلات قصيرة الأجل، فأنت تضمن أنك تملك ترخيص نشاط من دائرة السياحة وتسويق التجارة في دبي.",
+            "وفقًا لتشريعات الهيئة العامة للتأمين العقاري، يجب عليك الحصول على موافقة لكل إعلان بيع أو تأجير (سواء داخل أو خارج دبي) وعرض رقم تصريح RERA، ورقم تسجيل المكتب، ورقم تسجيل الوسيط على جميع الإعلانات."
+          ]
+        },
+        {
+          "id": "9.2",
+          "title": "المطورون",
+          "requirements": [
+            "أنت تضمن أنك تملك ترخيصًا صالحًا من الهيئة العامة للتأمين العقاري أو ما يعادلها في الإمارة التي تعلن فيها.",
+            "إذا كان المشروع قيد الإنشاء (خارج الخطة)، فأنت تضمن أنه مسجل لدى الهيئة العامة للتأمين العقاري ولديه حساب ضمان معتمد من الهيئة العامة للتأمين العقاري للمشروع.",
+            "وفقًا لتشريعات الهيئة العامة للتأمين العقاري، يجب عليك الحصول على موافقة لكل إعلان عقاري (سواء داخل أو خارج دبي) وعرض رقم تصريح RERA على جميع الإعلانات."
+          ]
+        },
+        {
+          "id": "9.3",
+          "title": "أصحاب العقارات والملاك",
+          "requirements": [
+            "أنت تضمن أنك مالك العقار أو المالك، أو لديك تفويض صالح لإدراج العقار على المنصة.",
+            "إذا كنت تشارك في تأجير المنازل أو العطلات قصيرة الأجل، فأنت تضمن أنك تملك ترخيص نشاط من دائرة السياحة وتسويق التجارة في دبي."
+          ]
+        },
+        {
+          "id": "9.4",
+          "title": "المستأجرون",
+          "requirements": [
+            "أنت تضمن أن لديك موافقة كتابية صالحة من مالك العقار قبل الإعلان على المنصة وأن لديك الحق القانوني لنشر هذا الإعلان."
+          ]
+        },
+        {
+          "id": "9.5",
+          "title": "جميع المعلنين",
+          "requirements": [
+            "يجوز لك فقط الإعلان عن العقارات المتاحة حاليًا للبيع أو الإيجار. نحتفظ بالحق، وفقًا لتقديرنا، في إزالة أي إدراجات لا تتوافق مع شروطنا وأحكامنا. لن يتم استرداد الرسوم في حالة هذه الإزالات.",
+            "أنت تضمن أن الإعلان لا يحتوي على أي لغة غير قانونية أو استخدام غير قانوني للعقار.",
+            "إذا قمت بإدراج عقار على أي جزء من المنصة، تنطبق الالتزامات التالية:"
+          ],
+          "additional_obligations": [
+            "تتضمن إعلانات الشركة عقارات حقيقية للبيع أو الإيجار.",
+            "لا تتصرف الشركة كوكيل عقاري.",
+            "لا تتحقق الشركة من تفاصيل إدراج العقار المقدمة لنا من قبل أطراف ثالثة، ولا تضمن أو تكفل دقة أو اكتمالها.",
+            "أنت، كمستخدم للمنصة، يجب أن تجري العناية الواجبة ولا تعتمد على أي تفاصيل في الإعلانات.",
+            "لا تتحقق الشركة من رقم ترخيص RERA لجميع شركات الوساطة العقارية قبل السماح لها بالإعلان على المنصة."
+          ]
+        }
+      ]
+    },
+    "call_recording": {
+      "id": "10",
+      "title": "تسجيل المكالمات لوكلاء العقارات",
+      "content": "10.1 قد يشارك بعض وكلاء العقارات (الوكلاء) المرخصين من قبل الهيئة العامة للتأمين العقاري، الذين يعلنون على منصتنا، في خدمة يتم بموجبها تخصيص رقم هاتف يمكن تحديده بشكل فريد لكل إدراج عقاري، ويتم تسجيل المكالمة تلقائيًا لأغراض الجودة والتدريب. باستخدام الخدمة، فإنك توافق صراحةً على تسجيل مكالمتك الهاتفية عند التواصل مع وكيل بشأن إعلان في فئة العقارات على المنصة، وتوافق على أنه لا يلزم إشعار أو موافقة إضافية."
+    },
+    "memberships": {
+      "id": "11",
+      "title": "العضويات",
+      "content": "11.1. إذا كنت عميلاً، مشتريًا، أو أيًا من مسؤوليهم، مديريهم، موظفيهم، وكلائهم، مقاوليهم، مقاوليهم من الباطن، أو ممثليهم، تنطبق عليك الشروط الإضافية التالية:",
+      "terms": [
+        "يجوز للشركة نشر أي معلومات مقدمة أو متاحة للشركة من قبل العميل أو نيابة عنه على المنصة. يقر العميل ويوافق على أن الشركة ليست في خرق لأي التزامات بالسرية نتيجة نشر هذه المعلومات.",
+        "يجوز للشركة إجراء تغييرات تشغيلية على العضويات والمنتجات الفردية المدرجة في تلك الإعلانات في أي وقت. ستكون الشركة جهودًا معقولة لإخطار العملاء بالتغييرات الكبيرة عن طريق نشر رسالة على المنصة أو بإخطار العميل مباشرة.",
+        "مع مراعاة البند 7.12، لا تتجاوز مسؤولية الشركة في أي ظروف 20,000 درهم إماراتي فيما يتعلق بتوفير العضويات للعميل، بغض النظر عن سبب الدعوى والخسائر التي يتكبدها العميل."
+      ]
+    },
+    "general_provisions": {
+      "id": "12",
+      "title": "الأحكام العامة",
+      "sections": [
+        {
+          "id": "12.1",
+          "content": "مع مراعاة البند 6.2، تشكل هذه الشروط وسياسة الخصوصية وأي وثيقة أخرى مدمجة صراحةً هنا الاتفاقية الكاملة بينك وبين الشركة، ولا يعتمد أي من الطرفين على أي تمثيل قدمه الطرف الآخر ما لم يتم تضمين هذا التمثيل صراحةً في هذه الشروط. لا يوجد في هذا البند 12.1 ما يستثني المسؤولية عن التمثيل الاحتيالي، ولا يحق لأي طرف الحصول على أي تعويض عن الإهمال أو التمثيل غير الاحتيالي إلا بالقدر (إن وجد) الذي قد يسمح به المحكمة أو المحكم بالاعتماد على هذا التمثيل على أنه عادل ومعقول."
+        },
+        {
+          "id": "12.2",
+          "content": "تحتفظ الشركة بالحق في تغيير شروط أعمالها من وقت لآخر. يتم ذكر تاريخ السريان في وقت قراءة المستخدم لهذه الشروط في أعلى هذه الشروط. قبل استخدام المنصة مرة أخرى في المستقبل، يجب على المستخدمين التحقق من أن تاريخ السريان لم يتغير. إذا تغير، يجب على المستخدم مراجعة مجموعة الشروط والأحكام الجديدة واستخدام المنصة فقط إذا قبلوا الشروط والأحكام الجديدة. إذا لم تقبل هذه التغييرات، يجب عليك التوقف فورًا عن الوصول إلى المنصة واستخدام الخدمة."
+        }
+      ]
+    },
+    "contact_email": "<link>legal@truedar.ae</link>"
+  },
+  "privacy_policy": {
+    "title": "سياسة الخصوصية",
+    "effective_date": "1 يونيو 2024",
+    "introduction": {
+      "title": "المقدمة",
+      "company_name": "ترو دار لإدارة التسويق ذ.م.م",
+      "company_aliases": ["ترو دار", "نحن", "لنا"],
+      "description": "في ترو دار لإدارة التسويق ذ.م.م (\"ترو دار\"، \"نحن\"، \"لنا\")، حماية خصوصيتك هي أولويتنا. توضح سياسة الخصوصية هذه كيفية جمعنا واستخدامنا وحمايتنا لبياناتك الشخصية عند استخدامك لموقعنا الإلكتروني وتطبيقاتنا المحمولة (يشار إليها معًا بـ \"المنصة\"). من خلال الوصول إلى المنصة أو استخدامها، فإنك توافق على سياسة الخصوصية هذه."
+    },
+    "definitions": {
+      "title": "التعريفات",
+      "terms": [
+        {
+          "term": "البيانات الشخصية",
+          "definition": "معلومات عن فرد يمكن من خلالها تحديد هوية هذا الفرد بشكل مباشر أو يمكن تحديده. لا تتضمن البيانات المجهولة."
+        },
+        {
+          "term": "المنصة",
+          "definition": "تشير إلى موقع ترو دار الإلكتروني وتطبيقات الهاتف المحمول."
+        },
+        {
+          "term": "المعالجة",
+          "definition": "أي عملية تُجرى على البيانات الشخصية، مثل الجمع، الاستخدام، التخزين، والكشف."
+        }
+      ]
+    },
+    "contact_information": {
+      "title": "من نحن وكيفية التواصل معنا",
+      "content": "ترو دار لإدارة التسويق ذ.م.م هي المسؤولة عن المنصة وبياناتك الشخصية. يمكنك التواصل معنا عبر البريد الإلكتروني على"
+    },
+    "data_collection": {
+      "title": "جمع البيانات",
+      "description": "نقوم بجمع الأنواع التالية من البيانات الشخصية مباشرة منك:",
+      "data_types": [
+        {
+          "type": "بيانات الهوية",
+          "details": "تشمل اسمك، اسم المستخدم، صورة الملف الشخصي، الجنس، والعمر."
+        },
+        {
+          "type": "بيانات الاتصال",
+          "details": "تشمل عنوان بريدك الإلكتروني، العنوان الفعلي، وأرقام الهواتف."
+        },
+        {
+          "type": "بيانات الموقع",
+          "details": "بيانات الموقع التقريبي لتحسين تجربة البحث عن العقارات."
+        },
+        {
+          "type": "بيانات العقار",
+          "details": "معلومات عن العقارات التي تدرجها، مثل الصور، مقاطع الفيديو، الأسعار، والأوصاف."
+        },
+        {
+          "type": "بيانات الدفع",
+          "details": "تفاصيل بطاقة الائتمان الجزئية للمعاملات (لا يتم الاحتفاظ بالتفاصيل الكاملة)."
+        },
+        {
+          "type": "بيانات الدردشة",
+          "details": "الرسائل المتبادلة على المنصة."
+        },
+        {
+          "type": "بيانات السلوك",
+          "details": "رؤى مستمدة من أنماط استخدامك على المنصة."
+        },
+        {
+          "type": "البيانات التقنية",
+          "details": "عنوان IP، تفاصيل تسجيل الدخول، نوع المتصفح، نظام التشغيل، ومعلومات الجهاز."
+        }
+      ]
+    },
+    "third_party_data_sources": {
+      "title": "مصادر بيانات الطرف الثالث",
+      "description": "نجمع أيضًا البيانات الشخصية من مصادر أخرى:",
+      "sources": [
+        {
+          "source": "منصات التواصل الاجتماعي",
+          "details": "معلومات من حسابات التواصل الاجتماعي إذا تم ربطها."
+        },
+        {
+          "source": "مزودو التحليلات",
+          "details": "بيانات الاستخدام والتقنية من خدمات التحليلات."
+        },
+        {
+          "source": "المعلنون",
+          "details": "بيانات السلوك والتقنية من شركاء الإعلانات."
+        }
+      ]
+    },
+    "usage_of_personal_data": {
+      "title": "استخدام البيانات الشخصية",
+      "description": "نستخدم بياناتك الشخصية لأغراض متنوعة:",
+      "purposes": [
+        "إدارة الحساب: لإنشاء وإدارة حساب المستخدم الخاص بك.",
+        "وظائف المنصة: لتوفير خدماتنا وتحسينها وتسهيل التفاعلات بين المستخدمين.",
+        "البحث عن العقارات والاتصالات: لتمكين البحث عن العقارات وتسهيل التواصل بين المستخدمين.",
+        "الدفعات: لمعالجة المدفوعات بشكل آمن عبر معالجات طرف ثالث.",
+        "روبوت الدردشة الذكي: لتقديم المساعدة والمعلومات من خلال روبوت الدردشة المدعوم بالذكاء الاصطناعي.",
+        "التحليلات: لتحليل سلوك المستخدم واتجاهات السوق، مع ضمان إخفاء هوية البيانات.",
+        "التسويق: لإرسال محتوى ترويجي، بناءً على موافقتك.",
+        "استكشاف الأخطاء وإصلاحها: لتشخيص وإصلاح المشكلات التقنية.",
+        "الأمان: للحفاظ على سلامة ونزاهة منصتنا."
+      ]
+    },
+    "sharing_personal_data": {
+      "title": "مشاركة البيانات الشخصية",
+      "description": "قد نشارك بياناتك الشخصية مع:",
+      "recipients": [
+        "مستخدمون آخرون: لتسهيل التفاعلات والاتصالات.",
+        "المؤسسات المالية: إذا تقدمت بطلب للحصول على خدمات مالية.",
+        "مزودو الخدمات: الشركاء الذين يدعمون عملياتنا.",
+        "المستشارون المحترفون: الاستشاريون، المستشارون القانونيون، وشركات التأمين.",
+        "الجهات الحكومية: عندما يقتضي القانون.",
+        "نقل الأعمال: في حالة الاندماج، البيع، أو الاستحواذ."
+      ]
+    },
+    "international_data_transfers": {
+      "title": "نقل البيانات الدولي",
+      "content": "قد يتم نقل بياناتك إلى دول خارج بلد إقامتك. نحن نضمن أن تكون هذه التحويلات متوافقة مع قوانين حماية البيانات ذات الصلة."
+    },
+    "data_security": {
+      "title": "أمان البيانات",
+      "content": "ننفذ إجراءات أمنية قوية لحماية بياناتك الشخصية من الوصول غير المصرح به، التغيير، والفقدان. يقتصر الوصول على الأفراد المصرح لهم فقط."
+    },
+    "data_retention": {
+      "title": "الاحتفاظ بالبيانات",
+      "content": "نحتفظ ببياناتك الشخصية طالما كان ذلك ضروريًا للأغراض الموضحة أو كما يقتضي القانون. يمكن الاحتفاظ بالبيانات المجهولة إلى أجل غير مسمى."
+    },
+    "your_rights": {
+      "title": "حقوقك",
+      "description": "لديك الحقوق التالية بشأن بياناتك الشخصية:",
+      "rights": [
+        "الوصول: طلب نسخة من بياناتك الشخصية.",
+        "التصحيح: طلب تصحيح البيانات غير الدقيقة.",
+        "الحذف: طلب حذف بياناتك الشخصية.",
+        "الاعتراض: الاعتراض على معالجة البيانات.",
+        "النقل: طلب نقل بياناتك.",
+        "سحب الموافقة: سحب الموافقة حيثما ينطبق."
+      ],
+      "contact": "لممارسة هذه الحقوق، اتصل بنا على <link>privacy@truedar.ae</link>. قد يتطلب التحقق من هويتك."
+    },
+    "marketing_preferences": {
+      "title": "تفضيلات التسويق",
+      "content": "يمكنك إلغاء الاشتراك في الاتصالات التسويقية عن طريق ضبط إعداداتك على المنصة أو اتباع رابط إلغاء الاشتراك في رسائل البريد الإلكتروني."
+    },
+    "minors": {
+      "title": "القاصرون",
+      "content": "منصتنا غير مخصصة للمستخدمين دون سن 18 عامًا. إذا تم جمع بيانات قاصر، سنحذفها فورًا عند الإخطار."
+    },
+    "third_party_links": {
+      "title": "روابط الطرف الثالث",
+      "content": "قد تحتوي منصتنا على روابط لمواقع ويب خارجية. نحن لسنا مسؤولين عن ممارسات الخصوصية الخاصة بهم ونشجعك على مراجعة سياسات الخصوصية الخاصة بهم."
+    },
+    "policy_updates": {
+      "title": "تحديثات السياسة",
+      "content": "نحتفظ بالحق في تعديل سياسة الخصوصية هذه في أي وقت، مع أو بدون إشعار مسبق لك. ستظهر أي تغييرات على هذه الصفحة، وفي ظروف معينة، قد نُخطرك أيضًا (على سبيل المثال، عبر البريد الإلكتروني). ستكون التعديلات على سياسة الخصوصية سارية المفعول فور نشرها على هذه الصفحة."
+    },
+    "legal_basis_for_processing": {
+      "title": "الأساس القانوني للمعالجة",
+      "description": "في أغلب الأحيان، سنعتمد على أحد الأسس القانونية التالية:",
+      "bases": [
+        "الضرورة التعاقدية: حيث نحتاج إلى معالجة بياناتك الشخصية للوفاء بالتزاماتنا التعاقدية تجاهك.",
+        "الامتثال للقانون: حيث نحتاج إلى معالجة بياناتك الشخصية للامتثال لالتزاماتنا القانونية أو التنظيمية.",
+        "الموافقة: حيث لدينا موافقتك لمعالجة بياناتك الشخصية لغرض محدد."
+      ]
+    },
+    "user_responsibilities": {
+      "title": "مسؤوليات المستخدم",
+      "responsibilities": [
+        "دقة البيانات: التأكد من أن البيانات الشخصية التي تقدمها دقيقة ومحدثة.",
+        "السرية: الحفاظ على سرية بيانات اعتماد حسابك.",
+        "الامتثال: الالتزام بسياسة الخصوصية هذه والقوانين المعمول بها عند استخدام منصتنا."
+      ]
+    },
+    "contact_us": {
+      "title": "اتصل بنا",
+      "content": "إذا كانت لديك أي أسئلة أو مخاوف بشأن سياسة الخصوصية هذه أو ممارساتنا المتعلقة بالبيانات، يرجى التواصل معنا على"
+    }
+  }
+}

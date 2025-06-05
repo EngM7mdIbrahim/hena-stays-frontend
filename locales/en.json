@@ -1,0 +1,2198 @@
+{
+  "shared": {
+    "userRoles": {
+      "admin": "Admin",
+      "companyAdmin": "Company Admin",
+      "agent": "Agent",
+      "user": "User",
+      "broker": "Broker",
+      "company": "Company",
+      "adminViewer": "Admin Viewer",
+      "support": "Support"
+    },
+
+    "differentLayout": {
+      "addLayout": "Add new {item}",
+      "editLayout": "Edit {item}"
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "myAccount": "My Account",
+      "followings": "Followings",
+      "properties": "Properties",
+      "myProperties": "My Properties",
+      "recommendedProperties": "Recommended Properties",
+      "projects": "Projects",
+      "propertyRequests": "Property Requests",
+      "makeACall": "Make a Call",
+      "buyPropertyRequests": "Buy Property Requests",
+      "sellPropertyRequests": "Sell Property Requests",
+      "community": "Community",
+      "savedPosts": "Saved Posts",
+      "news": "News",
+      "premium": "Premium",
+      "myListings": "My Listings",
+      "myProjects": "My Projects",
+      "savedProperties": "Saved Properties",
+      "addProperty": "Add Property",
+      "editProperty": "Edit Property",
+      "addProject": "Add Project",
+      "editProject": "Edit Project",
+      "addXml": "Add XML",
+      "editXml": "Edit XML",
+      "xmlRequests": "XML Requests",
+      "addBlog": "Add Blog",
+      "editBlog": "Edit Blog",
+      "addOfficialBlog": "Add Official Blog",
+      "editOfficialBlog": "Edit Official Blog",
+      "propertyView": "Property View",
+      "projectView": "Project View",
+      "termsOfUse": "Terms of Use",
+      "privacyPolicy": "Privacy Policy",
+      "analytics": "Analytics",
+      "employeeAnalytics": "Employee Analytics",
+      "employees": "Employees",
+      "employee": "Employee",
+      "leads": "Leads",
+      "settings": "Settings",
+      "profile": "Profile",
+      "chats": "Chats",
+      "support": "Support",
+      "officialBlogs": "Official Blogs",
+      "transactions": "Transactions",
+      "creditRequests": "Credit Requests",
+      "callRequests": "Call Requests",
+      "contactUsRequests": "Contact Us Requests",
+      "users": "Users",
+      "checkout": "Checkout",
+      "credits": "Credits",
+      "payment": "Payment"
+    },
+    "editor": {
+      "content": "Type something",
+      "toc": "Table of Contents",
+      "noToc": "No Table of Contents",
+      "uploading": "Uploading...",
+      "uploadSuccess": "Upload Success",
+      "uploadFailed": "Upload Failed",
+      "altText": {
+        "title": "Edit Alt Text",
+        "altText": "Alt Text",
+        "enterAltText": "Enter alt text for the image",
+        "altTextMissing": "Alt text missing."
+      },
+      "textOptions": {
+        "normal": "Normal",
+        "headingOne": "Heading 1",
+        "headingTwo": "Heading 2",
+        "headingThree": "Heading 3"
+      },
+
+      "textAlignment": {
+        "left": "Left",
+        "right": "Right",
+        "center": "Center",
+        "justify": "Justify"
+      }
+    },
+    "sortOptions": {
+      "newest": "Newest",
+      "oldest": "Oldest",
+      "lowestPrice": "Lowest Price",
+      "highestPrice": "Highest Price",
+      "lowestArea": "Lowest Area",
+      "highestArea": "Highest Area"
+    },
+
+    "shareModal": {
+      "title": "Share Link",
+      "fields": {
+        "copyLink": "Copy Link"
+      },
+      "socialMedia": {
+        "facebook": "Share on Facebook",
+        "twitter": "Share on Twitter",
+        "instagram": "Share on Instagram",
+        "linkedin": "Share on LinkedIn"
+      },
+      "notifications": {
+        "copied": "Link copied to clipboard"
+      },
+      "aria": {
+        "shareButton": "Share Link"
+      }
+    },
+
+    "deleteModal": {
+      "title": "Confirm Deletion",
+      "description": "Are you sure you want to delete this {itemName}? This action cannot be undone.",
+      "back": "Back",
+      "itemName": "this item",
+      "delete": "Delete",
+      "reject": "Reject",
+      "otherReason": "Other Reason",
+      "selectReason": "Select a reason",
+      "reason": "Reason",
+
+      "otherReasonPlaceholder": "Enter a reason"
+    },
+
+    "emptyDescription": "No {itemName} available",
+
+    "buttons": {
+      "cancel": "Cancel",
+      "next": "Next",
+      "back": "Back",
+      "update": "Update",
+      "clear": "Clear",
+      "reset": "Reset",
+      "done": "Done",
+      "save": "Save",
+      "approve": "Approve",
+      "reject": "Reject",
+      "register": "Register",
+      "confirm": "Confirm",
+      "add": "Add",
+      "buyCredits": "Buy Credits",
+      "submit": "Submit"
+    },
+
+    "actions": {
+      "edit": "Edit",
+      "delete": "Delete",
+      "view": "View",
+      "activate": "Activate",
+
+      "recommend": "Recommend",
+      "unRecommend": "Un Recommend",
+      "deactivate": "Deactivate"
+    },
+
+    "fields": {
+      "username": "Username",
+      "fullName": "Full Name",
+      "email": "Email",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "phoneNumber": "Phone Number",
+      "whatsappNumber": "Whatsapp Number",
+      "sameAsWhatsapp": "Same as Whatsapp",
+
+      "duration": {
+        "label": "Duration",
+        "daily": "daily",
+        "monthly": "monthly",
+        "yearly": "yearly"
+      },
+      "rentDuration": "Rent Duration",
+
+      "propertyType": {
+        "label": "Type",
+        "for": "For",
+        "sale": "Sale",
+        "rent": "Rent"
+      },
+      "propertyCategory": {
+        "label": "Category",
+        "residential": "Residential ssss",
+        "commercial": "Commercial"
+      },
+      "completion": {
+        "label": "Completion",
+        "ready": "Ready",
+        "off-plan": "Off Plan"
+      },
+      "title": "Title",
+      "description": "Description",
+      "location": "Location",
+      "amenities": "Amenities",
+      "furnishing": {
+        "label": "Furnishing Status",
+        "furnished": "Furnished",
+        "unfurnished": "Unfurnished",
+        "partially-furnished": "Partially Furnished"
+      },
+      "subCategory": "Property Type",
+      "price": "Price in (AED)",
+      "noOfBedrooms": "No. of Bedrooms",
+      "noOfToilets": "No. of Toilets",
+      "noOfLivingRooms": "No. of Living Rooms",
+      "noOfFloors": "No. of Floors",
+      "floor": "Floor Number",
+      "age": "Age (in years)",
+      "area": "Area (sqt)",
+      "media": "{itemName} Media"
+    },
+    "placeholders": {
+      "username": "Enter your Username",
+      "fullName": "Enter your Full Name",
+      "email": "Enter your email",
+      "password": "Enter your password",
+      "confirmPassword": "Confirm your password",
+      "phoneNumber": "Enter your phone number",
+      "whatsappNumber": "Enter your Whatsapp number",
+      "title": "Enter title for your {type}",
+      "search": "City, Community, or Building",
+      "description": "Enter description for the {type}",
+      "location": "Enter location",
+      "amenities": "Choose some amenities",
+      "furnishing": "Select your furnishing status",
+      "noOfBedrooms": "Enter number of bedrooms",
+      "noOfToilets": "Enter number of toilets",
+      "noOfLivingRooms": "Enter number of living rooms",
+      "noOfFloors": "Enter number of floors",
+      "floor": "Enter floor number",
+      "age": "Enter age in years",
+      "area": "Enter area in square feet",
+      "startFrom": "Start From",
+      "endTo": "To",
+      "media": "Upload Images/Videos",
+      "searchByLocation": "Search By Location",
+      "propertyType": "Property Type",
+      "type": "Type",
+      "propertyTitle": "Enter a clear title for the property",
+      "propertyDescription": "Enter a clear description for the property",
+      "selectLocation": "Select Location",
+      "choosePropertyType": "Choose your Property Type",
+      "priceInAED": "Enter price in AED",
+      "propertyEstimatedAge": "Enter property estimated age",
+      "yourFloorNumber": "Enter your floor number",
+      "chooseAmenities": "Choose some Amenities",
+      "chooseFurnishingStatus": "Choose your Furnishing Status"
+    },
+    "bed": "Bed",
+    "beds": "Beds",
+    "bath": "Bath",
+    "baths": "Baths",
+    "living": "Living Room",
+    "livingRooms": "Living Rooms",
+    "features": "Features",
+    "chooseFile": "Choose File",
+    "optional": "Optional",
+    "processing": "Processing Your Search Text...",
+    "yes": "Yes",
+    "noAdditionalFeatures": "No additional Features Found",
+    "moreFilters": "More Filters",
+    "agentsOrCompanies": "Agents or Companies",
+    "save": "Saved",
+    "unsave": "Unsaved",
+    "status": "Status",
+    "age": "Age",
+    "by": "By",
+    "error": "Error",
+    "errors": "Errors"
+  },
+
+  "errorMessages": {
+    "shared": {
+      "required": "{field} is required",
+      "mediaUploadFailed": "Media upload failed",
+      "invalidEmailFormat": "Please enter a valid email address",
+      "whatsappRequired": "WhatsApp number is required if not the same as the phone number",
+      "invalidPhone": "Invalid phone number",
+      "invalidWhatsapp": "Invalid WhatsApp number",
+      "nameTooShort": "Name must be at least 3 characters",
+      "nameTooLong": "Name must be less than 50 characters",
+      "usernameTooShort": "Username must be at least 3 characters",
+      "usernameTooLong": "Username must be less than 50 characters",
+      "passwordTooShort": "Password must be at least 8 characters",
+      "passwordNoLetter": "Password must contain at least one letter",
+      "passwordNoNumber": "Password must contain at least one number",
+      "passwordNoSymbol": "Password must contain at least one symbol",
+      "passwordsDontMatch": "Passwords do not match"
+    },
+    "auth": {
+      "signin": {
+        "invalidPassword": "Password must be at least 6 characters"
+      },
+      "signup": {
+        "agent": {
+          "cityTooLong": "City must be less than 100 characters",
+          "licenseTooLong": "License must be less than 50 characters",
+          "licenseCopyRequired": "At least one license copy is required",
+          "licenseExpiryFuture": "License expiry date must be in the future"
+        }
+      }
+    },
+    "buyPropertyRequests": {
+      "propertyInformation": {
+        "durationRequired": "Duration is required for rent properties",
+        "locationUAE": "Location must be in United Arab Emirates",
+        "priceNonNegative": "Price must be non-negative",
+        "priceEndGreater": "End price must be greater than or equal to start price",
+        "areaNonNegative": "Area must be non-negative",
+        "endAreaGreater": "End area must be greater than or equal to start area",
+        "ageNonNegative": "Age must be non-negative",
+        "endAgeGreater": "End age must be greater than or equal to start age",
+        "livingNonNegative": "Living must be non-negative",
+        "endLivingGreater": "End living must be greater than or equal to start living",
+        "toiletsNonNegative": "Toilets must be non-negative",
+        "endToiletsGreater": "End toilets must be greater than or equal to start toilets",
+        "bedroomsNonNegative": "Bedrooms must be non-negative",
+        "endBedroomsGreater": "End bedrooms must be greater than or equal to start bedrooms"
+      },
+      "personalDetails": {
+        "nameTooShort": "Full name must be at least 10 chars",
+        "contactWayRequired": "At least one contact way must be selected"
+      }
+    },
+    "properties": {
+      "regulatoryInformation": {
+        "tarkheesiInvalid": "Tarkheesi must be a valid file"
+      }
+    },
+    "projects": {
+      "information": {
+        "titleTooShort": "Title should be at least 3 characters",
+        "descriptionTooShort": "Description should be at least 10 characters",
+        "handoverDatePast": "Handover date cannot be in the past"
+      },
+      "paymentPlan": {
+        "paymentTypeInvalid": "Invalid Payment Type selected",
+        "preHandoverInvalid": "Pre Handover Percentage Must be a number",
+        "preHandoverMin": "Pre Handover Percentage cannot be less than 0",
+        "preHandoverMax": "Pre Handover Percentage cannot be greater than 100",
+        "monthsNumberInvalid": "Number of months must be a number",
+        "downPaymentMin": "Cannot be less than 0",
+        "downPaymentMax": "Cannot be greater than 100",
+        "onHandoverMin": "Cannot be less than 0",
+        "onHandoverMax": "Cannot be greater than 100",
+        "postHandoverMin": "Cannot be less than 0",
+        "postHandoverMax": "Cannot be greater than 100",
+        "milestonePercentageMax": "Cannot be greater than 100",
+        "milestoneUnique": "Each milestone percentage in project completion must be unique",
+        "totalPercentage": "The sum of all specified payment percentages should be exactly 100%",
+        "monthsNumberRequired": "Number of months is required when Payment Type is Full Price",
+        "preHandoverRequired": "Pre Handover Percentage is required when Payment Type is Full Price",
+        "preHandoverRequiredCompletion": "Pre Handover Percentage is required when Payment Type is Project Completion",
+        "milestoneRequiredCompletion": "Milestone Percentage is required when Payment Type is Project Completion"
+      }
+    },
+    "config": {
+      "positiveNumber": "Must be a positive number",
+      "minValue": "Value must be at least 1"
+    },
+    "leadClientDetails": {
+      "emailInvalid": "Email is not valid",
+      "emailTooShort": "Email must be at least 10 chars",
+      "contactRequired": "Either email or phone is required"
+    },
+    "sellPropertyRequests": {
+      "propertyInformation": {
+        "durationRequired": "Duration is required for rent properties",
+        "locationUAE": "Location must be in United Arab Emirates"
+      }
+    },
+    "users": {
+      "employee": {
+        "imageInvalid": "Image must be a valid file"
+      }
+    },
+    "officialBlogs": {
+      "scheduledDateFuture": "Scheduled date must be in the future"
+    }
+  },
+  "successMessages": {
+    "addedSuccessfully": "{item} added successfully",
+    "updatedSuccessfully": "{item} updated successfully",
+    "deletedSuccessfully": "{item} deleted successfully",
+    "loggedInSuccessfully": "Logged in successfully",
+    "loggedOutSuccessfully": "Logged out successfully",
+    "passwordChangedSuccessfully": "Password changed successfully",
+    "passwordResetSuccessfully": "Password reset successfully",
+    "passwordResetEmailSent": "Password reset email sent",
+    "otpSentSuccessfully": "OTP sent successfully",
+    "otpVerifiedSuccessfully": "OTP verified successfully",
+    "createdSuccessfully": "Created {item} successfully",
+    "unsavedSuccessfully": "{item} unsaved successfully",
+    "savedSuccessfully": "{item} saved successfully",
+    "statusUpdatedSuccessfully": "{item} status updated successfully"
+  },
+
+  "auth": {
+    "banner": {
+      "title": "Welcome Back",
+      "description": "At TrueDar, we believe that the journey to finding the perfect property is a collaborative effort."
+    },
+    "footer": {
+      "copyRight": "© 2025 TrueDar. All rights reserved."
+    },
+    "signin": {
+      "title": "Sign In",
+      "doNotHaveAccount": "Don't have an account?",
+      "createAccount": "Create new account",
+      "forgotPassword": "Forgot your password?",
+      "rememberMe": "Remember me",
+      "login": "Login",
+      "orContinueWith": "Or continue with"
+    },
+    "forgetPassword": {
+      "title": "You forgot your password",
+      "description": "To get you back to your account write your email to send you the link",
+      "rememberPassword": "Do you remember your password?",
+      "login": "Login",
+      "confirm": "Confirm"
+    },
+    "successReset": {
+      "title": "Your password has been changed successfully",
+      "buttonTitle": "Back to sign in",
+      "description": "Your password has been changed successfully"
+    },
+    "otp": {
+      "title": "OTP Verification",
+      "description": "We will send you a one-time password for this email",
+      "resendMessage": "Did not receive the message?",
+      "resendButton": "Resend the WhatsApp message"
+    },
+    "resetPassword": {
+      "title": "Create a new password",
+      "description": "Return to your journey",
+      "newPassword": "New Password",
+      "confirmPassword": "Confirm Password",
+      "reset": "Reset"
+    },
+    "passwordResetEmailSent": {
+      "title": "Successfully",
+      "resendMessage": "Did not get the message?",
+      "resendButton": "Resend the WhatsApp message"
+    },
+    "signup": {
+      "title": "New {type} Account",
+      "start": "Start your journey from here",
+      "haveAccount": "Already have an account?",
+      "login": "Login",
+      "accountType": "Account Type",
+
+      "registerAsUser": "Register as User",
+
+      "steps": {
+        "basicInformation": "Basic Information",
+        "legalInformation": "Legal Information"
+      },
+      "shared": {
+        "basicInformation": {
+          "fields": {
+            "passwordHint": "Use 8 or more characters with a combination of letters, numbers, and symbols."
+          }
+        },
+        "legalInformation": {
+          "uploadType": "in PNG or JBG or PDF format",
+          "fields": {
+            "licenseCopies": "License Copies",
+            "license": "License",
+            "watermark": "Watermark"
+          },
+          "placeholders": {
+            "licenseCopies": "Upload license copies",
+            "watermark": "Upload watermark"
+          }
+        }
+      },
+      "signupUser": {
+        "title": "Register as User",
+        "registerAsCompanyAgent": "Register as Company/Agent"
+      },
+      "signupCompany": {
+        "title": "Register as Company",
+
+        "fields": {
+          "companyName": "Company Name",
+          "companyAddress": "Company Address",
+          "licensedCity": "Licensed City",
+          "licenseExpiryDate": "License Expiry Date",
+          "businessJurisdictionType": "Business Jurisdiction Type",
+          "licenseAuthority": "License Authority",
+          "brokerCardNumber": "Broker Card Number"
+        },
+        "placeholders": {
+          "companyName": "Enter your Company Name",
+          "companyAddress": "Enter your Company Address",
+          "licensedCity": "Choose your Licensed City",
+          "licenseExpiryDate": "Enter your expiry date",
+          "businessJurisdictionType": "Choose your Business Jurisdiction Type",
+          "licenseAuthority": "Choose your License Authority Provider",
+          "brokerCardNumber": "Enter your Dubai RERA Broker Card number"
+        }
+      },
+      "signupAgent": {
+        "title": "Register as Agent",
+        "fields": {
+          "brokerCard": "Broker Card",
+          "licenseExpiryDate": "License Expiry Date",
+          "licenseCopies": "License Copies",
+          "watermark": "Watermark"
+        },
+        "placeholders": {
+          "brokerCard": "Select your Broker Card",
+          "licenseExpiryDate": "Enter your expiry date",
+          "licenseCopies": "Upload license copies",
+          "watermark": "Upload watermark"
+        }
+      },
+      "successSignup": {
+        "title": "Your account has been created successfully",
+        "buttonTitle": {
+          "landingPage": "Take me home",
+          "other": "Start the journey"
+        },
+        "description": "Start your journey now, What you are waiting for!"
+      }
+    }
+  },
+  "homePage": {
+    "exploreMore": "Explore More",
+    "hero": {
+      "title": "Turedar – Your Trusted Property Finder",
+      "description": "Welcome to TrueDar, the best place to search for property in the UAE. TrueDar is a top property finder matched with luxury real estate agents to help you discover your dream home. Whether you're a house finder looking for the ideal place to live or someone searching for the best in top real estate brokerages, TrueDar will assist you through the entire process.",
+      "dropdown": {
+        "requestProperty": "Request your property",
+        "rent": "Rent",
+        "buy": "Buy",
+        "projects": "Projects",
+        "search": "Search",
+        "placeholders": {
+          "location": "Enter your desired location",
+          "propertyType": "Enter your desired property type"
+        }
+      }
+    },
+    "benefits": {
+      "title": "How Property Request Works?",
+      "badgeTitle": "Benefits",
+      "1": {
+        "title": "Submits your Request",
+        "description": "Specify your property needs using our easy-to-use form."
+      },
+      "2": {
+        "title": "We Match your request",
+        "description": "Our system matches your request with the most suitable agents and companies."
+      },
+      "3": {
+        "title": "Congrats on your new property",
+        "description": "Agent or company will be in touch with you, Offering more than you expect."
+      }
+    },
+    "recommendedProperties": {
+      "propertyOfTheWeek": "Property of the week",
+      "hotDeals": "Hot Deals",
+      "signatures": "Signatures"
+    },
+    "services": {
+      "title": "Unlock the Best of TrueDar",
+      "buttonTitle": "Explore Now",
+      "badgeTitle": "Services",
+      "1": {
+        "title": "TrueDar Community",
+        "description": "Join our extended family and learn from each other all things real estate. Ask and answer questions; gain insight from the pros and your peers."
+      },
+      "2": {
+        "title": "Last News and Updates",
+        "description": "Stay informed with real estate news in the industry and on our site to keep you up to date with the best and most current information."
+      },
+      "3": {
+        "title": "Property Request",
+        "description": "Request Your Perfect Property Tell us your property preferences and get tailored offers from trusted agents. Your ideal home is just a request away."
+      }
+    },
+    "about": {
+      "title": "Our Mission is to Transform Real Estate",
+      "badgeTitle": "About Us",
+      "description": "TrueDar links you to established brokerages to fulfill your real estate needs at the affordable cost of accessible resources. We give you the connections and resources you need to make the transaction smooth and successful.",
+      "expertAdvice": {
+        "title": "Expert Real Estate Advice"
+      },
+      "efficiency": {
+        "title": "Efficiency & Productivity",
+        "description": "TrueDar respects your time. With a seamless platform, you won't be wasting valuable time navigating our services—we guide you to the next best step with customer service available for any questions you may have."
+      },
+      "getNoticed": {
+        "title": "Get Noticed & Find Your Home",
+        "description": "Our real estate marketing tools will get your property noticed in the bustling UAE market if you seek to sell or lease. To work with us is to work with professionals committed to attentive efforts toward the success of your transaction."
+      }
+    },
+    "lastProjects": {
+      "title": "Last Projects"
+    },
+    "team": {
+      "title": "Meet Our Growing Team of Agents and Companies",
+      "badgeTitle": "EXPERTISE IS HERE",
+      "impressions": " Impressions"
+    },
+    "becomePartner": {
+      "title": "Become a Partner",
+      "description": "Join our network of professionals to make a difference in the real estate industry.",
+      "buttonTitle": "Join Now!"
+    },
+    "trendingNews": {
+      "title": "Trending News",
+      "article": {
+        "by": "by "
+      }
+    },
+    "guestBanner": {
+      "properties": {
+        "title": "Find your dream property",
+        "description": "We provide a complete service for the sale, purchase or rental of real estate.",
+        "buttonTitle": "Contact us now"
+      },
+      "title": "Sell or Rent Your Property",
+      "description": "Sign up for TrueDar and take the first step down the proper path for your new home or property listing with assurance!",
+      "buttonTitle": "Start Now!"
+    }
+  },
+
+  "news": {
+    "title": "News",
+    "articles": "Articles",
+    "article": "Article",
+    "readMore": "Read More",
+    "linkToTheResource": "Link to the resource"
+  },
+
+  "buyPropertyRequests": {
+    "title": "Buy Property Requests",
+    "description": "Choose how to share your property needs: fill in a detailed request form, or call our support team to assist with the details.",
+    "buyPropertyRequest": "Buy Property Request",
+
+    "addRequest": "Add Request",
+    "makeACall": "Make a call",
+    "makeACallForm": {
+      "title": "Make a call",
+      "description": "Share your name, email, and phone number to schedule a call. Choose your contact method: phone, email, or WhatsApp. Our consultants will contact you shortly!",
+      "fields": {
+        "contactMethod": "Preferred Communication Ways",
+        "whatsapp": "WhatsApp",
+        "truedar": "TrueDar"
+      },
+
+      "success": {
+        "title": "Your request sent successfully",
+        "description": "We appreciate your inquiry. We are currently processing your request and will be in touch shortly",
+        "buttonTitle": "Go home"
+      }
+    },
+    "buyPropertyRequestsForm": {
+      "steps": {
+        "propertyInformation": "Property Information",
+        "personalDetails": "Personal Details"
+      },
+
+      "user": "User",
+      "request": "Request",
+      "description": "Enter the specifications of the property you're looking for and real estate agents will contact you on the platform. Check your messages regularly by clicking the profile icon and selecting \"Messaging\"."
+    }
+  },
+  "sellPropertyRequests": {
+    "title": "Sell Property Requests",
+    "addSellRequest": "Add Sell Request",
+    "sellPropertyRequest": "Sell Property Request",
+    "propertyRequest": "Property Request"
+  },
+  "properties": {
+    "title": "Properties for Sale",
+    "properties": "Properties",
+    "property": "Property",
+    "mineTitle": "My Listings",
+    "myProperties": "My Properties",
+    "deleteModal": {
+      "title": "Delete Property",
+      "buttonTitle": "Delete",
+      "defaultReasons": {
+        "1": "I found my request on TrueDar",
+        "2": "I found it elsewhere",
+        "3": "I no longer need it"
+      }
+    },
+    "mainBanner": {
+      "title": "List Your Property — Reach Thousands Instantly",
+      "description": "Got a property to rent or sell? Don't let it sit idle. Add your listing in minutes and connect with verified renters and buyers actively searching in your area. More visibility. More inquiries. Zero hassle.",
+      "buttonTitle": "List Your Property Now!"
+    },
+    "recommendBanner": {
+      "title": "Boost Your Property to the Spotlight",
+      "description": "You're already listed — now it's time to lead. Use credits to recommend your property on the homepage and get seen by more serious buyers & renters. More visibility, faster result",
+      "buttonTitle": "Recommend Property Now!"
+    },
+    "controls": {
+      "activeListings": "Active Listings",
+      "heldListings": "Held Listings"
+    },
+    "details": {
+      "title": "Details",
+      "impressions": "Impressions",
+      "leads": "Leads",
+      "clicks": "Clicks",
+      "visitors": "Visitors",
+      "saves": "Saves",
+      "views": "Views"
+    },
+    "propertyView": {
+      "startFrom": "Start From",
+      "propertyTrademarks": "Property Trademarks",
+      "tabs": {
+        "description": "Description",
+        "location": "Location",
+        "regulatoryInformation": "Regulatory Information"
+      },
+      "size": "Size",
+      "sale": "Sale",
+      "amenitiesFeatures": "Amenities and Features",
+      "reference": "Reference",
+      "brn": "BRN",
+      "plotArea": "Plot Area (sq.ft)",
+      "builtInArea": "Built in Area (sq.ft)",
+      "addedOn": "Added on"
+    },
+    "buttons": {
+      "addXml": "Add XML",
+      "myProperties": "My Properties",
+      "xmlRequests": "XML Requests",
+      "adminActions": "Admin Actions",
+      "defaultConfig": "Default Config",
+      "saved": "Saved",
+      "more": "More",
+      "viewOnMap": "View on Map",
+      "selectedProperties": "Selected Properties",
+      "clear": "Clear"
+    },
+    "filters": {
+      "numberOfBeds": "Number of Beds",
+      "numberOfBaths": "Number of Baths",
+      "area": "Area (sqft)",
+      "any": "Any",
+      "minimum": "Minimum",
+      "maximum": "Maximum",
+      "keywords": "Keywords"
+    },
+    "footer": {
+      "affordableSearches": {
+        "title": "Affordable Searches",
+        "propertiesUnder5M": "Properties For Sale Under 5 Million AED",
+        "propertiesUnder1_5M": "Properties For Sale Under 1.5 Million AED",
+        "propertiesUnder950K": "Properties For Sale Under 950K AED"
+      },
+      "exploreMore": {
+        "title": "Explore More",
+        "rentedProperties": "Rented Properties For Sale",
+        "propertiesAndHouses": "Properties & Houses For Sale",
+        "registeredProperties": "Registered Properties For Sale"
+      }
+    },
+    "propertyForm": {
+      "steps": {
+        "propertyInformation": "Property Information",
+        "propertyMedia": "Media",
+        "propertyFeatures": "Features/Amenities",
+        "propertyValidatedInformation": "Validated Information",
+        "propertyRegulatoryInformation": "Regulatory Information"
+      },
+
+      "features": {
+        "title": "Select the Features",
+        "other": "Other",
+        "selectAll": "Select All",
+        "deselectAll": "Deselect All",
+
+        "selected": "Selected",
+        "otherPlaceholder": "Add any other feature your property has",
+        "errors": {
+          "required": "Please enter a feature to add",
+          "alreadyAdded": "Feature already added"
+        }
+      },
+      "validatedInformation": {
+        "fields": {
+          "developer": "Developer of the property",
+          "plot": "Plot area (in square feet)",
+          "builtIn": "Built-in-area (in square feet)",
+          "ownership": {
+            "label": "Ownership",
+            "individual": "Individual",
+            "company": "Company"
+          },
+          "placeholders": {
+            "developer": "Enter your property developer",
+            "plot": "Enter your property plot area",
+            "builtIn": "Enter your property build in area"
+          }
+        }
+      },
+      "regulatoryInformation": {
+        "fields": {
+          "dldPermitNumber": "DLD Permit Number",
+          "ded": "DED",
+          "rera": "RERA",
+          "brn": "BRN"
+        },
+        "placeholders": {
+          "tarkheesi": "Upload Tarkheesi",
+          "example": "ex. 123312562163"
+        },
+        "trakRequiredForDubai": "Tarkheesi is required for Dubai properties",
+        "tarkheesiUploadFailed": "Tarkheesi upload failed",
+        "confirmationText": "I confirm that all information provided is accurate and that I am legally authorized to list this property. Need help or have questions <br /> about listing properties?",
+        "contactUs": "Contact Us",
+        "agreement": "Agreement"
+      }
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "mine": "My Projects",
+    "project": "Project",
+    "newProject": "Project",
+
+    "projectCard": {
+      "completionStatus": {
+        "ready": "Ready",
+        "offPlan": "Off Plan"
+      },
+      "paymentPlan": {
+        "title": "Payment Plan",
+        "projectCompletion": "Project Completion",
+        "fullPrice": "Full Price"
+      },
+      "handoverDate": "Handover",
+      "q1": "Q1",
+      "q2": "Q2",
+      "q3": "Q3",
+      "q4": "Q4",
+      "details": "Details",
+      "views": "Views",
+      "visitors": "Visitors",
+      "impressions": "Impressions"
+    },
+
+    "projectView": {
+      "tabs": {
+        "description": {
+          "title": "Description",
+          "startFrom": "Start From",
+          "handoverDate": "Handover Date",
+          "paymentPlan": "Payment Plan",
+          "before": "Before",
+          "after": "After"
+        },
+        "location": "Location",
+        "properties": "Available Properties",
+        "paymentPlan": {
+          "title": "Payment Plan",
+          "onHandover": "On Handover",
+          "preHandover": "Pre Handover - Payment Schedule",
+          "downPayment": "Down Payment",
+          "milestone": "Milestone",
+          "percentage": "Percentage of Property Value to be Paid"
+        },
+        "unitTypes": {
+          "title": "Unit Types",
+          "price": "Price (AED)",
+          "area": "Area (SQFT)",
+          "name": "Name of Unit",
+          "from": "From"
+        }
+      }
+    },
+
+    "controls": {
+      "activeProjects": "Active Projects",
+      "heldProjects": "Held Projects"
+    },
+    "buttons": {
+      "addProject": "Add Project"
+    },
+    "projectForm": {
+      "steps": {
+        "projectInformation": "Project Information",
+        "projectMedia": "Media",
+        "paymentPlan": "Payment Plan"
+      },
+
+      "projectInformation": {
+        "fields": {
+          "handoverDate": {
+            "label": "Handover Date",
+            "placeholder": "Enter your Handover Date"
+          }
+        }
+      },
+      "paymentPlan": {
+        "fields": {
+          "downPaymentPercentage": "Down Payment Percentage",
+          "percentageBasedOn": "Percentage Based On",
+          "projectCompletion": {
+            "label": "Project Completion",
+            "milestone": "Project Completion Percentage For Milestone",
+            "paymentPercentageAtThisStage": "Payment Percentage At This Stage"
+          },
+          "fullPrice": {
+            "label": "Full Price",
+            "months": "Number of months",
+            "preHandoverPercentage": "Pre Handover Percentage for property value"
+          },
+          "onHandoverPercentage": "On Handover Percentage",
+          "postHandoverPercentage": "Post Handover Percentage"
+        },
+        "placeholders": {
+          "downPaymentPercentage": "Enter your Down Payment Percentage",
+          "projectCompletion": {
+            "milestone": "Enter the completion percentage",
+            "paymentPercentageAtThisStage": "Input the payment percentage at this stage"
+          },
+          "fullPrice": {
+            "months": "Enter the number of months",
+            "preHandoverPercentage": "Enter your Pre Handover Percentage"
+          },
+          "onHandoverPercentage": "Enter your On Handover Percentage",
+          "postHandoverPercentage": "Enter your Post Handover Percentage"
+        }
+      }
+    }
+  },
+  "leads": {
+    "title": "Leads",
+    "leadsRequests": "Leads Requests",
+    "controls": {
+      "approved": "Approved",
+      "leadsRequests": "Leads Requests"
+    },
+    "card": {
+      "actions": {
+        "approve": "Approve",
+        "viewAgent": "View Agent",
+        "viewProperty": "View Property"
+      },
+      "status": "status",
+      "leadName": "Lead Name",
+      "clientName": "Client Name",
+      "agent": "Agent",
+      "contactType": "Contact Type",
+      "clientContactDetails": "Client Contact Details",
+      "date": "Date"
+    },
+    "modal": {
+      "title": "Approve Lead",
+      "clientContactDetails": {
+        "title": "Client Contact Details",
+        "fields": {
+          "name": "Lead Name",
+          "email": "Email",
+          "phone": "Phone"
+        },
+        "placeholders": {
+          "name": "Enter Lead Name",
+          "email": "Enter client's email",
+          "phone": "Enter client's phone number"
+        }
+      },
+      "buttons": {
+        "close": "Close",
+        "approve": "Approve",
+        "cancel": "Cancel",
+        "save": "Save"
+      },
+      "messages": {
+        "leadAt": "Lead at: ",
+        "success": {
+          "leadApproved": "Lead approved successfully",
+          "clientDetailsUpdated": "Client contact details updated successfully"
+        }
+      }
+    }
+  },
+  "chat": {
+    "message": "Message",
+    "messages": "Messages",
+    "chats": "Chats",
+    "you": "You",
+    "description": "It provides a platform for direct messaging, group chats, and announcements, ensuring everyone stays connected and informed. Collaborate and share updates.",
+
+    "fields": {
+      "search": "Search Messages",
+      "messagePlaceholder": "Type a message"
+    },
+    "images": "images",
+
+    "helpCenter": "Help Center"
+  },
+  "community": {
+    "title": "Community",
+    "posts": "Posts",
+    "savedPosts": "Saved Posts",
+    "post": "Post",
+    "blog": "Blog",
+    "blogs": "Blogs",
+    "comments": "Comments",
+    "comment": "Comment",
+    "followers": "Followers",
+    "follower": "Follower",
+    "followings": "Followings",
+    "noFollowingsFound": "No followings found",
+    "follow": "Follow",
+    "unfollow": "Unfollow",
+    "writeComment": "Write a comment...",
+    "featuredMembers": "Featured Members",
+    "peopleYouMayKnow": "People You May Know",
+
+    "successMessages": {
+      "postLiked": "Welcome to the community! You have liked that post",
+
+      "followed": "Followed successfully",
+      "unfollowed": "Unfollowed successfully"
+    },
+
+    "controls": {
+      "posts": "Posts",
+      "blogs": "Blogs"
+    },
+    "buttons": {
+      "newPost": "New Post",
+      "newBlog": "New Blog Post",
+      "myProfile": "My Profile",
+      "post": "Post"
+    },
+    "fields": {
+      "search": "Search"
+    },
+    "postForm": {
+      "title": "Create Post",
+      "editTitle": "Edit Post",
+      "placeholders": {
+        "whatIsOnYourMind": "what is on your mind? {username}",
+        "addToYourPost": "Add to your post",
+        "addImageOrVideo": "Add Image or Video"
+      }
+    },
+    "blogPostForm": {
+      "steps": {
+        "basic": "Basic",
+        "details": "Details"
+      },
+      "fields": {
+        "title": "Title",
+        "details": "Details",
+        "blogImages": "Blog Images",
+        "content": "Content"
+      },
+      "placeholders": {
+        "details": "Enter your blog details",
+        "blogImage": "Upload your blog image"
+      }
+    }
+  },
+  "sharedAnalytics": {
+    "interactions": {
+      "title": "Interactions Analytics",
+      "visitors": "Visitors",
+      "impressions": "Impressions",
+      "adViews": "Ad Views",
+      "emailsClicks": "Emails clicks",
+      "phoneCallsClicks": "Phone Calls click",
+      "whatsappClicks": "Whatsapp clicks",
+      "chats": "Chats"
+    },
+    "propertiesAnalytics": {
+      "title": "Properties Analytics",
+      "averageYearlyRentingPrice": "Average Yearly Renting Price",
+      "averageMonthlyRentingPrice": "Average Monthly Renting Price",
+      "averageSellingPrice": "Average Selling Price",
+      "averageDailyRentingPrice": "Average Daily Renting Price",
+      "conversionRate": "Conversion Rate",
+      "totalSale": "Total Sale",
+      "totalRent": "Total Rent",
+      "totalProperties": "Total Properties",
+      "conversionRatesAndAveragePrices": "Conversion Rates and Average Prices"
+    }
+  },
+
+  "adminAnalytics": {
+    "totalUsers": "Total Users",
+    "topPerformers": "Top Performers",
+    "topCompaniesAndAgents": "Top Companies and Agents",
+    "buyCredits": "Buy Credits"
+  },
+
+  "userAnalytics": {
+    "topPropertyAds": "Top Property Ads",
+    "lastComments": "Last Comments",
+    "traffic": {
+      "title": "Traffic",
+      "postsInteractions": "Posts Interactions",
+      "profileVisits": "Profile Visits"
+    }
+  },
+
+  "sharedBlogView": {
+    "toc": "Table of Contents",
+    "faq": "FAQ",
+    "faqTitle": "Frequently Asked Questions",
+    "relatedBlogs": "Related Blogs"
+  },
+  "officialBlogs": {
+    "title": "Official Blogs",
+    "officialBlog": "Official Blog",
+    "subtitle": "Blogs",
+    "fields": {
+      "search": "Search Blogs by title or description"
+    },
+    "blogStatus": {
+      "draft": "Draft",
+      "published": "Published",
+      "scheduled": "Scheduled"
+    },
+    "buttons": {
+      "addBlog": "Add New Blog"
+    },
+    "officialBlogForm": {
+      "fields": {
+        "permalink": "Permalink",
+        "faq": {
+          "label": "FAQ",
+          "fields": {
+            "question": "Question",
+            "answer": "Answer"
+          }
+        },
+        "seo": {
+          "label": "SEO",
+          "fields": {
+            "title": "Title",
+            "description": "Description",
+            "keywords": "Keywords"
+          }
+        },
+        "relatedBlogs": "Related Blogs",
+        "publishBlog": "Publish Blog",
+        "scheduledAt": "Scheduled At"
+      },
+      "placeholders": {
+        "permalink": "Enter slug for the blog",
+        "seo": {
+          "title": "Enter SEO title",
+          "description": "Enter SEO description",
+          "keywords": "Enter SEO keywords"
+        },
+        "relatedBlogs": "Search and choose related blogs",
+        "scheduledAt": "Select date"
+      }
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "subTitle": "Account",
+    "registeredOn": "Registered on",
+    "deleteAccount": {
+      "title": "Delete Account",
+      "description": "Deleting your account will remove all of your information from our database. This cannot be undone."
+    },
+    "fields": {
+      "bio": "Bio",
+      "language": {
+        "label": "Language",
+        "arabic": "Arabic",
+        "english": "English"
+      },
+
+      "notifications": "Notifications"
+    },
+    "placeholders": {
+      "bio": "Enter your bio"
+    }
+  },
+  "notifications": {
+    "title": "Notifications",
+    "notification": "Notification",
+    "clearAll": "Clear All",
+    "notificationPermissionDenied": "Notification permission denied",
+    "noRegistrationTokenAvailable": "No registration token available",
+    "errorRetrievingFCMToken": "Error retrieving FCM token",
+    "notificationPermissionGranted": "Notification permission granted"
+  },
+  "employees": {
+    "title": "Employees",
+
+    "buttons": {
+      "addEmployee": "Add Employee",
+      "addAgent": "Add Team Member",
+      "seeAnalytics": "See Analytics"
+    }
+  },
+  "transactions": {
+    "title": "Transactions",
+    "controls": {
+      "pending": "Open",
+      "completed": "Complete",
+      "expired": "Expired"
+    },
+    "columns": {
+      "createdAt": "Created At",
+      "amount": "Amount",
+      "user": "User",
+      "credits": "Credits",
+      "priceWithTaxes": "Price with taxes",
+      "priceWithoutTaxes": "Price without taxes",
+      "taxAmount": "Tax amount"
+    }
+  },
+
+  "creditsRequests": {
+    "title": "Credits Requests",
+    "creditRequest": "Credit Request",
+    "creditRequestFrom": "Credit Request from {user}",
+    "placeholders": {
+      "search": "Search credits requests"
+    },
+    "status": {
+      "pending": "Pending",
+      "accepted": "Accepted",
+      "rejected": "Rejected"
+    },
+    "columns": {
+      "user": "User",
+      "status": "Status",
+      "credits": "Credits",
+      "fees": "Fees",
+      "taxes": "Taxes",
+      "total": "Total",
+      "createdAt": "Created at"
+    },
+    "approveModal": {
+      "title": "Approve Credit Request",
+      "message": "Are you sure you want to approve this credit request?"
+    },
+    "rejectModal": {
+      "title": "Reject Credit Request",
+      "message": "Are you sure you want to reject this credit request?"
+    }
+  },
+  "premium": {
+    "title": "Properties/Premium Credits and Services",
+    "availableCredits": "Available Credits",
+    "creditsDescription": "Credits are purchased, so the \"agent\" or \"company\" can feature their listings through either \"Property of The Week\", \"Signature\", or \"Hot\".",
+    "topUpCredits": {
+      "title": "Top-Up Credits",
+      "description": "Add more credits to your account to feature your listings",
+      "estimatedSubTotal": "Estimated sub total price",
+      "estimatedVAT": "Estimated VAT",
+      "estimatedTotal": "Estimated total price",
+      "creditsTopUpAmount": "Credits Top-Up Amount",
+      "proceedToBuy": "Proceed to buy",
+      "cancel": "Cancel",
+      "availableCreditsLabel": "Available Credits"
+    },
+    "addFeaturedProperty": {
+      "activeFeaturedProperties": "Active Featured Properties",
+      "addFeaturedProperty": "Add Featured Property",
+      "search": "Start typing to search and select",
+      "title": "{recommendationType} Properties",
+      "description": "Feature your properties to get more visibility",
+      "featuredProperties": "Featured Properties",
+      "featurePeriod": "Feature Period",
+      "totalCreditsCost": "Total Credits Cost",
+      "credits": "Credits",
+      "notEnoughCredits": "Not enough credits",
+      "days": "days",
+      "buy": "Buy",
+      "cancel": "Cancel"
+    },
+    "tabs": {
+      "hotDeal": "Hot Deal",
+      "signature": "Signature",
+      "propertyOfTheWeek": "Property of the Week"
+    },
+    "descriptions": {
+      "hotDeal": "Hot deal is a way to feature a property that has an advantage for example 1 month free rent, free internet, special price… etc. The property can be featured for: 7 days - 14 days - 30 days",
+      "signature": "Signature is a way to feature a property as a Signature property without the need to have a special advantage. The property can be featured for: 7 days - 14 days - 30 days",
+      "propertyOfTheWeek": "Property of The Week is a way to feature a property for 1 week period only, without the need to have a special advantage. The property can be featured for: 7 days only."
+    }
+  },
+
+  "callRequests": {
+    "title": "Call Requests",
+    "callRequest": "Call Request",
+    "registeredOn": "Registered on",
+    "placeholders": {
+      "search": "Search call requests"
+    },
+
+    "actions": {
+      "viewRequest": "View Request"
+    },
+    "status": {
+      "approved": "Approved",
+      "pending": "Pending",
+      "rejected": "Rejected"
+    },
+    "modal": {
+      "approveTitle": "Approve Call Request",
+      "approveMessage": "Are you sure you want to approve this call request?",
+      "rejectTitle": "Reject Call Request",
+      "rejectMessage": "Are you sure you want to reject this call request?"
+    }
+  },
+
+  "contactUsRequests": {
+    "title": "Contact Us Requests",
+    "badgeTitle": "Contact Us",
+    "message": "Message",
+    "messageSentSuccessfully": "Message sent successfully",
+    "card": {
+      "email": "Email",
+      "subject": "Subject",
+      "sentOn": "Sent on"
+    },
+
+    "fields": {
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message"
+    },
+
+    "placeholders": {
+      "search": "Search contact us requests",
+      "name": "Enter your name",
+      "email": "Enter your email",
+      "subject": "Enter your subject",
+      "message": "Enter your message"
+    },
+    "buttons": {
+      "send": "Send a message"
+    }
+  },
+
+  "checkout": {
+    "title": "Checkout",
+    "poweredBy": "Powered by Stripe",
+    "stripe": "Stripe",
+
+    "paymentMethod": {
+      "title": "Payment Method",
+      "selectMethod": "Please, Select your suitable payment method",
+      "card": "Card",
+      "bankTransfer": "Bank Transfer"
+    },
+    "bankTransfer": {
+      "title": "Bank transfer details",
+      "fullName": "Full Name",
+      "bic": "BIC",
+      "iban": "IBAN",
+      "businessAddress": "Business Address",
+      "uploadReceipt": "Upload Bank Transfer Receipt in PDF or Image",
+      "orByCard": "Or by Card",
+      "submit": "Submit",
+      "constOfCreditsDescription": "The cost of {credits} Credits is {total} AED. Do a bank transfer and upload the bank transfer receipt. After that our team will review your request and will accept the request. Thank you! If you face any issues, please contact the email",
+      "details": "Details",
+      "orContactUsOnWhatsapp": "or contact us on Whatsapp"
+    },
+    "success": {
+      "title": "Checkout process succeeded!",
+      "credits": "Credits",
+      "fees": "Fees",
+      "taxes": "Taxes",
+      "total": "Total"
+    },
+    "error": {
+      "selectPaymentMethod": "Please select a payment method",
+      "goToPremium": "Please go to the premium page and select the number of credits you want to purchase",
+      "selectImageOrPdf": "Please select an image or PDF file"
+    },
+    "status": {
+      "success": {
+        "title": "Your Payment Was Successful",
+        "description": "Your payment has been successfully processed"
+      },
+      "review": {
+        "title": "Your Request is Being Reviewed",
+        "description": "Your request is being reviewed, please wait until accepted or declined"
+      },
+      "declined": {
+        "title": "Your Payment was Declined",
+        "description": "Please check with your bank customer serveries and try again"
+      },
+      "goToPremium": "Go to Premium",
+      "tryAgain": "Try Again",
+      "contactUs": "If you face any problem, Please contact us by mail or whatsapp"
+    },
+    "terms": "You may cancel at any time in your billing settings. By clicking on the button you agree to our Terms of Service and authorize this recurring charge."
+  },
+
+  "seo": {
+    "title": "Find Your Dream Home",
+    "description": "Find your dream home. This is where you can find a dream home of your choice without stress.",
+    "keywords": [
+      "home",
+      "dream home",
+      "real estate",
+      "buy property",
+      "property",
+      "find property",
+      "property search",
+      "property for sale",
+      "property for rent",
+      "property request",
+      "property listing"
+    ],
+    "properties": {
+      "title": "All Properties | TrueDar Real Estate Listings in UAE",
+      "description": "Browse a wide range of real estate listings in UAE on TrueDar. Find the perfect home, office, or investment property with trusted brokers and seamless search tools."
+    },
+    "projects": {
+      "title": "All Projects | TrueDar Real Estate Projects in UAE",
+      "description": "Explore a comprehensive list of real estate projects in UAE on TrueDar. Discover residential, commercial, and investment projects with reliable information and easy navigation."
+    },
+    "community": {
+      "title": "Community | Connecting Real Estate Brokers and Client",
+      "description": "Join the TrueDar community and connect with trusted real estate brokers and clients across UAE. Share knowledge, collaborate, and enhance your real estate experience."
+    },
+    "news": {
+      "title": "News | TrueDar Real Estate Updates & Insights in UAE",
+      "description": "Stay updated with the latest real estate news, market insights, and property trends in UAE. Explore TrueDar's news section for valuable updates and information."
+    },
+    "chats": {
+      "title": "Support Center | TrueDar Real Estate Assistance in UAE",
+      "description": "Get assistance and support from TrueDar's dedicated team. Find answers to your real estate queries and enjoy seamless service through our Support Center in UAE."
+    },
+    "termsOfUse": {
+      "title": "Terms of Use | TrueDar Real Estate Platform",
+      "description": "Read the Terms of Use for TrueDar's real estate platform. Understand the rules and regulations governing the use of our services, ensuring a seamless and transparent experience."
+    }
+  },
+  "navigation": {
+    "followings": "Followings",
+    "followers": "Followers",
+    "myAccount": "My Account",
+    "support": "Support",
+    "about": "About",
+    "sellForMeRequests": "Sell For Me Requests",
+    "propertyRequests": "Property Requests",
+    "savedProperties": "Saved Properties",
+    "settings": "Settings",
+    "home": "Home",
+    "projects": "Projects",
+    "leads": "Leads",
+    "messages": "Messages",
+    "analytics": "Analytics",
+    "adminAnalytics": "Admin Analytics",
+    "community": "Community",
+    "employees": "Employees",
+    "properties": "Properties",
+    "myProperties": "My Properties",
+    "profile": "Profile",
+    "forCompaniesAgents": "For Companies/Agents",
+    "users": "Users",
+    "news": "News",
+    "adminProperties": "Admin Properties",
+    "adminProjects": "Admin Projects",
+    "officialBlogs": "Official Blogs",
+    "creditRequests": "Credit Requests",
+    "transactions": "Transactions",
+    "termsOfUse": "Terms of Use",
+    "privacyPolicy": "Privacy Policy",
+    "logout": "Logout",
+    "login": "Login",
+    "startForFree": "Start For Free"
+  },
+  "footer": {
+    "ourCompany": "Our Company",
+    "drivenByPurpose": "Driven by Purpose,",
+    "shapingFutures": "Shaping Futures",
+    "allCopyrighted": "All Copyrighted goes for TrueDar © 2024",
+    "socialMedia": {
+      "facebook": "Facebook",
+      "twitter": "Twitter",
+      "instagram": "Instagram",
+      "linkedin": "LinkedIn"
+    },
+    "contact": "Contact Us",
+    "subscribe": {
+      "title": "Subscribe",
+      "description": "Subscribe to get the latest property, blog news from us"
+    }
+  },
+  "notFound": {
+    "title": "Something's missing.",
+    "description": "Sorry, we can't find that page. You'll find lots to explore on these pages."
+  },
+  "adminUsers": {
+    "title": "Users",
+    "loginAs": "Login as",
+    "search": "Search users",
+    "viewCallRequest": "View Call Request",
+    "viewContactUsRequest": "View Contact Us Request",
+    "agents": "Agents",
+    "listings": "Listings",
+    "followers": "Followers",
+    "followings": "Followings",
+    "crm": "CRM",
+    "join": "Join",
+    "viewWatermark": "View Watermark"
+  },
+  "xml": {
+    "title": "XML Management",
+    "importedProperties": "Imported Properties",
+    "enterTheLink": "Enter Url for XML that contain your listings",
+    "xmlRequests": {
+      "title": "XML Requests",
+      "search": "Search XML requests",
+      "viewRequest": "View XML Request",
+      "createdAt": "Created at",
+      "mainCard": {
+        "url": "Url of XML",
+        "linkToXml": "Link to XML",
+        "platform": "Platform"
+      },
+      "card": {
+        "creatorInformation": "Creator Information",
+        "type": "Type"
+      },
+      "approveModal": {
+        "title": "Approve XML Request",
+        "message": "Are you sure you want to approve this XML request?",
+        "confirm": "Confirm",
+        "cancel": "Cancel"
+      },
+      "rejectModal": {
+        "title": "Reject XML Request",
+        "message": "Are you sure you want to reject this XML request?",
+        "defaultReasons": {
+          "duplicateProperty": "Duplicate property found in system",
+          "incompleteInfo": "Incomplete or inaccurate property information",
+          "violatesGuidelines": "Property violates platform guidelines",
+          "ownerRequest": "Requested by property owner to remove",
+          "technicalIssues": "Technical issues with the property listing",
+          "notAvailable": "Property no longer available for listing"
+        }
+      },
+      "status": {
+        "approved": "Approved",
+        "rejected": "Rejected",
+        "pending": "Pending"
+      }
+    },
+    "agents": {
+      "title": "XML Agents",
+      "needsAdminApproval": "Needs Admin Approval",
+      "warning": "Warning",
+      "viewAll": "View All",
+      "registered": "Registered",
+      "unregistered": "Unregistered",
+      "publishConfirmation": "publish while you have {count} approval issues",
+      "publishSuccess": {
+        "title": "Published Successfully",
+        "withIssues": "You have:",
+        "publishedWithoutIssues": "Published listings without approval issues",
+        "submittedForReview": "Submitted a review for the other listings"
+      }
+    },
+    "warnings": {
+      "title": "Warnings",
+      "issues": "Issues",
+      "issueCount": "{count} Issues"
+    },
+    "errors": {
+      "title": "General Errors",
+      "crmInstructions": "Please go to your CRM system to solve the following:",
+      "noErrors": "No errors Found"
+    },
+    "buttons": {
+      "finish": "Finish",
+      "reset": "Reset",
+      "accept": "Accept",
+      "close": "Close",
+      "publish": "Publish",
+      "process": "Process"
+    }
+  },
+  "config": {
+    "title": "Config",
+    "noOfExpiryDays": "No of Expiry Days",
+    "price": "Price",
+    "remove": "Remove"
+  },
+
+  "terms_of_use": {
+    "title": "Terms Of Use",
+    "effective_date": "June 1st, 2024",
+    "effective_date_text": "Effective Date",
+    "introduction": {
+      "website_url": "https://www.truedar.ae",
+      "company_name": "True Dar Marketing Management L.L.C",
+      "description": "By using the website <link>www.truedar.ae</link> or the True Dar mobile application (collectively referred to as the \"Platform\"), you confirm that you have read, understood, and accepted these Terms of Use (hereinafter referred to as the \"Terms\") as the governing provisions for your access and use of the Platform and the Service, and you agree to comply with them. If you do not accept or agree to comply with these Terms, you should not use this Platform. Additionally, when using any part of the Service, you agree to comply with any applicable guidelines for that Service, which may be changed or updated from time to time at our discretion.",
+      "company_description": "These Terms are entered into between True Dar Marketing Management L.L.C (hereinafter referred to as \"we\", \"us\", \"our\", \"the Company\", as applicable) and the user (hereinafter referred to as \"you\", \"your\", \"the user\"). The Company provides marketing services and tools for real estate agents and real estate companies and helps property seekers find suitable properties through an integrated platform."
+    },
+    "definitions": {
+      "title": "1. Definitions",
+      "terms": [
+        {
+          "id": "1.1",
+          "term": "True Dar",
+          "definition": "means True Dar Marketing Management L.L.C, the owner of <link>www.truedar.ae</link>, with its registered office in Dubai, United Arab Emirates."
+        },
+        {
+          "id": "1.2",
+          "term": "Affiliated Companies",
+          "definition": "Refers to any entity or business unit associated with True Dar that participates in providing the services."
+        },
+        {
+          "id": "1.3",
+          "term": "Advertising Agreement",
+          "definition": "means the agreement for providing advertising products or services entered into between the Company and the Client."
+        },
+        {
+          "id": "1.4",
+          "term": "Memberships",
+          "definition": "A bundle of membership services or features that the company agrees to provide to the subscriber upon subscription and payment of the required amount, in accordance with these terms and the terms of the membership agreement. Memberships include various types."
+        },
+        {
+          "id": "1.5",
+          "term": "Client",
+          "definition": "means the client party to the Advertising Agreement."
+        },
+        {
+          "id": "1.6",
+          "term": "Customer",
+          "definition": "means any customer of the Client."
+        },
+        {
+          "id": "1.7",
+          "term": "Intellectual Property Rights",
+          "definition": "means all intellectual property rights, including patents, trademarks, goodwill, database rights, data rights, design rights, copyrights, topographical rights (whether registered or not, including applications and the right to apply for registration of any such rights), and all inventions, know-how, trade secrets, confidential information, buyer and supplier lists, and other proprietary expertise and information, all rights under licenses and consents in relation to any of these rights, and all rights and forms of protection of a similar nature or having an equivalent or similar effect to any of these rights, which may exist anywhere in the world, for the full duration thereof, including any renewals and extensions."
+        },
+        {
+          "id": "1.8",
+          "term": "Interactive Features",
+          "definition": "means any interactive services available on the Platform."
+        },
+        {
+          "id": "1.9",
+          "term": "Materials",
+          "definition": "means the material and content published on the Platform or otherwise provided by the Company in relation to the Service."
+        },
+        {
+          "id": "1.10",
+          "term": "Publishing Agents",
+          "definition": "means an agent, service provider, or intermediary who publishes materials in the Service on behalf of others."
+        },
+        {
+          "id": "1.11",
+          "term": "Privacy Policy",
+          "definition": "means the Company's current privacy policy."
+        },
+        {
+          "id": "1.12",
+          "term": "Product",
+          "definition": "means an online classified advertising platform available on the Platform, including various membership packages."
+        },
+        {
+          "id": "1.13",
+          "term": "Registration Data",
+          "definition": "means the data required from the user at the time of registration on the Platform from time to time (e.g., phone numbers, email addresses, age, and/or address)."
+        },
+        {
+          "id": "1.14",
+          "term": "Service",
+          "definition": "means the provision of the Platform, the Product, and the Interactive Features."
+        },
+        {
+          "id": "1.15",
+          "term": "Unacceptable Material",
+          "definition": "means any material or information uploaded or made available on the Platform that may be considered under the law of any territory accessible from the Platform as content:",
+          "subcategories": [
+            "1.15.1. Illegal, unlawful, improper, obscene, racist, offensive, pornographic, child sexual content, defamatory, false, unreliable, misleading, harmful, potentially harmful to minors, threatening, libelous, alleged to be libelous, infringing on the rights of others (of any nature, including, but not limited to, any intellectual property rights), invading another person's privacy or other rights, related to money laundering or illegal gambling, or encouraging such activities;",
+            "1.15.2. Violating any applicable regulations, standards, or codes of practice (even if compliance is not mandatory);",
+            "1.15.3. Breaching any legislation, including, but not limited to, legislation relating to weapons, animals, or alcoholic beverages; or",
+            "1.15.4. Damaging the Company's reputation."
+          ]
+        },
+        {
+          "id": "1.16",
+          "term": "User Materials",
+          "definition": "means the materials and content posted by the user on the Platform or otherwise provided by the user to True Dar in connection with the Platform or the Service."
+        }
+      ]
+    },
+    "general_terms": {
+      "title": "General Terms and Conditions Applicable to Users",
+      "sections": [
+        {
+          "id": "2.1",
+          "title": "Registration Data",
+          "content": "When registering on this Platform, the user must provide accurate, current, and complete Registration Data and must update it after any changes (except for age) before using the Platform for further services in the future."
+        },
+        {
+          "id": "2.2",
+          "title": "Advertisements",
+          "content": "The user agrees and acknowledges that the Platform may contain advertisements placed by advertisers or real estate companies (for which the company disclaims any responsibility). Advertisers or companies that use the Platform or the Service to place real estate advertisements or real estate services advertisements must include their full names in the advertisement and clarify that they are selling real estate in the course of business, either through the content of the advertisement, its format, size, placement, or by including words such as \"real estate,\" \"agent,\" \"real estate company,\" or similar terms in the name of the advertisement submitted for publication."
+        },
+        {
+          "id": "2.3",
+          "title": "User Age",
+          "content": "The user warrants and represents to the Company that they are at least eighteen years old and have the legal capacity to enter into contracts."
+        },
+        {
+          "id": "2.4",
+          "title": "Removal of Materials",
+          "content": "The Company reserves the right to remove any Materials or User Materials from the Platform without prior notice and to reject any User Materials submitted or posted to the Company by the user."
+        },
+        {
+          "id": "2.5",
+          "title": "Data Recording",
+          "content": "The user's Registration Data and data related to their use of the Platform and any Interactive Features will be recorded by the Company, but this information will not be disclosed to third parties (except in an aggregated and anonymized form or in accordance with the Privacy Policy or Clause 2.6 below) and will not be used for any purpose unrelated to the Platform or the relevant Interactive Features. By agreeing to these Terms, you explicitly permit us to verify your data by contacting you at the phone number provided to us. Calls may be recorded for quality assurance purposes."
+        },
+        {
+          "id": "2.6",
+          "title": "Information Usage",
+          "content": "The user authorizes the Company to use any information submitted to the Platform to inform the user about special offers and offers from others from time to time and for other marketing and related purposes. Subject to Clause 2.5 above, the Company will not use the user's data for any other purposes except as stated in these Terms, except that the Company may disclose such data if required to do so by law, or upon request from a law enforcement agency or governmental authority."
+        },
+        {
+          "id": "2.7",
+          "title": "Opt-out",
+          "content": "If the user does not wish the Company to use their information as outlined in Clause 2.6 above, they should leave the Platform before providing their personal data."
+        },
+        {
+          "id": "2.8",
+          "title": "Email Opt-out",
+          "content": "If the user does not wish the Company to use their email address or mobile phone number/SMS to send information related to the Platform and related matters, they should send an email to <link>legal@truedar.ae</link> and include \"Unsubscribe\" as the subject of the message."
+        },
+        {
+          "id": "2.9",
+          "title": "User Confidentiality",
+          "content": "You must keep any user identification data and password confidential that has been set up or provided to you as part of our security procedures, and you must not disclose them to any third party."
+        },
+        {
+          "id": "2.10",
+          "title": "Account Suspension or Termination",
+          "content": "The Company reserves the right to suspend or terminate the user's account if, in its sole discretion, it determines that the user has violated these Terms or if such suspension or termination is otherwise deemed appropriate. In the event of such suspension or termination, the Company will notify the user via email, and the user must not attempt to re-register on the Platform through a related entity, whether directly or indirectly. The Company's rights under this Clause 2.10 do not affect any other right or remedy the Company may seek in relation to any violation or any rights, obligations, or liabilities arising before such suspension or termination."
+        },
+        {
+          "id": "2.11",
+          "title": "Service Provision",
+          "content": "For the avoidance of doubt, the Company provides a service and does not supply goods."
+        },
+        {
+          "id": "2.12",
+          "title": "Intellectual Property Rights",
+          "content": "True Dar owns all intellectual property rights associated with the Platform and the Service, including but not limited to any trademarks, trade names, designs, texts, graphics, and their selection and arrangement. Nothing contained on the Platform should be construed as granting, by implication or otherwise, any license or right to use any trademark displayed on the Platform without our written permission. You may print one copy, and download extracts of any page(s from the Platform for your personal use and draw the attention of others to the content posted on the Platform. However, you must not modify the digital or paper copies of any materials you have printed or downloaded in any way, and you must not use any photographs, video, or audio sequences separately from any accompanying text. You agree not to circumvent, disable, or otherwise interfere with any security-related features of the Platform or features that prevent or restrict the use or copying of any materials or enforce limitations on the use of the Platform or the materials therein. The materials displayed in or through the Service are protected by copyright as a collective work and/or compilation, in accordance with copyright laws and other laws and international conventions. Any reproduction, copying, modification, creation of derivative works, or redistribution of the Platform or the materials or the collective work or compilation is expressly prohibited. Copying or reproducing the Platform or the materials or any part thereof for further reproduction or redistribution is expressly prohibited."
+        },
+        {
+          "id": "2.13",
+          "title": "Intellectual Property Infringement",
+          "content": "The Company takes actual and reported infringement of intellectual property rights and fraud seriously, and although users cannot hold the Company responsible for such issues, the Company requests all users to report such matters immediately to the Company, which will in turn notify the relevant authorities."
+        },
+        {
+          "id": "2.14",
+          "title": "Notice of Infringement",
+          "content": "If you are an intellectual property rights owner or an agent authorized to act on behalf of an intellectual property rights owner and believe that any materials or other content infringe your intellectual property right or the intellectual property rights of the owner on whose behalf you are authorized to act, you may send a notice to the Company requesting the removal of the relevant materials in good faith. The notice and request must include the following information: A physical or electronic signature of the person authorized to act on behalf of the owner of the exclusive right that is allegedly infringed; Identification of the intellectual property rights claimed to have been infringed, or, if multiple intellectual property rights are covered by a single notice, a representative list of such works; Identification of the materials (by data or contact link, etc.) that are claimed to be infringing or subject to infringing activity, and information reasonably sufficient to permit the Company to locate the materials; Information reasonably sufficient to permit the Company to contact you, such as an address, telephone number, and email address; A signed statement that you have a good faith belief that the use of the materials in the manner complained of is not authorized by the intellectual property rights owner, its agent, or the law; A signed statement that the intellectual property rights owner will indemnify the Company from any third-party claims related to the Company's removal of the content in question; and A signed statement that the information in the notice is accurate and that you are authorized to act on behalf of the owner of the exclusive right that is allegedly infringed, under penalty of perjury. All notices under Clauses 2.13 and 2.14 must be sent to <link>legal@truedar.ae</link>"
+        },
+        {
+          "id": "2.15",
+          "title": "Feedback",
+          "content": "Users will be invited to send feedback regarding the integrity and performance of other users to the Company's email."
+        }
+      ]
+    },
+    "restrictions": {
+      "title": "General Restrictions on Use",
+      "sections": [
+        {
+          "id": "3.1",
+          "title": "Illegal Use",
+          "content": "You must not use the Platform or the Service in any illegal way, for any illegal purpose, or in any way inconsistent with these Terms, or act fraudulently or maliciously, for example, by hacking or inserting malicious code, viruses, Trojan horses, worms, time bombs, keystroke loggers, spyware, adware, or other harmful data or programs or similar code designed to adversely affect the operation of any computer software or hardware, Platform, any Service, or any operating system."
+        },
+        {
+          "id": "3.2",
+          "title": "Disruptive Materials",
+          "content": "You must not publish any materials designed to disrupt or destroy or limit the functionality of the Platform or the Service."
+        },
+        {
+          "id": "3.3",
+          "title": "Automated Tools",
+          "content": "Use any form of automated device or computer program (sometimes referred to as \"content flagging tools\") that enables the use of the Company's \"flagging system\" or other community control systems without each flag being manually entered by a human who initiates the flag (an \"automated flagging device\"), or use any such flagging tool to remove postings of competitors or others, or to remove postings without a reasonable good faith belief that the post being flagged violates these Terms or any applicable law or regulation."
+        },
+        {
+          "id": "3.4",
+          "title": "Automated Viewing",
+          "content": "You must not use any automated software to view the Service without our consent (including the use of spiders, robots, crawlers, data mining tools, or similar tools to download or scrape data from the Service, except for general-purpose internet search engines (such as Google) and non-commercial public archives (such as archive.org) that comply with our robots.txt file) and only access the Service manually."
+        },
+        {
+          "id": "3.5",
+          "title": "Personal Use",
+          "content": "You must not use the Service for any purpose other than personal use or act as an agent to list properties for sale or rent."
+        },
+        {
+          "id": "3.6",
+          "title": "Unauthorized Copying",
+          "content": "You must not attempt to copy any materials or reverse engineer any processes without the Company's consent."
+        },
+        {
+          "id": "3.7",
+          "title": "Illegal or Harmful Use",
+          "content": "You must not use any part of the Service in any illegal, unethical, or harmful manner to True Dar."
+        },
+        {
+          "id": "3.8",
+          "title": "Policy Violation",
+          "content": "You must not use any part of the Service in a way that violates any policy or notice on the Platform."
+        },
+        {
+          "id": "3.9",
+          "title": "Copyright Notices",
+          "content": "You must not remove or alter any copyright notices appearing on the Platform."
+        },
+        {
+          "id": "3.10",
+          "title": "Unacceptable Material",
+          "content": "You must not post any Unacceptable Material or any material that may encourage the violation of any applicable laws or regulations."
+        },
+        {
+          "id": "3.11",
+          "title": "Interference",
+          "content": "You must not interfere with any other user's ability to enjoy the Platform or the Service."
+        },
+        {
+          "id": "3.12",
+          "title": "Abusive Behavior",
+          "content": "You must not act in an abusive or harmful manner while using the Platform or the Service."
+        },
+        {
+          "id": "3.13",
+          "title": "Unsolicited Contact",
+          "content": "You must not contact any person who has requested not to be contacted or make unsolicited contact with anyone for any commercial purpose, specifically, you must not contact any user to post an advertisement on a third-party platform or post any advertisement on behalf of such user."
+        },
+        {
+          "id": "3.14",
+          "title": "Stalking or Harassment",
+          "content": "You must not \"stalk\" or harass any person."
+        },
+        {
+          "id": "3.15",
+          "title": "Personal Information",
+          "content": "You must not collect personal information about other users or entities for commercial or illegal purposes."
+        },
+        {
+          "id": "3.16",
+          "title": "Prohibited User Material",
+          "content": "You must not post any User Material that includes: Harassment, abuse, or threats against any individual or group of individuals based on religion, gender, sexual orientation, race, ethnicity, age, or disability; Personal or identifying information of another person without that person's explicit consent; Impersonation of any person or entity, including, but not limited to, a Company employee, or falsely stating or otherwise misrepresenting your affiliation with a person or entity; Information protected by copyright, patent, trade secret, trademark, or other proprietary rights of any party, including privacy and publicity rights, unless you own those rights or have permission or a license from their rightful owner to post the materials and grant the Company all the license rights granted herein; Violation of any of the above-mentioned intellectual property rights of any party, or User Materials that you do not have the right to make available under any law or contractual or fiduciary relationship(s); Information that constitutes or contains \"pyramid schemes,\" \"jokes,\" \"affiliate marketing,\" \"code linking client referrals,\" \"spam,\" \"junk mail,\" \"chain letters,\" \"deceptive marketing,\" \"marketing relying on negative options,\" \"multi-level marketing,\" or unsolicited advertisements of a commercial nature; Constitutes or contains any form of advertising or solicitation if: (1) posted in areas or categories of the Platform not designated for such purposes; or (2) sent by email to Company users who have requested not to be contacted about other services, products, or commercial interests; Includes links to commercial services or third-party platforms, except as specifically permitted by the Company."
+        },
+        {
+          "id": "3.17",
+          "title": "Interference with Platform",
+          "content": "You must not access, interfere with, damage, or disrupt: Any part of the Platform; Any equipment or networks on which the Platform is stored; Any software used in the provision of the Platform; Any equipment or networks or software owned or used by third parties."
+        },
+        {
+          "id": "3.18",
+          "title": "License for User Materials",
+          "content": "By submitting User Materials on the Platform or otherwise, you grant True Dar a royalty-free, perpetual, irrevocable, non-exclusive license to use, reproduce, distribute, display, modify, and edit the User Materials. True Dar will not pay any fees for any kind for the User Materials, and it reserves the right, in its sole discretion, to remove or modify the User Materials at any time. You warrant and represent that you have all rights, consents, and/or authorizations regarding the User Materials necessary to grant True Dar these rights."
+        }
+      ]
+    },
+    "paid_listing_slots": {
+      "id": "4",
+      "title": "Paid Listing Slots",
+      "content": "The Company offers various membership plans that include a specific number of listing slots and additional features. Each membership plan allows the user to publish materials in designated areas of the Platform according to the terms of their chosen plan. Each party that publishes materials using the listing slots under their membership is responsible for the content and for complying with these Terms. Membership fees are non-refundable, even if materials are removed from the Service due to a violation of these Terms. Additional terms regarding Paid Listing Slots will be mentioned in the applicable Box(s)."
+    },
+    "publishing_agents": {
+      "id": "5",
+      "title": "Publishing Agents",
+      "content": "The Company prohibits the use of unauthorized Publishing Agents, directly or indirectly, without the Company's explicit written permission. Authorized agents or companies with a valid membership are permitted to post materials on the Platform as per their membership terms. However, Publishing Agents are not allowed to post materials on behalf of others without explicit written permission or a license from the Company."
+    },
+    "anti_spam_policy": {
+      "id": "6",
+      "title": "Anti-Spam Policy",
+      "content": "You understand and agree that sending unsolicited advertisements or other unsolicited communications to the Company's email addresses or through the Company's computer systems is expressly prohibited by these Terms. You acknowledge and agree that the Company may monitor the use of email communications using human monitors or automated software to identify certain words associated with spam or fraud that are sent between one user and another in the Company's email system. Any communication between you and any other user utilizing the communication features available on the Service and the Platform may only be used in accordance with these Terms. Any unauthorized use of the Company's computer systems is a violation of these Terms and certain applicable laws, including UAE laws related to cybercrimes. Such violations may subject the sender and their agents to civil and criminal penalties. Please be aware that UAE cybercrime laws carry significant penalties, including imprisonment. If you intend to contact our users by obtaining their email addresses or phone numbers from our Platform, we may report this behavior to the relevant authorities, who may then decide to prosecute you under the applicable UAE laws."
+    },
+    "limitation_of_liability": {
+      "id": "7",
+      "title": "Limitation of Liability",
+      "content": "The Company is not liable for any of the following:",
+      "items": [
+        "Consequential, indirect, or special losses or damages (even if the Company has been advised of the possibility of such losses or damages);",
+        "Loss of profits;",
+        "Loss of business;",
+        "Loss of revenue;",
+        "Loss or damage to data;",
+        "Loss of production;",
+        "Loss of contracts;",
+        "Loss of opportunities;",
+        "Loss of savings or discounts (whether actual or anticipated);",
+        "Damage to reputation or loss of goodwill;",
+        "Loss of anticipated savings (in the case of clauses 7.1.1 to 7.1.12, whether directly or indirectly, howsoever suffered by any user and arising out of or in connection with these Terms or any liability of the user to any third party)."
+      ]
+    },
+    "remedies": {
+      "id": "8",
+      "title": "Remedies",
+      "content": "You agree to defend, indemnify, and hold harmless the Company, True Dar, and its officers, subsidiaries, affiliates, successors, assigns, directors, agents, service providers, suppliers, and employees, from and against any and all claims, damages, obligations, losses (whether direct, indirect, or consequential), costs, or debt and expenses (including but not limited to attorney's fees) arising from:",
+      "items": [
+        "Your improper use of or inability to use the Platform or the Service,",
+        "Your breach of any of these Terms, and",
+        "Your violation of any third-party rights, including but not limited to any copyright, trademark, trade secret, or other intellectual property or privacy rights."
+      ],
+      "additional_content": "To the extent permitted by law, the defense and indemnification obligation will survive the termination or modification of these Terms and your use of the Platform and the Service."
+    },
+    "real_estate_categories": {
+      "id": "9",
+      "title": "Categories of Real Estate for Sale and Rent on the Platform",
+      "categories": [
+        {
+          "id": "9.1",
+          "title": "Agents",
+          "requirements": [
+            "You guarantee that you hold a valid license from the Real Estate Regulatory Agency (RERA) or its equivalent in the emirate where you are advertising.",
+            "If the project is off-plan (under construction), you guarantee that the project is registered with the Real Estate Regulatory Agency.",
+            "If you are engaged in sub-leasing activities, you guarantee that you hold a \"Leasing and Management of Other People's Property\" activity license from both the Dubai Department of Economic Development and the Real Estate Regulatory Agency.",
+            "If you are engaged in short-term home or holiday rentals, you guarantee that you hold an activity license from the Department of Tourism and Commerce Marketing in Dubai.",
+            "In accordance with the Real Estate Regulatory Agency regulations, you must obtain approval for each sale or lease advertisement (whether inside or outside Dubai) and display the RERA permit number, the office registration number, and the broker registration number on all advertisements."
+          ]
+        },
+        {
+          "id": "9.2",
+          "title": "Developers",
+          "requirements": [
+            "You guarantee that you hold a valid license from the Real Estate Regulatory Agency or its equivalent in the emirate where you are advertising.",
+            "If the project is off-plan (under construction), you guarantee that it is registered with the Real Estate Regulatory Agency and has an escrow account approved by the Real Estate Regulatory Agency for the project.",
+            "In accordance with the Real Estate Regulatory Agency regulations, you must obtain approval for each property advertisement (whether inside or outside Dubai) and display the RERA permit number on all advertisements."
+          ]
+        },
+        {
+          "id": "9.3",
+          "title": "Property Owners and Landlords",
+          "requirements": [
+            "You guarantee that you are the property owner or landlord, or you have a valid authorization to list the property on the Platform.",
+            "If you are engaged in short-term home or holiday rentals, you guarantee that you hold an activity license from the Department of Tourism and Commerce Marketing in Dubai."
+          ]
+        },
+        {
+          "id": "9.4",
+          "title": "Tenants",
+          "requirements": [
+            "You guarantee that you have valid written consent from the property owner before advertising on the Platform and that you have the legal right to post this advertisement."
+          ]
+        },
+        {
+          "id": "9.5",
+          "title": "All Advertisers",
+          "requirements": [
+            "You may only advertise properties that are currently available for sale or rent. We reserve the right, at our discretion, to remove any listings that do not comply with our terms and conditions. Fees will not be refunded in the event of such removals.",
+            "You guarantee that the advertisement does not contain any illegal language or illegal use of the property.",
+            "If you list a property on any part of the Platform, the following obligations apply:"
+          ],
+          "additional_obligations": [
+            "The Company's advertisements include real properties for sale or rent.",
+            "The Company does not act as a real estate agent.",
+            "The Company does not verify the property listing details provided to us by third parties, nor does it warrant or guarantee their accuracy or completeness.",
+            "You, as a user of the Platform, must conduct due diligence and not rely on any details in the advertisements.",
+            "The Company does not verify the RERA license number of all real estate brokerage companies before allowing them to advertise on the Platform."
+          ]
+        }
+      ]
+    },
+    "call_recording": {
+      "id": "10",
+      "title": "Call Recording for Real Estate Brokers",
+      "content": "10.1 Some real estate brokers (brokers) licensed by the Real Estate Regulatory Agency, who advertise on our Platform, may participate in a service whereby each property listing is assigned a uniquely identifiable phone number, and the call is automatically recorded for quality and training purposes. By using the service, you expressly agree to have your phone call recorded when contacting a broker regarding an advertisement in the real estate category on the Platform, and you agree that no further notice or consent is required."
+    },
+    "memberships": {
+      "id": "11",
+      "title": "Memberships",
+      "content": "11.1. If you are a client, purchaser, or any of their officers, directors, employees, agents, contractors, subcontractors, or representatives, the following additional terms apply to you:",
+      "terms": [
+        "The Company may publish on the Platform any information provided or made available to the Company by the client or on their behalf. The client acknowledges and agrees that the Company is not in breach of any confidentiality obligations as a result of publishing this information.",
+        "The Company may make operational changes to the Memberships and the individual products included in those advertisements at any time. The Company will make reasonable efforts to notify clients of significant changes by posting a message on the Platform or by directly notifying the client.",
+        "Subject to Clause 7.12, the Company's liability under any circumstances shall not exceed AED 20,000 in connection with providing the Memberships to the client, regardless of the cause of action and the losses incurred by the client."
+      ]
+    },
+    "general_provisions": {
+      "id": "12",
+      "title": "General Provisions",
+      "sections": [
+        {
+          "id": "12.1",
+          "content": "Subject to Clause 6.2, these Terms and the Privacy Policy and any other document explicitly incorporated herein constitute the entire agreement between you and the Company, and neither party relies on any representation made by the other party unless that representation is expressly included in these Terms. Nothing in this Clause 12.1 shall exclude liability for fraudulent misrepresentation, and no party shall be entitled to any remedy for negligence or non-fraudulent misrepresentation except to the extent (if any) that a court or arbitrator may allow reliance on that representation as being fair and reasonable."
+        },
+        {
+          "id": "12.2",
+          "content": "The Company reserves the right to change its terms of business from time to time. The effective date at the time the user reads these Terms is stated at the top of these Terms. Before using the Platform again in the future, users should check that the effective date has not changed. If it has changed, the user must review the new set of terms and conditions and only use the Platform if they accept the new terms and conditions. If you do not accept these changes, you must immediately cease accessing the Platform and using the Service."
+        }
+      ]
+    },
+    "contact_email": "<link>legal@truedar.ae</link>"
+  },
+
+  "privacy_policy": {
+    "title": "Privacy Policy",
+    "effective_date": "June 1st, 2024",
+    "introduction": {
+      "title": "Introduction",
+      "company_name": "True Dar Marketing Management L.L.C",
+      "company_aliases": ["TrueDar", "we", "us", "our"],
+      "description": "At True Dar Marketing Management L.L.C (“TrueDar”, “we”, “us”, “our”), protecting your privacy is our priority. This Privacy Policy outlines how we collect, use, and safeguard your Personal Data when you use our website and mobile applications (collectively, the \"Platform\"). By accessing or using the Platform, you agree to this Privacy Policy."
+    },
+    "definitions": {
+      "title": "Definitions",
+      "terms": [
+        {
+          "term": "Personal Data",
+          "definition": "Information about an individual from which that individual is either directly identified or can be identified. It does not include anonymized data."
+        },
+        {
+          "term": "Platform",
+          "definition": "Refers to the TrueDar website and mobile applications."
+        },
+        {
+          "term": "Processing",
+          "definition": "Any operation performed on Personal Data, such as collection, use, storage, and disclosure."
+        }
+      ]
+    },
+    "contact_information": {
+      "title": "Who We Are and How to Contact Us",
+      "content": "True Dar Marketing Management L.L.C is responsible for the Platform and your Personal Data. You can reach us via email at"
+    },
+    "data_collection": {
+      "title": "Data Collection",
+      "description": "We collect the following types of Personal Data directly from you:",
+      "data_types": [
+        {
+          "type": "Identity Data",
+          "details": "Includes your name, username, profile picture, gender, and age."
+        },
+        {
+          "type": "Contact Data",
+          "details": "Includes your email address, physical address, and phone numbers."
+        },
+        {
+          "type": "Location Data",
+          "details": "Approximate location data to enhance your property search experience."
+        },
+        {
+          "type": "Property Data",
+          "details": "Information about properties you list, such as images, videos, pricing, and descriptions."
+        },
+        {
+          "type": "Payment Data",
+          "details": "Partial credit card details for transactions (full details are not retained)."
+        },
+        {
+          "type": "Chat Data",
+          "details": "Messages exchanged on the Platform."
+        },
+        {
+          "type": "Behavioral Data",
+          "details": "Insights derived from your usage patterns on the Platform."
+        },
+        {
+          "type": "Technical Data",
+          "details": "IP address, login details, browser type, operating system, and device information."
+        }
+      ]
+    },
+    "third_party_data_sources": {
+      "title": "Third-Party Data Sources",
+      "description": "We also gather Personal Data from other sources:",
+      "sources": [
+        {
+          "source": "Social Media Platforms",
+          "details": "Information from social media accounts if linked."
+        },
+        {
+          "source": "Analytics Providers",
+          "details": "Usage and technical data from analytics services."
+        },
+        {
+          "source": "Advertisers",
+          "details": "Behavioral and technical data from advertising partners."
+        }
+      ]
+    },
+    "usage_of_personal_data": {
+      "title": "Usage of Personal Data",
+      "description": "We use your Personal Data for various purposes:",
+      "purposes": [
+        "Account Management: To create and manage your user account.",
+        "Platform Functionality: To provide and improve our services and facilitate user interactions.",
+        "Property Searches and Communications: To enable property searches and facilitate communications between users.",
+        "Payments: To process payments securely via third-party processors.",
+        "AI Chatbot: To provide assistance and information through our AI-powered chatbot.",
+        "Analytics: To analyze user behavior and market trends, ensuring data is anonymized.",
+        "Marketing: To send promotional content, subject to your consent.",
+        "Troubleshooting: To diagnose and fix technical issues.",
+        "Security: To maintain the safety and integrity of our Platform."
+      ]
+    },
+    "sharing_personal_data": {
+      "title": "Sharing Personal Data",
+      "description": "We may share your Personal Data with:",
+      "recipients": [
+        "Other Users: To facilitate interactions and communications.",
+        "Financial Institutions: If you apply for financial services.",
+        "Service Providers: Partners who support our operations.",
+        "Professional Advisors: Consultants, legal advisors, and insurers.",
+        "Government Authorities: When required by law.",
+        "Business Transfers: In case of mergers, sales, or acquisitions."
+      ]
+    },
+    "international_data_transfers": {
+      "title": "International Data Transfers",
+      "content": "Your data may be transferred to countries outside of your residence. We ensure such transfers comply with relevant data protection laws."
+    },
+    "data_security": {
+      "title": "Data Security",
+      "content": "We implement robust security measures to protect your Personal Data against unauthorized access, alteration, and loss. Access is restricted to authorized personnel only."
+    },
+    "data_retention": {
+      "title": "Data Retention",
+      "content": "We retain your Personal Data as long as necessary for the purposes outlined or as required by law. Anonymized data may be retained indefinitely."
+    },
+    "your_rights": {
+      "title": "Your Rights",
+      "description": "You have the following rights regarding your Personal Data:",
+      "rights": [
+        "Access: Request a copy of your Personal Data.",
+        "Correction: Request correction of inaccurate data.",
+        "Deletion: Request deletion of your Personal Data.",
+        "Objection: Object to data processing.",
+        "Transfer: Request transfer of your data.",
+        "Withdrawal of Consent: Withdraw consent where applicable."
+      ],
+      "contact": "To exercise these rights, contact us at <link>privacy@truedar.ae</link>. Verification of your identity may be required."
+    },
+    "marketing_preferences": {
+      "title": "Marketing Preferences",
+      "content": "You can opt out of marketing communications by adjusting your settings on the Platform or following the unsubscribe link in emails."
+    },
+    "minors": {
+      "title": "Minors",
+      "content": "Our Platform is not intended for users under the age of 18. If a minor's data is collected, we will delete it promptly upon notification."
+    },
+    "third_party_links": {
+      "title": "Third-Party Links",
+      "content": "Our Platform may contain links to external websites. We are not responsible for their privacy practices and encourage you to review their privacy policies."
+    },
+    "policy_updates": {
+      "title": "Policy Updates",
+      "content": "We reserve the right to modify this Privacy Policy at any time, with or without prior notice to you. Any changes will be reflected on this page and, under certain conditions, we may also notify you (for example, via email). Revisions to this Privacy Policy will be effective immediately once they are posted on this page."
+    },
+    "legal_basis_for_processing": {
+      "title": "Legal Basis for Processing",
+      "description": "Most commonly, we will rely on one of the following legal bases:",
+      "bases": [
+        "Contractual Necessity: Where we need to process your Personal Data to meet our contractual obligations to you.",
+        "Compliance with Law: Where we need to process your Personal Data to comply with our legal or regulatory obligations.",
+        "Consent: Where we have your consent to process your Personal Data for a specific purpose."
+      ]
+    },
+    "user_responsibilities": {
+      "title": "User Responsibilities",
+      "responsibilities": [
+        "Accuracy of Data: Ensure the Personal Data you provide is accurate and up-to-date.",
+        "Confidentiality: Keep your account credentials confidential.",
+        "Compliance: Comply with this Privacy Policy and applicable laws when using our Platform."
+      ]
+    },
+    "contact_us": {
+      "title": "Contact Us",
+      "content": "If you have any questions or concerns about this Privacy Policy or our data practices, please contact us at"
+    }
+  }
+}
